@@ -1,0 +1,73 @@
+
+------------ CVE-1999-0731 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-1999-0731, KDE_kde1-kdebase, saver.cpp
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file kscreensaver/saver.cpp
+filtering 15 parent commits for file kscreensaver/saver.cpp
+0 out3/out1/CVE-1999-0731/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out1/CVE-1999-0731 930110400)
+Original Project = KDE_kde1-kdebase
+Success (go2)
+Stage 3 (./go3 CVE-1999-0731: KDE_kde1-kdebase, kscreensaver/saver.cpp out3/out1/CVE-1999-0731/results.fixed.csv)
+out3/out1/CVE-1999-0731/results.fixed.csv
+out3/out1/CVE-1999-0731/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2002-2443 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2002-2443, krb5_krb5, schpw.c
+Calling ./rgl2 to get all commits
+filtering 10 child commits for file src/kadmin/server/schpw.c
+filtering 37 parent commits for file src/kadmin/server/schpw.c
+0 out3/out1/CVE-2002-2443/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out1/CVE-2002-2443 1369837740)
+Original Project = krb5_krb5
+Error: get_latest_rev failed:
+./get_latest_rev "android.googlesource" "android.googlesource.com/platform_external/kmod" "src/kadmin/server/schpw.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/pkg-k5-afs_krb5" "src/kadmin/server/schpw.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2002-2443: krb5_krb5, src/kadmin/server/schpw.c out3/out1/CVE-2002-2443/results.fixed.csv)
+out3/out1/CVE-2002-2443/results.fixed.csv
+out3/out1/CVE-2002-2443/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2006-5331 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2006-5331, torvalds_linux, traps.c
+Calling ./rgl2 to get all commits
+filtering 300 child commits for file arch/powerpc/kernel/traps.c
+no fcdb758ce113c5d1b2b7034a058a9c472e42415e in 124
+no 5352090a999570c6e8a701bcb755fd91e8c5a2cd in 83
+no 0e25498f8cd43c1b5aa327f373dd094e9a006da7 in 14
+filtering 33 parent commits for file arch/powerpc/kernel/traps.c
+0 out3/out1/CVE-2006-5331/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out1/CVE-2006-5331 1509258540)
+Original Project = torvalds_linux
+Success (go2)
+Stage 3 (./go3 CVE-2006-5331: torvalds_linux, arch/powerpc/kernel/traps.c out3/out1/CVE-2006-5331/results.fixed.csv)
+out3/out1/CVE-2006-5331/results.fixed.csv
+out3/out1/CVE-2006-5331/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2007-6761 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2007-6761, torvalds_linux, videobuf-vmalloc.c
+Calling ./rgl2 to get all commits
+filtering 32 child commits for file drivers/media/video/videobuf-vmalloc.c
+filtering 7 parent commits for file drivers/media/video/videobuf-vmalloc.c
+0 out3/out1/CVE-2007-6761/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out1/CVE-2007-6761 1493017140)
+Original Project = torvalds_linux
+Success (go2)
+killed

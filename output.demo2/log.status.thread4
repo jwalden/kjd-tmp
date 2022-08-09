@@ -1,0 +1,365 @@
+
+------------ CVE-2014-8323 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8323, aircrack-ng_aircrack-ng, buddy-ng.c
+Calling ./rgl2 to get all commits
+filtering 16 child commits for file src/buddy-ng.c
+filtering 5 parent commits for file src/buddy-ng.c
+0 out3/out4/CVE-2014-8323/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out4/CVE-2014-8323 1508250540)
+Original Project = aircrack-ng_aircrack-ng
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Muldoser/INFSEC_MilanMichiel" "Project PenPi2/PiDirectories/home/pi/aircrack-ng-1.2-beta1/src/buddy-ng.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "shoxxdj/HackingStuff" "Wifi/aircrack-ng/.svn/pristine/49/497d3a78b28b6579270171ca4922fb3996356422.svn-base"
+   Repository access blocked: https://api.github.com/repos/shoxxdj/HackingStuff/contents/Wifi/aircrack-ng/.svn/pristine/49/497d3a78b28b6579270171ca4922fb3996356422.svn-base;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/aircrack-ng/src/buddy-ng.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/gittest-connor" "sourceforge.net/gittest-connor" "src/buddy-ng.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2014-8323: aircrack-ng_aircrack-ng, src/buddy-ng.c out3/out4/CVE-2014-8323/results.fixed.csv)
+out3/out4/CVE-2014-8323/results.fixed.csv
+out3/out4/CVE-2014-8323/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2014-8324 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8324, aircrack-ng_aircrack-ng, network.c
+Calling ./rgl2 to get all commits
+filtering 10 child commits for file src/osdep/network.c
+filtering 9 parent commits for file src/osdep/network.c
+0 out3/out4/CVE-2014-8324/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out4/CVE-2014-8324 1508250540)
+Original Project = aircrack-ng_aircrack-ng
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/cave-g-f/Linux-wireless/contents/洪水攻击/breakConnect/osdep/network.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "cave-g-f/Linux-wireless" "洪水攻击/breakConnect/osdep/network.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Muldoser/INFSEC_MilanMichiel" "Project PenPi2/PiDirectories/home/pi/aircrack-ng-1.2-beta1/src/osdep/network.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/pkg-security-team_mdk3" "osdep/network.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "shoxxdj/HackingStuff" "Wifi/aircrack-ng/.svn/pristine/02/02eb53d8bdc0f172cce8139371cbcd5ff3f29383.svn-base"
+   Repository access blocked: https://api.github.com/repos/shoxxdj/HackingStuff/contents/Wifi/aircrack-ng/.svn/pristine/02/02eb53d8bdc0f172cce8139371cbcd5ff3f29383.svn-base;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/aircrack-ng/src/osdep/network.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2014-8324: aircrack-ng_aircrack-ng, src/osdep/network.c out3/out4/CVE-2014-8324/results.fixed.csv)
+out3/out4/CVE-2014-8324/results.fixed.csv
+out3/out4/CVE-2014-8324/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2014-8326 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8326, phpmyadmin_phpmyadmin, server_status_monitor.js
+Calling ./rgl2 to get all commits
+filtering 61 child commits for file js/server_status_monitor.js
+filtering 198 parent commits for file js/server_status_monitor.js
+0 out3/out4/CVE-2014-8326/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out4/CVE-2014-8326 1415188500)
+Original Project = phpmyadmin_phpmyadmin
+Error: get_latest_rev failed:
+./get_latest_rev "github" "armelo483/ensylog" "ensylog/modele/phpmyadmin/js/server_status_monitor.js"
+   Repository access blocked: https://api.github.com/repos/armelo483/ensylog/contents/ensylog/modele/phpmyadmin/js/server_status_monitor.js;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Atomyzd/vulnerable-modules-not-identified" "Product source code/phpmyadmin-3_3_0/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "brussell757/Development" "Web Applications/Timesheet(Dev)/phpMyAdmin/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "cinco/patrimonio" "Versões Anteriores/20 de maio de 2014/phpmyadmin/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "DawerRafi/Easy-Property" "Public Folder/Public www/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+no tree 5ae8ff0cf9656151abb24cabc7ade55bd471f59f for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+no tree 28c1f789bee43bd856f3832ec30f2022734c33f8 for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+no tree 69ff831499750e416bdad5b12089f26441b2cc52 for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+no tree 5c957544786abbc9b14164f92a55920042184d90 for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+Error: get_latest_rev failed:
+./get_latest_rev "github" "georgeboc/Natural-Disaster-Project" "Web Page/pruebas/Antiguo/phpMyAdminNO/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+no tree 00abb9433e492f070a5b2cd843f9c249662f560e for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree afdfd0972023bc1f65fcd38dd03fd6cdbd60fc7d for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 73367919d6c253a265d5fc56b66fc3c8a08582d7 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree ce67f3ea2429cbb64705391a6496b2b08bfad54f for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree c56bb64dda92207106c644f1ad0d091faff2f728 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 7ecf12a796219caaf109654a0aa356ce9ddc9fc4 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree f81fc518483dae8ebd04c5879a5164a7c5ea5133 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 6acfb9b15b6b06bcfa415bd4ba93cddefa2e5d86 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 3385de212150dc0fb51bdb8145c317d3c2883bc3 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree fb7263c158844a997bb0f1dc9ecbfaaa912ab263 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 00abb9433e492f070a5b2cd843f9c249662f560e for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 6acfb9b15b6b06bcfa415bd4ba93cddefa2e5d86 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 3385de212150dc0fb51bdb8145c317d3c2883bc3 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree fb7263c158844a997bb0f1dc9ecbfaaa912ab263 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 1548b51f4b6bb6fb100720cbba27578a55de3f76 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+Error: get_latest_rev failed:
+./get_latest_rev "github" "MGerasimchuk/Simulator-command-interface" "Быстрая инсталяция системы/html/pma/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "netsider/learning" "Projects - Old htdocs folder/updayte.com/pma/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "repany/Tich-Hop-He-Thong-Nhom-2" "source code/openemr/phpmyadmin/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/rfscms" "sourceforge.net/rfscms" "3rdparty/phpmyadmin/js/server_status_monitor.js"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "tamuka120/WECAN" "WECAN Project/Hand-in/CS26/phpmyadmin/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "xiaoguizhidao/BumblebeeSite" "Backup Settings/apps/phpmyadmin4.1.14/js/server_status_monitor.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 131: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 136: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 138: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt: No such file or directory
+head: cannot open ‘out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt’ for reading: No such file or directory
+./go2: line 142: out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt: No such file or directory
+head: cannot open ‘out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out3/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt’ for reading: No such file or directory
+Success (go2)
+Stage 3 (./go3 CVE-2014-8326: phpmyadmin_phpmyadmin, js/server_status_monitor.js out3/out4/CVE-2014-8326/results.fixed.csv)
+out3/out4/CVE-2014-8326/results.fixed.csv
+out3/out4/CVE-2014-8326/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2014-8369 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8369, torvalds_linux, iommu.c
+Calling ./rgl2 to get all commits
+filtering 2 child commits for file virt/kvm/iommu.c
+filtering 43 parent commits for file virt/kvm/iommu.c
+0 out3/out4/CVE-2014-8369/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out4/CVE-2014-8369 1415620500)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/virt/kvm/iommu.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "b00tbu9/NeoL-phoenix-Kernel" "NeoL Kernel/virt/kvm/iommu.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "balaga/mt6589_kernel" "kernel/virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/balaga/mt6589_kernel/contents/kernel/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "behrk2/ICSofCNAbyJLJ" "kernel/samsung/epic4gtouch/virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/behrk2/ICSofCNAbyJLJ/contents/kernel/samsung/epic4gtouch/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "chizu/AMlogic_Meson6_030812release" "virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/chizu/AMlogic_Meson6_030812release/contents/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ckeiom/FSL_Linux" "virt/kvm/iommu.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "cxy1997/Operating-System" "Project 2/kernel/goldfish/virt/kvm/iommu.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Divic/OHA-Android-2.2_r1.1" "kernel-beagleboard/virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/Divic/OHA-Android-2.2_r1.1/contents/kernel-beagleboard/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "elenril/VMG1312-B" "kernel/linux/virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/elenril/VMG1312-B/contents/kernel/linux/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "kernel/beagleboard/virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/kernel/beagleboard/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "feiying1460/linux" "virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/feiying1460/linux/contents/virt/kvm/iommu.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "galigalikun/OHA-Android-2.3.4_r1.0" "board/pandaboard/kernel/virt/kvm/iommu.c"
+   Repository access blocked: https://api.github.com/repos/galigalikun/OHA-Android-2.3.4_r1.0/contents/board/pandaboard/kernel/virt/kvm/iommu.c;;
+Rate limit exceeded, sleeping 2048 seconds (from 23:13:07)

@@ -1,0 +1,572 @@
+
+------------ CVE-2017-14056 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2017-14056, FFmpeg_FFmpeg, rl2.c
+Calling ./rgl2 to get all commits
+filtering 10 child commits for file libavformat/rl2.c
+no a085cfa65414ff4346d8367cfb54d50d4925396f in 32
+no fcf5aad1a5304c90b055ad39109e58c612f359b9 in 124
+ssh_exchange_identification: Connection closed by remote host
+filtering 57 parent commits for file libavformat/rl2.c
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+0 out3/out8/CVE-2017-14056/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out8/CVE-2017-14056 1504193340)
+Original Project = FFmpeg_FFmpeg
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/baogongtc/Enterprise-Tools/contents/notes/Android-project-develop/带水印的ffmpeg/ffmpeg_H264/android-h264-decoder-master/jni/ffmpeg/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "baogongtc/Enterprise-Tools" "notes/Android-project-develop/带水印的ffmpeg/ffmpeg_H264/android-h264-decoder-master/jni/ffmpeg/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "catree/Thesis_Master" "Others Implementations/drone_simulator-master/FFMPEG/ffmpeg/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "chasetyree/CSM2FS" "AR-Glass-master2/AR-Glass-master/jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/chasetyree/CSM2FS/contents/AR-Glass-master2/AR-Glass-master/jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "DavidYKay/QUADRO" "ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/DavidYKay/QUADRO/contents/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "dgerding/Construct" "ConstructSensors/MobileSensors/iOSVideoSensor/sensor/ColumbiaCollegeShare/Code Drop - Feb 5 - 2012/Windows/packages/ffmpeg/Source/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/djc512/Note/contents/ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.3.6/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "djc512/Note" "ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.3.6/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "external/upnp-extension/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/external/upnp-extension/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "fdr91/fk_ardrone" "ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/fdr91/fk_ardrone/contents/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "gitlab.gnome" "gitlab.gnome.org/xingyun86_FreeDownloadManager" "trunc/MediaConverter/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "hawk98/RTL9607C" "user/minidlna/ffmpeg-0.5.2/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/hawk98/RTL9607C/contents/user/minidlna/ffmpeg-0.5.2/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Inspironsputid/TMG" "ffmpeg-2.5.4/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/Inspironsputid/TMG/contents/ffmpeg-2.5.4/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "JanDamek/iRadio_iOS" "ffmpeg library/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "KoBenji/drone" "ARDrone_SDK_2_0/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/KoBenji/drone/contents/ARDrone_SDK_2_0/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "marty28/XBMC-360" "xbox360 ffmpeg/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ne0fhyk/AR-Glass" "jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/ne0fhyk/AR-Glass/contents/jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "patchew-project/next-importer-push" "tizen/distrib/ffmpeg/libavformat/rl2.c"
+   No commit found for the ref master: https://api.github.com/repos/patchew-project/next-importer-push/contents/tizen/distrib/ffmpeg/libavformat/rl2.c;;
+Deep recursion on subroutine "main::getTree" at /home/dreid6/lookup/showCmtTree.perl line 86, <STDIN> line 1.
+Deep recursion on subroutine "main::prtTree" at /home/dreid6/lookup/showCmtTree.perl line 70, <STDIN> line 1.
+Error: get_latest_rev failed:
+./get_latest_rev "github" "pdsharma0/perf_tester" "app/jobs/basemarkcl/bench/basemarkcl_gold_source/source_package/source/Benchmark/BasemarkCL/application/libraries/common/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/pdsharma0/perf_tester/contents/app/jobs/basemarkcl/bench/basemarkcl_gold_source/source_package/source/Benchmark/BasemarkCL/application/libraries/common/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/gstreamer-team_gst-libav1.0" "gst-libs/ext/libav/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/multimedia-team_xbmc" "lib/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "sauver/sauver_sys" "ardrone2/ARDroneLib2/FFMPEG/ffmpeg/libavformat/rl2.c"
+   Repository access blocked: https://api.github.com/repos/sauver/sauver_sys/contents/ardrone2/ARDroneLib2/FFMPEG/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/cinecutie" "sourceforge.net/cinecutie" "quicktime/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/minidlna/ffmpeg-1.2/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ffavs" "sourceforge.net/ffavs" "libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/mplayerstudy" "sourceforge.net/mplayerstudy" "ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/routertesting" "sourceforge.net/routertesting" "release/src/router/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/sinani" "sourceforge.net/sinani" "xbmc-11.0/lib/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/video-url" "sourceforge.net/video-url" "third_party/ffmpeg-2.6.1/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/vrplayer-url" "sourceforge.net/vrplayer-url" "deps/ijkplayer/extra/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ssxxh-lls/chromium" "src/third_party/ffmpeg/libavformat/rl2.c"
+   This repository is empty: https://api.github.com/repos/ssxxh-lls/chromium/contents/src/third_party/ffmpeg/libavformat/rl2.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Tdunk18/WDMarvell" "WDMyCloud Firmware/Open_Source_packages/libav-0.8.4/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "tophatyouaredoomed/The-Toppest-of-Hats" "DragonFly VOS/TXP-VOS/Old/System/Applications/mplayer multimedia/mplayer-r37251/ffmpeg/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/toumubaoqiong/ffmpeg-windows/contents/trunk/ffmpeg0.7-CKW/ffmpeg中文文档/参考资料/ffmpeg0.5cb/ffmpeg0.5cb/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "toumubaoqiong/ffmpeg-windows" "trunk/ffmpeg0.7-CKW/ffmpeg中文文档/参考资料/ffmpeg0.5cb/ffmpeg0.5cb/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ttrask/unf" "Telerobotics/Pi Robot/Archive/gst-ffmpeg-0.11.1/gst-libs/ext/libav/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "xiaoweilai/ScreenCapture" "android client/testService/jni/ffmpeg/libavformat/rl2.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/yuanyiyixi/C--/contents/mplayer/mplayer编译/mplayer源码包及编译说明/MPlayer-1.1/ffmpeg/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "yuanyiyixi/C--" "mplayer/mplayer编译/mplayer源码包及编译说明/MPlayer-1.1/ffmpeg/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+Success (go2)
+Stage 3 (./go3 CVE-2017-14056: FFmpeg_FFmpeg, libavformat/rl2.c out3/out8/CVE-2017-14056/results.fixed.csv)
+out3/out8/CVE-2017-14056/results.fixed.csv
+out3/out8/CVE-2017-14056/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2017-14057 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2017-14057, FFmpeg_FFmpeg, asfdec_f.c
+Calling ./rgl2 to get all commits
+filtering 26 child commits for file libavformat/asfdec_f.c
+no 8ed78486fcb065b5b459f14d4b1c3242f6d21ec7 in 14
+no ffc877215056e8f0feb1ff23ba7dc4c19277b94b in 127
+no 35ec5c819b0f472536eb48e8f3871eb5ca222da6 in 53
+no f77ac5131cd1c623aa54ec432cba0d922e9aa470 in 119
+filtering 21 parent commits for file libavformat/asfdec_f.c
+0 out3/out8/CVE-2017-14057/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out8/CVE-2017-14057 1504193340)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "flimmy78/StreamerSDK" "SDK 3RD/libffmpeg/src/libavformat/asfdec_f.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "hy8246/S-Guardian" "ffmpeg-3.3.1 2/libavformat/asfdec_f.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "javandoc/repository" "SmallVideoRecord2  ksjgs log/SmallVideoLib2/ffmpeg-3.2.5/libavformat/asfdec_f.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/vrplayer-url" "sourceforge.net/vrplayer-url" "deps/ijkplayer/extra/ffmpeg/libavformat/asfdec_f.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ssxxh-lls/chromium" "src/third_party/ffmpeg/libavformat/asfdec_f.c"
+   This repository is empty: https://api.github.com/repos/ssxxh-lls/chromium/contents/src/third_party/ffmpeg/libavformat/asfdec_f.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "wishperhope/image-resize" "deps copy/build/ffmpeg/src/libavformat/asfdec_f.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2017-14057: FFmpeg_FFmpeg, libavformat/asfdec_f.c out3/out8/CVE-2017-14057/results.fixed.csv)
+out3/out8/CVE-2017-14057/results.fixed.csv
+out3/out8/CVE-2017-14057/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2017-14059 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2017-14059, FFmpeg_FFmpeg, cinedec.c
+Calling ./rgl2 to get all commits
+filtering 9 child commits for file libavformat/cinedec.c
+no 884a108121d027ee4aa7d5a70247565cf0105afa in 8
+no e22ec484aab7a75d5cefb654885c18c3a7b8e948 in 98
+filtering 13 parent commits for file libavformat/cinedec.c
+0 out3/out8/CVE-2017-14059/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out8/CVE-2017-14059 1504193340)
+Original Project = FFmpeg_FFmpeg
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/djc512/Note/contents/ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.3.6/libavformat/cinedec.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "djc512/Note" "ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.3.6/libavformat/cinedec.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "flimmy78/StreamerSDK" "SDK 3RD/libffmpeg/src/libavformat/cinedec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "hy8246/S-Guardian" "ffmpeg-3.3.1 2/libavformat/cinedec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Inspironsputid/TMG" "ffmpeg-2.5.4/libavformat/cinedec.c"
+   Repository access blocked: https://api.github.com/repos/Inspironsputid/TMG/contents/ffmpeg-2.5.4/libavformat/cinedec.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "javandoc/repository" "SmallVideoRecord2  ksjgs log/SmallVideoLib2/ffmpeg-3.2.5/libavformat/cinedec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Deep recursion on subroutine "main::getTree" at /home/dreid6/lookup/showCmtTree.perl line 86, <STDIN> line 1.
+Deep recursion on subroutine "main::prtTree" at /home/dreid6/lookup/showCmtTree.perl line 70, <STDIN> line 1.
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/mplayerstudy" "sourceforge.net/mplayerstudy" "ffmpeg/libavformat/cinedec.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/video-url" "sourceforge.net/video-url" "third_party/ffmpeg-2.6.1/libavformat/cinedec.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/vrplayer-url" "sourceforge.net/vrplayer-url" "deps/ijkplayer/extra/ffmpeg/libavformat/cinedec.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ssxxh-lls/chromium" "src/third_party/ffmpeg/libavformat/cinedec.c"
+   This repository is empty: https://api.github.com/repos/ssxxh-lls/chromium/contents/src/third_party/ffmpeg/libavformat/cinedec.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "tophatyouaredoomed/The-Toppest-of-Hats" "DragonFly VOS/TXP-VOS/Old/System/Applications/mplayer multimedia/mplayer-r37251/ffmpeg/libavformat/cinedec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "wishperhope/image-resize" "deps copy/build/ffmpeg/src/libavformat/cinedec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Rate limit exceeded, sleeping 2047 seconds (from 23:13:08)

@@ -1,0 +1,80 @@
+
+------------ CVE-2012-6544 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2012-6544, torvalds_linux, hci_sock.c
+Calling ./rgl2 to get all commits
+filtering 140 child commits for file net/bluetooth/hci_sock.c
+no 359ee4f834f5b4f8096f7edc0c20ef37d1fca861 in 53
+no 0acef50ba3b5ee95bd1598ef3e4c19f065d04eed in 10
+no f4b41f062c424209e3939a81e6da022e049a45f2 in 116
+no b9f9dbad0bd1c302d357fdd327c398f51f5fc2b1 in 57
+ssh_exchange_identification: Connection closed by remote host
+filtering 77 parent commits for file net/bluetooth/hci_sock.c
+0 out3/out2/CVE-2012-6544/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out2/CVE-2012-6544 1363380900)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "b00tbu9/NeoL-phoenix-Kernel" "NeoL Kernel/net/bluetooth/hci_sock.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "balaga/mt6589_kernel" "kernel/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/balaga/mt6589_kernel/contents/kernel/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "behrk2/ICSofCNAbyJLJ" "kernel/samsung/epic4gtouch/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/behrk2/ICSofCNAbyJLJ/contents/kernel/samsung/epic4gtouch/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "caxyu/mstar6a918" "code/3.1.10_Napoli_tvos/3.1.10/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/caxyu/mstar6a918/contents/code/3.1.10_Napoli_tvos/3.1.10/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "chizu/AMlogic_Meson6_030812release" "net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/chizu/AMlogic_Meson6_030812release/contents/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Divic/OHA-Android-2.2_r1.1" "kernel-beagleboard/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/Divic/OHA-Android-2.2_r1.1/contents/kernel-beagleboard/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "elenril/VMG1312-B" "kernel/linux/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/elenril/VMG1312-B/contents/kernel/linux/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "kernel/beagleboard/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/kernel/beagleboard/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "galigalikun/OHA-Android-2.3.4_r1.0" "board/pandaboard/kernel/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/galigalikun/OHA-Android-2.3.4_r1.0/contents/board/pandaboard/kernel/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.kernel" "git.kernel.org/pub_scm_linux_kernel_git_eyryu_ap_samsung-ap-2.6.24" "net/bluetooth/hci_sock.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.kernel" "git.kernel.org/pub_scm_linux_kernel_git_ralf_linux-m68k" "net/bluetooth/hci_sock.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ibnsllam/UbuntuTouch" "Source to compile/kernel/hp/tenderloin/net/bluetooth/hci_sock.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "jemmini/android_kernel_acer_v370" "kernel/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/jemmini/android_kernel_acer_v370/contents/kernel/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "jhbsz/102" "linux/kernels/mips-linux-2.6.31/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/jhbsz/102/contents/linux/kernels/mips-linux-2.6.31/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "kei-os/OHA-Android-2.3_r1.0" "kernel/armadillo440/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/kei-os/OHA-Android-2.3_r1.0/contents/kernel/armadillo440/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "lems111/Intercept-CM6-System" "kernel-msm/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/lems111/Intercept-CM6-System/contents/kernel-msm/net/bluetooth/hci_sock.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "liufeias/baoxue_mytqt-yywi" "kernel/net/bluetooth/hci_sock.c"
+   Repository access blocked: https://api.github.com/repos/liufeias/baoxue_mytqt-yywi/contents/kernel/net/bluetooth/hci_sock.c;;
+Rate limit exceeded, sleeping 2044 seconds (from 23:13:11)

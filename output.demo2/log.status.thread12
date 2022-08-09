@@ -1,0 +1,172 @@
+
+------------ CVE-2019-11565 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-11565, mnelson4_printmyblog, RestApiDetector.php
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file includes/vendor/mnelson4/RestApiDetector/RestApiDetector.php
+filtering 5 parent commits for file includes/vendor/mnelson4/RestApiDetector/RestApiDetector.php
+0 out3/out12/CVE-2019-11565/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out12/CVE-2019-11565 1556375340)
+Original Project = mnelson4_printmyblog
+Success (go2)
+Stage 3 (./go3 CVE-2019-11565: mnelson4_printmyblog, includes/vendor/mnelson4/RestApiDetector/RestApiDetector.php out3/out12/CVE-2019-11565/results.fixed.csv)
+out3/out12/CVE-2019-11565/results.fixed.csv
+out3/out12/CVE-2019-11565/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2019-11596 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-11596, memcached_memcached, memcached.c
+Calling ./rgl2 to get all commits
+filtering 130 child commits for file memcached.c
+no cd440062ae8955ac2634e61934368574690f8c6e in 77
+no f7d8dbdab9baacf425fba64f6786fd9f05fd2d5d in 119
+no 69e732ab6f9da866867a355fd88ebfa453531344 in 105
+no b1171b6b91808421516e8a31732c38928709f906 in 49
+no ae3efecb15dfeccabee9b3a7ec429a6c7c41e032 in 46
+no d85c379d74d92f8e9bd7ccf1ca57520f485a24f0 in 88
+no 554a1176dcfc58a00be88e35b480028f001a7ac1 in 85
+no 0b35fb967a5088109d5237b00c8ef168a56a6f9a in 11
+no b6fd865985dd8285bd963dfd429d7f475d54d77f in 54
+no 838fda3fdacfd16511c24c5638b8e2de49224c39 in 3
+no 5e5f18a893d3670b741a23deb282ddbf7ddc5fd0 in 94
+no 90d2523bc4bf369b950c143904dce816e42dce35 in 16
+no a7aafbbfe34ce2c0b564108a6b0d7a118be968e5 in 39
+no 5ae69e9d3c38b38288c2705f17ec980aa4130e41 in 90
+no 7af02b0c875a36c61875a332dda582375014cf44 in 122
+no 3723c2a8b853c46511227c8afb6174205d94a39e in 55
+no cc0f24bca33d7e8a708b2d6405f39b5044b722ed in 76
+no 75e4d574b34c6e3b5dd9330acd61097b75cdf1d3 in 117
+no b95ca35702a9ba3cdd8e0ad66137f95dea71cbe7 in 57
+filtering 648 parent commits for file memcached.c
+0 out3/out12/CVE-2019-11596/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out12/CVE-2019-11596 1556551740)
+Original Project = memcached_memcached
+Error: get_latest_rev failed:
+./get_latest_rev "github" "jfavole/pythonprojects" "Introducing Python/memcached-1.5.3/memcached.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "libmemcached/libmemcached" "memcached/memcached.c"
+   This repository is empty: https://api.github.com/repos/libmemcached/libmemcached/contents/memcached/memcached.c;;
+Success (go2)
+Stage 3 (./go3 CVE-2019-11596: memcached_memcached, memcached.c out3/out12/CVE-2019-11596/results.fixed.csv)
+out3/out12/CVE-2019-11596/results.fixed.csv
+out3/out12/CVE-2019-11596/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2019-11810 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-11810, torvalds_linux, megaraid_sas_base.c
+Calling ./rgl2 to get all commits
+filtering 106 child commits for file drivers/scsi/megaraid/megaraid_sas_base.c
+no 746fc76b820dce8cbb17a1e5e70a1558db4d7406 in 116
+no 8312cd3a7b835ae3033a679e5f0014a40e7891c5 in 3
+no acd1a2786c568ee7c254eda9c60eabc401d13c04 in 44
+no 08c84a75ddf340acf14bb04021045fe5bbdccc93 in 8
+no 3a6a7187f09a0b1add76aaf4015f215a381ab616 in 58
+no 56495f295d8e021f77d065b890fc0100e3f9f6d8 in 86
+no 96e77a27431ac9ce2c76d6f946e2a5c03e19ca4b in 22
+no 8049da6f3943d0ac51931b8064b2e4769a69a967 in 0
+filtering 292 parent commits for file drivers/scsi/megaraid/megaraid_sas_base.c
+0 out3/out12/CVE-2019-11810/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out12/CVE-2019-11810 1557239340)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/drivers/scsi/megaraid/megaraid_sas_base.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "balaga/mt6589_kernel" "kernel/drivers/scsi/megaraid/megaraid_sas_base.c"
+   Repository access blocked: https://api.github.com/repos/balaga/mt6589_kernel/contents/kernel/drivers/scsi/megaraid/megaraid_sas_base.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "chizu/AMlogic_Meson6_030812release" "drivers/scsi/megaraid/megaraid_sas_base.c"
+   Repository access blocked: https://api.github.com/repos/chizu/AMlogic_Meson6_030812release/contents/drivers/scsi/megaraid/megaraid_sas_base.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ckeiom/FSL_Linux" "drivers/scsi/megaraid/megaraid_sas_base.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/drivers/scsi/megaraid/megaraid_sas_base.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "CompSCI/SGS4" "Kernel Uncompressed/drivers/scsi/megaraid/megaraid_sas_base.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/dclcs/linuxmooc/contents/实验源码/drivers/scsi/megaraid/megaraid_sas_base.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "dclcs/linuxmooc" "实验源码/drivers/scsi/megaraid/megaraid_sas_base.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "kernel/linaro/drivers/scsi/megaraid/megaraid_sas_base.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/kernel/linaro/drivers/scsi/megaraid/megaraid_sas_base.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "gitlab" "gitlab.com/hophouse_hacking" "Cours/M2/System security/linux-4.13.1/drivers/scsi/megaraid/megaraid_sas_base.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Rate limit exceeded, sleeping 2045 seconds (from 23:13:10)

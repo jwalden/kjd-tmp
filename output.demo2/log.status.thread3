@@ -1,0 +1,622 @@
+
+------------ CVE-2013-7016 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7016, FFmpeg_FFmpeg, jpeg2000dec.c
+Calling ./rgl2 to get all commits
+filtering 207 child commits for file libavcodec/jpeg2000dec.c
+no 6a0cec53153b58a553ebb79f32309cc4533704eb in 106
+no a18c372390346d089580a18183115c8f8ef2d1ec in 33
+no 21b23ceab3cfcc2aa0a833bbff11cf38b2177800 in 33
+no 4243da4ff42e306b3622b181e12f5cd127d21414 in 66
+no ce7dbd0481f990e249c2a05f179228489d3062cf in 78
+no 20f972701806be20a77f808db332d9489343bb78 in 32
+no a688f3c13ce55c2ba51dbbb344564649f1bb52fe in 38
+no 02220b88fc38ef9dd4f2d519f5d3e4151258b60c in 2
+no 218d1f76d46fc5b59a27d5ec9e88e821dc888d11 in 33
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+filtering 139 parent commits for file libavcodec/jpeg2000dec.c
+0 out3/out3/CVE-2013-7016/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7016 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2013-7016: FFmpeg_FFmpeg, libavcodec/jpeg2000dec.c out3/out3/CVE-2013-7016/results.fixed.csv)
+out3/out3/CVE-2013-7016/results.fixed.csv
+out3/out3/CVE-2013-7016/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2013-7017 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7017, FFmpeg_FFmpeg, jpeg2000.c
+Calling ./rgl2 to get all commits
+filtering 60 child commits for file libavcodec/jpeg2000.c
+filtering 36 parent commits for file libavcodec/jpeg2000.c
+0 out3/out3/CVE-2013-7017/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7017 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavcodec/jpeg2000.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2013-7017: FFmpeg_FFmpeg, libavcodec/jpeg2000.c out3/out3/CVE-2013-7017/results.fixed.csv)
+out3/out3/CVE-2013-7017/results.fixed.csv
+out3/out3/CVE-2013-7017/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2013-7018 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7018, FFmpeg_FFmpeg, jpeg2000dec.c
+Calling ./rgl2 to get all commits
+filtering 206 child commits for file libavcodec/jpeg2000dec.c
+no 6a0cec53153b58a553ebb79f32309cc4533704eb in 106
+no a18c372390346d089580a18183115c8f8ef2d1ec in 33
+no 21b23ceab3cfcc2aa0a833bbff11cf38b2177800 in 33
+no 4243da4ff42e306b3622b181e12f5cd127d21414 in 66
+no ce7dbd0481f990e249c2a05f179228489d3062cf in 78
+no 20f972701806be20a77f808db332d9489343bb78 in 32
+no a688f3c13ce55c2ba51dbbb344564649f1bb52fe in 38
+no 02220b88fc38ef9dd4f2d519f5d3e4151258b60c in 2
+no 218d1f76d46fc5b59a27d5ec9e88e821dc888d11 in 33
+filtering 140 parent commits for file libavcodec/jpeg2000dec.c
+0 out3/out3/CVE-2013-7018/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7018 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2013-7018: FFmpeg_FFmpeg, libavcodec/jpeg2000dec.c out3/out3/CVE-2013-7018/results.fixed.csv)
+out3/out3/CVE-2013-7018/results.fixed.csv
+out3/out3/CVE-2013-7018/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2013-7019 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7019, FFmpeg_FFmpeg, jpeg2000dec.c
+Calling ./rgl2 to get all commits
+filtering 193 child commits for file libavcodec/jpeg2000dec.c
+no 6a0cec53153b58a553ebb79f32309cc4533704eb in 106
+no a18c372390346d089580a18183115c8f8ef2d1ec in 33
+no 21b23ceab3cfcc2aa0a833bbff11cf38b2177800 in 33
+no 4243da4ff42e306b3622b181e12f5cd127d21414 in 66
+no ce7dbd0481f990e249c2a05f179228489d3062cf in 78
+no 20f972701806be20a77f808db332d9489343bb78 in 32
+no a688f3c13ce55c2ba51dbbb344564649f1bb52fe in 38
+no 02220b88fc38ef9dd4f2d519f5d3e4151258b60c in 2
+no 218d1f76d46fc5b59a27d5ec9e88e821dc888d11 in 33
+filtering 153 parent commits for file libavcodec/jpeg2000dec.c
+0 out3/out3/CVE-2013-7019/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7019 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavcodec/jpeg2000dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2013-7019: FFmpeg_FFmpeg, libavcodec/jpeg2000dec.c out3/out3/CVE-2013-7019/results.fixed.csv)
+out3/out3/CVE-2013-7019/results.fixed.csv
+out3/out3/CVE-2013-7019/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2013-7020 (5 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7020, FFmpeg_FFmpeg, ffv1dec.c
+Calling ./rgl2 to get all commits
+filtering 102 child commits for file libavcodec/ffv1dec.c
+no f7d510b33ff33d2f5cb096017ee1c00f624cc138 in 119
+no 15785e044ee1265464bb4f3ed727e2a8074f97b4 in 21
+no 21b23ceab3cfcc2aa0a833bbff11cf38b2177800 in 33
+no 78b95530f0a1f04864079614b251b765b1ee77ec in 120
+no b4431399ec1e10afff458cf1ffae2a75987d725a in 52
+no 4243da4ff42e306b3622b181e12f5cd127d21414 in 66
+no ce7dbd0481f990e249c2a05f179228489d3062cf in 78
+no 86c909558ce3e7505d5a63647c27cd0a4314a603 in 6
+no 20f972701806be20a77f808db332d9489343bb78 in 32
+no a688f3c13ce55c2ba51dbbb344564649f1bb52fe in 38
+no 02220b88fc38ef9dd4f2d519f5d3e4151258b60c in 2
+no f025b8e110b36c1cdb4fb56c4cd57aeca1767b5b in 112
+no b3551b6072687539c9e162fcec9e1e42a668ee8c in 51
+no 98f87c3d2920c14985de5ac8b7c698a20b03468f in 24
+no 485121b92ce7a7447428c53ba875c58c79dc9e6a in 72
+no 17605d1a4afa5761271b27b2aea756a772ca0efc in 23
+filtering 40 parent commits for file libavcodec/ffv1dec.c
+0 out3/out3/CVE-2013-7020/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7020 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavcodec/ffv1dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/ffv1dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavcodec/ffv1dec.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/minidlna/ffmpeg-1.2/libavcodec/ffv1dec.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2013-7020: FFmpeg_FFmpeg, libavcodec/ffv1dec.c out3/out3/CVE-2013-7020/results.fixed.csv)
+out3/out3/CVE-2013-7020/results.fixed.csv
+out3/out3/CVE-2013-7020/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2013-7021 (6 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7021, FFmpeg_FFmpeg, vf_fps.c
+Calling ./rgl2 to get all commits
+filtering 27 child commits for file libavfilter/vf_fps.c
+no 01440e258827f77990d918bfeb77cb613bc3733a in 1
+no b9c928a486fda3c0d79b153591ac86beb1c53708 in 57
+filtering 55 parent commits for file libavfilter/vf_fps.c
+0 out3/out3/CVE-2013-7021/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7021 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavfilter/vf_fps.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavfilter/vf_fps.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavfilter/vf_fps.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/minidlna/ffmpeg-1.2/libavfilter/vf_fps.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/yuanyiyixi/C--/contents/mplayer/mplayer编译/mplayer源码包及编译说明/MPlayer-1.1/ffmpeg/libavfilter/vf_fps.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "yuanyiyixi/C--" "mplayer/mplayer编译/mplayer源码包及编译说明/MPlayer-1.1/ffmpeg/libavfilter/vf_fps.c"
+   Error: jq reports invalid json in response;;
+Success (go2)
+Stage 3 (./go3 CVE-2013-7021: FFmpeg_FFmpeg, libavfilter/vf_fps.c out3/out3/CVE-2013-7021/results.fixed.csv)
+out3/out3/CVE-2013-7021/results.fixed.csv
+out3/out3/CVE-2013-7021/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2013-7022 (7 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7022, FFmpeg_FFmpeg, g2meet.c
+Calling ./rgl2 to get all commits
+filtering 89 child commits for file libavcodec/g2meet.c
+no 21b23ceab3cfcc2aa0a833bbff11cf38b2177800 in 33
+no 4243da4ff42e306b3622b181e12f5cd127d21414 in 66
+no ce7dbd0481f990e249c2a05f179228489d3062cf in 78
+no 20f972701806be20a77f808db332d9489343bb78 in 32
+no a688f3c13ce55c2ba51dbbb344564649f1bb52fe in 38
+no 6bb46cd765b50907e2c3396210448e80825681e2 in 107
+no 1d333c154718f3851b3af2d86663451d353e3685 in 29
+filtering 19 parent commits for file libavcodec/g2meet.c
+0 out3/out3/CVE-2013-7022/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7022 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavcodec/g2meet.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/g2meet.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavcodec/g2meet.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2013-7022: FFmpeg_FFmpeg, libavcodec/g2meet.c out3/out3/CVE-2013-7022/results.fixed.csv)
+out3/out3/CVE-2013-7022/results.fixed.csv
+out3/out3/CVE-2013-7022/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2013-7023 (8 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2013-7023, FFmpeg_FFmpeg, parser.c
+Calling ./rgl2 to get all commits
+filtering 54 child commits for file libavcodec/parser.c
+no 33df1ba6b29362854b647dc0c116ed8949ecee1f in 51
+no 27f22f33834c521a153842fcc0f614360901f2b7 in 39
+filtering 145 parent commits for file libavcodec/parser.c
+0 out3/out3/CVE-2013-7023/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out3/CVE-2013-7023 1386606960)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/Fiskmans_tga3d" "Viktor/AI Engine/Source/DX2DEngine/ffmpeg-2.0/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "catree/Thesis_Master" "Others Implementations/drone_simulator-master/FFMPEG/ffmpeg/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "chasetyree/CSM2FS" "AR-Glass-master2/AR-Glass-master/jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/chasetyree/CSM2FS/contents/AR-Glass-master2/AR-Glass-master/jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "DavidYKay/QUADRO" "ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/DavidYKay/QUADRO/contents/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "dgerding/Construct" "ConstructSensors/MobileSensors/iOSVideoSensor/sensor/ColumbiaCollegeShare/Code Drop - Feb 5 - 2012/Windows/packages/ffmpeg/Source/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "external/upnp-extension/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/external/upnp-extension/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "fdr91/fk_ardrone" "ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/fdr91/fk_ardrone/contents/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "godofnanners/Spelorienterade-datastrukturer-och-algoritmer" "Uppgift 1 - Pathfinding/Projekt/Source/tga2dcore/ffmpeg-2.0/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "hawk98/RTL9607C" "user/minidlna/ffmpeg-0.5.2/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/hawk98/RTL9607C/contents/user/minidlna/ffmpeg-0.5.2/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "JanDamek/iRadio_iOS" "ffmpeg library/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "KoBenji/drone" "ARDrone_SDK_2_0/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/KoBenji/drone/contents/ARDrone_SDK_2_0/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "marty28/XBMC-360" "xbox360 ffmpeg/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ne0fhyk/AR-Glass" "jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/ne0fhyk/AR-Glass/contents/jni/sdk/v2_0_1/ARDroneLib/FFMPEG/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "pdsharma0/perf_tester" "app/jobs/basemarkcl/bench/basemarkcl_gold_source/source_package/source/Benchmark/BasemarkCL/application/libraries/common/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/pdsharma0/perf_tester/contents/app/jobs/basemarkcl/bench/basemarkcl_gold_source/source_package/source/Benchmark/BasemarkCL/application/libraries/common/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/debian_xine-lib-1.2" "contrib/ffmpeg/libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/multimedia-team_xbmc" "lib/ffmpeg/libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "sauver/sauver_sys" "ardrone2/ARDroneLib2/FFMPEG/ffmpeg/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/sauver/sauver_sys/contents/ardrone2/ARDroneLib2/FFMPEG/ffmpeg/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Sense1988/20160311_EA1301" "RT288x_SDK/source/user/rt2880_app/mplayer/libavcodec/parser.c"
+   Repository access blocked: https://api.github.com/repos/Sense1988/20160311_EA1301/contents/RT288x_SDK/source/user/rt2880_app/mplayer/libavcodec/parser.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/cinecutie" "sourceforge.net/cinecutie" "quicktime/ffmpeg/libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/minidlna/ffmpeg-1.2/libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ffavs" "sourceforge.net/ffavs" "libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ketlaer1" "sourceforge.net/ketlaer1" "mms/libs/ffmpeg/libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/routertesting" "sourceforge.net/routertesting" "release/src/router/ffmpeg/libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/sinani" "sourceforge.net/sinani" "xbmc-11.0/lib/ffmpeg/libavcodec/parser.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Tdunk18/WDMarvell" "WDMyCloud Firmware/Open_Source_packages/libav-0.8.4/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/toumubaoqiong/ffmpeg-windows/contents/trunk/ffmpeg0.7-CKW/ffmpeg中文文档/参考资料/ffmpeg0.5/ffmpeg/libavcodec/parser.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "toumubaoqiong/ffmpeg-windows" "trunk/ffmpeg0.7-CKW/ffmpeg中文文档/参考资料/ffmpeg0.5/ffmpeg/libavcodec/parser.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ttrask/unf" "Telerobotics/Pi Robot/Archive/gst-ffmpeg-0.11.1/gst-libs/ext/libav/libavcodec/parser.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Rate limit exceeded, sleeping 2043 seconds (from 23:13:12)

@@ -1,0 +1,523 @@
+
+------------ CVE-2020-28494 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-28494, totaljs_framework, image.js
+Calling ./rgl2 to get all commits
+filtering 8 child commits for file image.js
+filtering 102 parent commits for file image.js
+0 out3/out15/CVE-2020-28494/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-28494 1612264500)
+Original Project = totaljs_framework
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ryankamal/xnxlab" "node_modules/total.js/image.js"
+   Repository access blocked: https://api.github.com/repos/ryankamal/xnxlab/contents/node_modules/total.js/image.js;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "taphuocanh/nodejs.taphuocanh.com" "Source code Blog/node_modules/total.js/image.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2020-28494: totaljs_framework, image.js out3/out15/CVE-2020-28494/results.fixed.csv)
+out3/out15/CVE-2020-28494/results.fixed.csv
+out3/out15/CVE-2020-28494/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-28495 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-28495, totaljs_framework, utils.js
+Calling ./rgl2 to get all commits
+filtering 6 child commits for file utils.js
+no fe9bac04c2604e8cc3a5d8dee33037b8dbef0672 in 126
+no 72fc736fbbb4aee2edf3f7a949bc5b5a9a9eb6d9 in 114
+no 887b0fa9e162ef7a2dd9cec20a5ca122726373b3 in 8
+no 7004957fd830aa78d30b25dc2cac2effda1a6a3b in 112
+filtering 693 parent commits for file utils.js
+0 out3/out15/CVE-2020-28495/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-28495 1612264500)
+Original Project = totaljs_framework
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ryankamal/xnxlab" "node_modules/total.js/utils.js"
+   Repository access blocked: https://api.github.com/repos/ryankamal/xnxlab/contents/node_modules/total.js/utils.js;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "taphuocanh/nodejs.taphuocanh.com" "Source code Blog/node_modules/total.js/utils.js"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2020-28495: totaljs_framework, utils.js out3/out15/CVE-2020-28495/results.fixed.csv)
+out3/out15/CVE-2020-28495/results.fixed.csv
+out3/out15/CVE-2020-28495/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-28705 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-28705, daylightstudio_FUEL-CMS, Module.php
+Calling ./rgl2 to get all commits
+filtering 6 child commits for file fuel/modules/fuel/controllers/Module.php
+no 7bf6ffa1fc1dc02ec27c19e461d89296e2606fbb in 123
+filtering 28 parent commits for file fuel/modules/fuel/controllers/Module.php
+0 out3/out15/CVE-2020-28705/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-28705 1615385700)
+Original Project = daylightstudio_FUEL-CMS
+Error: get_latest_rev failed:
+./get_latest_rev "github" "adhi54/eceweb" "ECE Website/tests/fuel_cms/fuel/modules/fuel/controllers/Module.php"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2020-28705: daylightstudio_FUEL-CMS, fuel/modules/fuel/controllers/Module.php out3/out15/CVE-2020-28705/results.fixed.csv)
+out3/out15/CVE-2020-28705/results.fixed.csv
+out3/out15/CVE-2020-28705/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-28874 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-28874, projectsend_projectsend, reset-password.php
+Calling ./rgl2 to get all commits
+filtering 3 child commits for file reset-password.php
+no baff4d5680df621d326250052cba4e14b4de493c in 58
+no af533cb4af0873df7c3b6c2d550b8dc3e19d09bd in 47
+filtering 25 parent commits for file reset-password.php
+0 out3/out15/CVE-2020-28874/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-28874 1611684900)
+Original Project = projectsend_projectsend
+Success (go2)
+Stage 3 (./go3 CVE-2020-28874: projectsend_projectsend, reset-password.php out3/out15/CVE-2020-28874/results.fixed.csv)
+out3/out15/CVE-2020-28874/results.fixed.csv
+out3/out15/CVE-2020-28874/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-28896 (5 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-28896, neomutt_neomutt, imap.c
+Calling ./rgl2 to get all commits
+filtering 57 child commits for file imap/imap.c
+no 7380cb5fae63481d5d8c10c9a669ebfafcd80ef3 in 115
+no 0271d054530ace3c0d48035fea932c3caad1bffa in 2
+no 1cf9a8dcae3d4dfae54033d6600c23420dceed5a in 28
+no d60b4ed7061816d35464b0ef9aecafdfd13a6b74 in 86
+no 13611f690dee1be847aa4167a245c1b2c404e849 in 19
+no c916fe35fa1f4cbf9c935bc34f1257e4688c244f in 73
+no 6bad3733ee2d59d04db522d396e4b999b28a2811 in 107
+no ef19fa880f5c76ebb6b864bba7a1eb84acfbfdc2 in 111
+no 46a8c969890e97a570aa3991c9f4f313421a8430 in 70
+no 3bd10b0193e3c56d2cb7bdb11e80b75539565df3 in 59
+no fd84fbfcb7fd22fead839d5b4e8dbddc04b47865 in 125
+no 804bba5bdadf45a0bed0da47b392b96f46c44877 in 0
+no 095eed7f8b04d555652069fbf8304f658b959bdb in 9
+no 44182b59a9b3ba44607078622efc46967bf8a9b7 in 68
+no d9f13d418c31b93e2cefd638feefe94964953ef5 in 89
+no f4b458589d30e576db10897345740c59cfaa8fad in 116
+no 51bc5d8561f4cb0c6bd28be46ed07299e55b00aa in 81
+filtering 804 parent commits for file imap/imap.c
+0 out3/out15/CVE-2020-28896/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-28896 1606158900)
+Original Project = neomutt_neomutt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bdrister/AquaticPrime" "License Utility/mutt/imap/imap.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/mutt-team_mutt" "imap/imap.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/users_kibi-guest_madmutt" "imap/imap.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/users_kibi_mutt" "imap/imap.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Tdunk18/WDMarvell" "WDMyCloud Firmware/Open_Source_packages/mutt-1.5.18/imap/imap.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2020-28896: neomutt_neomutt, imap/imap.c out3/out15/CVE-2020-28896/results.fixed.csv)
+out3/out15/CVE-2020-28896/results.fixed.csv
+out3/out15/CVE-2020-28896/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-28941 (6 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-28941, torvalds_linux, spk_ttyio.c
+Calling ./rgl2 to get all commits
+filtering 14 child commits for file drivers/accessibility/speakup/spk_ttyio.c
+no tree 8d942e2b4568192ede79d28b9471d80b6d63b59e for commit b68b914494df4f79b4e9b58953110574af1cb7a2
+filtering 3 parent commits for file drivers/accessibility/speakup/spk_ttyio.c
+0 out3/out15/CVE-2020-28941/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-28941 1605813300)
+Original Project = torvalds_linux
+Success (go2)
+Stage 3 (./go3 CVE-2020-28941: torvalds_linux, drivers/accessibility/speakup/spk_ttyio.c out3/out15/CVE-2020-28941/results.fixed.csv)
+out3/out15/CVE-2020-28941/results.fixed.csv
+out3/out15/CVE-2020-28941/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-28954 (7 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-28954, bigbluebutton_bigbluebutton, ApiController.groovy
+Calling ./rgl2 to get all commits
+filtering 92 child commits for file bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/controllers/ApiController.groovy
+no 2afe4526a80e948b741ef97f3c7f5c27229b13a8 in 42
+no 23aaeedef2f77d54ff4763d1f9bd542968e1021d in 35
+no b95cba3ded3523512b7f390512c01bfb9a65de01 in 57
+no 5fc66ccf1272b62188de78bba7085a361dcd8a94 in 95
+no df30e30a1eae7ff3c6fa034ba202c7356dda2441 in 95
+no 1c873bd8d6c7e1153089911ec54275dfda582caa in 28
+no 247794ff45f4f424f45aa3b5eb83287f1f381608 in 36
+no b4bf27c199f395c6008a469158185206547ee3e9 in 52
+no c6bfb4b7ec2f82db3abba6bad4f3f02b9976ce76 in 70
+no 212578b7c885283b8f371e743c2dfac97a7be333 in 33
+no 9d6eaead0271740067e8e3095edb9321d4c847da in 29
+no cfb7c354ce8ba0fcd3d53fa7372e62c482c394a8 in 79
+no b8bba75b623ffdfbd4e243abb9cbb2cb04afe3b8 in 56
+no 138f4d64e4ae0eeed6a55a25627f3e8c9d528fa4 in 19
+no d609a1fd8da62a816de0bed47556777001771a29 in 86
+no b730ef7aa2f076b9ae102f105ca900039a63a03d in 55
+no f9d97ca562dab832581e132f723fdbe87cc2be1c in 121
+no c10dd9121e3275e28424488ece1109b069ccf315 in 65
+no ea09c7001c470cf96c5eda4d4c1a078cd0d00f77 in 106
+no 7650967b2fdec99359e5439442375b0a646f5958 in 118
+no 75f3eab3f83ab9ae77e77fab628eb37e9ba47327 in 117
+no 655c81c8f4b46a03695c9d3d1881a9a3282bf0a5 in 101
+no 8404048cfd35280d2dd427fc0c2e93790760c3f7 in 4
+no 2c3b180ee0ce8458bbe6e620c911a81bae6e5099 in 44
+no 16cd3c4ebbe9e21920dfba1055bc5d7d163669b2 in 22
+no a761f0177a54deac7ac684562bb86527663961b4 in 39
+no c9043655f19f58e2a1f9227c24a02fe1e3482b35 in 73
+no 740de857cf89316677935d96f56a8f1444d42ec0 in 116
+no 4a0882f9f2437f66cb3d2fa69447901a99d210cd in 74
+no e9fee8f3309573ea54358b6d80d888e0277d5ab7 in 105
+no 2bc370ce0bc6674ec69ac5eaa96e36884cd54bf7 in 43
+no 6935b8293c9746b364ac8a062ced0071e90e1eb1 in 105
+no 6103ae960d99f68a08e05afd0b132504c8b944c4 in 97
+no 1862f60e05ecbf18e49e180251b14d3fb21c3ec0 in 24
+no 2d7c82e73d6d26999f09bde9fb8af299f5d4f88b in 45
+no 65688af8b09487bee0ffe7ce6df8e881f0854765 in 101
+no df60295d228a6a7b3e6afce1fd3bd4b2df31e65b in 95
+filtering 444 parent commits for file bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/controllers/ApiController.groovy
+0 out3/out15/CVE-2020-28954/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-28954 1605824100)
+Original Project = bigbluebutton_bigbluebutton
+Success (go2)
+Stage 3 (./go3 CVE-2020-28954: bigbluebutton_bigbluebutton, bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/controllers/ApiController.groovy out3/out15/CVE-2020-28954/results.fixed.csv)
+out3/out15/CVE-2020-28954/results.fixed.csv
+out3/out15/CVE-2020-28954/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-29074 (8 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-29074, LibVNC_x11vnc, scan.c
+Calling ./rgl2 to get all commits
+filtering 3 child commits for file src/scan.c
+no 4ee62dace18c365012d4a0c168923ffec6222fda in 78
+filtering 2 parent commits for file src/scan.c
+0 out3/out15/CVE-2020-29074/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-29074 1606346100)
+Original Project = LibVNC_x11vnc
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/friki_x11vnc" "src/scan.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2020-29074: LibVNC_x11vnc, src/scan.c out3/out15/CVE-2020-29074/results.fixed.csv)
+out3/out15/CVE-2020-29074/results.fixed.csv
+out3/out15/CVE-2020-29074/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-29367 (9 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-29367, Blosc_c-blosc2, blosc2.c
+Calling ./rgl2 to get all commits
+filtering 204 child commits for file blosc/blosc2.c
+no 98d9825cda0996ccb8b7f986f595efb1f6049ae0 in 24
+no 7dbe518002c60245f82efff00d9ea179c572e6ad in 125
+no 27d7fb2ecda05782d695723646b0c41f55d0edc1 in 39
+no 7f4574f51ad7db56fc13de89e13e7893b1a82189 in 127
+no 4a9f4b4a9a9816da3842b8c0f61b7274b64fcc80 in 74
+no 5a50726608d0d0b2ffcf00e24d0a2e387abd642a in 90
+no 37d593dde763d8899ea0fb9c26ea680bc80b0b8a in 55
+no 6caa0111fa16ba8f335ece3171e401dda32d6dd8 in 108
+no 45bc2c74d5f3510869dd391f68b2707562ef36f3 in 69
+no 7627dd8ba34ae40b3b25163fe6dda572a26f56df in 118
+no 79a1765ad704d380f0372b765c1bb6ea425f095d in 121
+no 4460dfe69d7a947c5278a756113005cdf9c1fef9 in 68
+no fe868edf6c83666b3b44b4992f34b3b3bcf6545e in 126
+no 7ba8b832d2b7c65047130edbc3b25c65dcae5597 in 123
+no 594a5f33eb3b78d026bd89a21422b0c745f19aab in 89
+no 4bcc265eaad41a4a180716c0e28bfbfe7a38ef66 in 75
+no 5f5213c23cc8608537b234e93ee5dae31a77aaff in 95
+no 024dd6a35c430a25a017372938a4dcf5cd859d0b in 2
+no e6035df1d3f285af9a2e756fb428633eb7898881 in 102
+no 5d7e4220166a4e42239230cac4bd71aee04d1326 in 93
+no 9106fc33f2696e80c59f3153a4618d9a77d0b10f in 17
+no 89908e35280ce1102f911c2cdfabc0e9db5ce766 in 9
+no cc9430bc5c70b7645d73bc8139d09e32fda1db1a in 76
+no 805276e363779ab113e0e844b99f07b5bb0d5dc0 in 0
+no 098765a82f80deedf9c68925b95fdf1e0f0a8d24 in 9
+no d76b105605e00841b004d0656596d5f2139adb0a in 87
+no f26b38a550e6791408b8218c35807f364ec1efb9 in 114
+no effa3723eb19bc0840a0ef9e323a930f7da92010 in 111
+no 964f5b21df9bd4f6bd171bef69519639fccb40c8 in 22
+no ccbd4d28519b2acdc959a0b91308dc8e336409aa in 76
+no 4560df3ddd9e7031a450acdca28884884bd4f5ff in 69
+no 92acac33d2b3df6f77a98de0487980b3ba4cf003 in 18
+no 1171e327ddb134b5a73224de6e2fecc841a5fc25 in 17
+no 926b995c36dd8f5efa76713a234a8763ae7e2f0e in 18
+no 0da2b4d6da24e62d8d53694c9ab4ef1d74e9bc5a in 13
+no ab19dc93ef9d2bfc4404d726afd89df5dba65bb2 in 43
+no 3c8c9b5313901645717a845877669591b9cb5fc3 in 60
+no 34047d564be3a2b61c85af39d0a9816a8102aa0e in 52
+no 12e4a732a5cc93c55424fb6b6849a287f70494b2 in 18
+no 65ecf6e07ac9abaaf516cec66d45a5165baf9e4e in 101
+no 3f5cc72f7a552c37af8a0aeec584f141936fd0e5 in 63
+no 685e48115e11269f767cea9ae0abbf7060fe6f43 in 104
+no 58b99bf97145c161a28cccd3b9b9a333e503f59c in 88
+no 44439cf6f61114dbf50728de5b19d6e0a29571fd in 68
+no a347072d77e36903fde64824789bc62902495cd2 in 35
+no 5431df8a8b8e826cd890d15cfa77f1cd2ceca12f in 84
+no adca0e29b3dc31b7d3d12115cd570e2453832ce8 in 45
+no 0531e8a988738e09672fd6bff78b119565ea9236 in 5
+no f553bd2a5493605ed9ea7ef217ba511eaa2c948a in 117
+no df09d1d2c79f291abc8b1494229de85efd010c1c in 95
+filtering 92 parent commits for file blosc/blosc2.c
+1 out3/out15/CVE-2020-29367/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-29367 1606508100)
+Original Project = Blosc_c-blosc2
+Success (go2)
+Stage 3 (./go3 CVE-2020-29367: Blosc_c-blosc2, blosc/blosc2.c out3/out15/CVE-2020-29367/results.fixed.csv)
+out3/out15/CVE-2020-29367/results.fixed.csv
+out3/out15/CVE-2020-29367/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-29572 (10 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-29572, MISP_MISP, genericField.ctp
+Calling ./rgl2 to get all commits
+filtering 5 child commits for file app/View/Elements/genericElements/SingleViews/Fields/genericField.ctp
+no 6d7f4bf50004c295b2e60277d9c7a8343862688c in 109
+no 60c85b80e3ab05c3ef015bca5630e95eddbb1436 in 96
+filtering 2 parent commits for file app/View/Elements/genericElements/SingleViews/Fields/genericField.ctp
+0 out3/out15/CVE-2020-29572/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-29572 1607213700)
+Original Project = MISP_MISP
+Success (go2)
+Stage 3 (./go3 CVE-2020-29572: MISP_MISP, app/View/Elements/genericElements/SingleViews/Fields/genericField.ctp out3/out15/CVE-2020-29572/results.fixed.csv)
+out3/out15/CVE-2020-29572/results.fixed.csv
+out3/out15/CVE-2020-29572/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-35132 (11 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-35132, leenooks_phpLDAPadmin, functions.php
+Calling ./rgl2 to get all commits
+filtering 5 child commits for file lib/functions.php
+filtering 80 parent commits for file lib/functions.php
+0 out3/out15/CVE-2020-35132/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-35132 1607663700)
+Original Project = leenooks_phpLDAPadmin
+Success (go2)
+Stage 3 (./go3 CVE-2020-35132: leenooks_phpLDAPadmin, lib/functions.php out3/out15/CVE-2020-35132/results.fixed.csv)
+out3/out15/CVE-2020-35132/results.fixed.csv
+out3/out15/CVE-2020-35132/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-35460 (12 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-35460, joniles_mpxj, InputStreamHelper.java
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file src/main/java/net/sf/mpxj/common/InputStreamHelper.java
+no d5c2237d84ca3a09418905ea19f002f7ce6a9d81 in 85
+no d94d1ac4f0369ee409d1b6ffc0eaf936889a1311 in 89
+no 58b951f2bffbf1c7bb634a8d4955d7795a65b720 in 88
+filtering 1 parent commits for file src/main/java/net/sf/mpxj/common/InputStreamHelper.java
+0 out3/out15/CVE-2020-35460/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-35460 1607987700)
+Original Project = joniles_mpxj
+Success (go2)
+Stage 3 (./go3 CVE-2020-35460: joniles_mpxj, src/main/java/net/sf/mpxj/common/InputStreamHelper.java out3/out15/CVE-2020-35460/results.fixed.csv)
+out3/out15/CVE-2020-35460/results.fixed.csv
+out3/out15/CVE-2020-35460/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-35508 (13 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-35508, torvalds_linux, fork.c
+Calling ./rgl2 to get all commits
+filtering 134 child commits for file kernel/fork.c
+no 965a9d75e3d250088a269e0c903e86fe775b48c6 in 22
+no 7d9d077c783e33995c80d8b28fea1a98161934f4 in 125
+no 792575348ff70e05c6040d02fce38e949ef92c37 in 121
+no 434c9eefb959c36331a93617ea95df903469b99f in 67
+no 133e2d3e81de5d9706cab2dd1d52d231c27382e5 in 19
+no 1ec6574a3c0a22c130c08e8c36c825cb87d68f8e in 30
+no 98931dd95fd489fcbfa97da563505a6f071d7c77 in 24
+no 3e2cbc016b1d08463925db9b9bd3bd253f64b8b0 in 62
+no d2081b2bf8195b8239c67fdd61518e077da7cbec in 82
+no 753550eb0ce1fea4b5cbd989f2e06ef80b2feb28 in 117
+no 5bd2e97c868a8a44470950ed01846cab6328e540 in 91
+no 36cb0e1cda645ee645b85a6ce652cb46a16e14e5 in 54
+no c5febea0956fd3874e8fb59c6f84d68f128d68f8 in 69
+no 343f4c49f2438d8920f1f76fa823ee59b91f02e4 in 52
+no 2667ed10d9f01e250ba806276740782c89d77fda in 38
+no b041b525dab95352fbd666b14dc73ab898df465f in 48
+no 51fb34de2a4c8fa0f221246313700bfe3b6c586d in 81
+no c08e6a1206e6876c66e0528b3ec717f557b07dd4 in 64
+no 169e77764adc041b1dacba84ea90516a895d43b2 in 22
+no 0db8640df59512dbd423c32077919f10cf35ebc6 in 13
+no bba90e096468a3185649e9ab75873722ae4d6f96 in 59
+no 3fd33273a4675e819544ccbbf8d769e14672666b in 63
+no 54ecbe6f1ed5138c895bdff55608cf502755b20e in 84
+no 5c26f6ac9416b63d093e29c30e79b3297e425472 in 92
+no 0ce055f85335e48bc571114d61a70ae217039362 in 12
+no e540bf3162e822d7a1f07e69e3bb1b4f925ca368 in 101
+no 1a03d3f13ffe5dd24142d6db629e72c11b704d99 in 26
+no f1c1a9ee00e4c53c9ccc03ec1aff4792948a25eb in 113
+no 7865aba3ade4cf30f0ac08e015550084a50d9afb in 120
+no 2bb0529c0bc0698f3baf3e88ffd61a18eef252a7 in 43
+no 546c42b2c5c161619736dd730d3df709181999d0 in 84
+no be9a2277cafd318976d59c41a7f45a934ec43b26 in 62
+no 0b0894ff78cc47bc72d53ec340e4898782189868 in 11
+no c1034d249d1453b0f4c11582515a418a5d45b570 in 65
+no b1e8206582f9d680cff7d04828708c8b6ab32957 in 49
+no 8f2f9c4d82f24f172ae439e5035fc1e0e4c229dd in 15
+no a3d29e8291b622780eb6e4e3eeaf2b24ec78fd43 in 35
+no 701fac40384f07197b106136012804c3cae0b3de in 112
+no a6cbd44093ef305b02ad5f80ed54abf0148a696c in 38
+no 7a853c2d5951419fdf3c1c9d2b6f5a38f6a6857d in 122
+no ddc204b517e60ae64db34f9832dc41dafa77c751 in 93
+no 35ce8ae9ae2e471f92759f9d6880eab42cc1c3b6 in 53
+no f56caedaf94f9ced5dbfcdb0060a3e788d2078af in 117
+no 17fca131cee21724ee953a17c185c14e9533af5b in 23
+no 9a10064f5625d5572c3626c1516e0bebc6c9fe9b in 26
+no 2873cd31a20c25b5e763b35e5fb886f0938c6dd5 in 40
+no e32cf5dfbe227b355776948b2c9b5691b84d1cbd in 99
+no ff8288ff475e47544569359772f88f2b39fd2cf9 in 127
+no 6692c98c7df53502adb8b8b73ab9bcbd399f7a06 in 102
+no 40966e316f86b8cfd83abd31ccb4df729309d3e7 in 64
+no 88c9a2ce520ba381bb70658c80ec704f4d60f728 in 8
+filtering 1009 parent commits for file kernel/fork.c
+0 out3/out15/CVE-2020-35508/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out15/CVE-2020-35508 1616778900)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/kernel/fork.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ajason08/CIC_projects" "archived_projects/Distribucion de Zipf/kernel/fork.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ckeiom/FSL_Linux" "kernel/fork.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/kernel/fork.c;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/dclcs/linuxmooc/contents/实验源码/kernel/fork.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "dclcs/linuxmooc" "实验源码/kernel/fork.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Divic/OHA-Android-2.2_r1.1" "kernel-beagleboard-xm/kernel/fork.c"
+   Repository access blocked: https://api.github.com/repos/Divic/OHA-Android-2.2_r1.1/contents/kernel-beagleboard-xm/kernel/fork.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "kernel/arm/omap/omap-common/kernel/fork.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/kernel/arm/omap/omap-common/kernel/fork.c;;
+Rate limit exceeded, sleeping 2032 seconds (from 23:13:23)

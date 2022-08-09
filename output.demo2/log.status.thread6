@@ -1,0 +1,376 @@
+
+------------ CVE-2016-1245 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-1245, Quagga_quagga, rtadv.c
+Calling ./rgl2 to get all commits
+filtering 1 child commits for file zebra/rtadv.c
+filtering 44 parent commits for file zebra/rtadv.c
+0 out3/out6/CVE-2016-1245/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out6/CVE-2016-1245 1487807940)
+Original Project = Quagga_quagga
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/DLUTDON/NSA2018/contents/code/quagga-0.99.21路由协议代码/zebra/rtadv.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "DLUTDON/NSA2018" "code/quagga-0.99.21路由协议代码/zebra/rtadv.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "hawk98/RTL9607C" "user/zebra/zebra/rtadv.c"
+   Repository access blocked: https://api.github.com/repos/hawk98/RTL9607C/contents/user/zebra/zebra/rtadv.c;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/q493955643/Group-25-aodv/contents/quagga-0.99.21路由协议代码/zebra/rtadv.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "q493955643/Group-25-aodv" "quagga-0.99.21路由协议代码/zebra/rtadv.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/quagga-stable/zebra/rtadv.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/WangRunxin-Yu7/network-stack-experiment/contents/quagga-0.99.21路由协议代码/zebra/rtadv.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "WangRunxin-Yu7/network-stack-experiment" "quagga-0.99.21路由协议代码/zebra/rtadv.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/XuWenBo321/TestTwo/contents/quagga-0.99.21路由协议代码/zebra/rtadv.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "XuWenBo321/TestTwo" "quagga-0.99.21路由协议代码/zebra/rtadv.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "yangzhanwu/Protocol-stack-team-No-18" "Protocol stack code/quagga-0.99.21路由协议代码/zebra/rtadv.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2016-1245: Quagga_quagga, zebra/rtadv.c out3/out6/CVE-2016-1245/results.fixed.csv)
+out3/out6/CVE-2016-1245/results.fixed.csv
+out3/out6/CVE-2016-1245/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2016-1246 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-1246, perl5-dbi_DBD-mysql, dbdimp.c
+Calling ./rgl2 to get all commits
+filtering 125 child commits for file dbdimp.c
+filtering 216 parent commits for file dbdimp.c
+0 out3/out6/CVE-2016-1246/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out6/CVE-2016-1246 1475686740)
+Original Project = perl5-dbi_DBD-mysql
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/pgpgateway" "sourceforge.net/pgpgateway" "Source/System/Perl/DBD-mysql-4.020/dbdimp.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2016-1246: perl5-dbi_DBD-mysql, dbdimp.c out3/out6/CVE-2016-1246/results.fixed.csv)
+out3/out6/CVE-2016-1246/results.fixed.csv
+out3/out6/CVE-2016-1246/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2016-1541 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-1541, libarchive_libarchive, archive_read_support_format_zip.c
+Calling ./rgl2 to get all commits
+filtering 55 child commits for file libarchive/archive_read_support_format_zip.c
+no cfaa28168a07ea4a53276b63068f94fce37d6aff in 79
+no a1f65ab79ace5376293e3ee0ed0aab635c321181 in 33
+no 0c99a746ed48a9a4ba8a2e927030d5b83f078a02 in 12
+no 921255d8526f8e7390f314a5ebd0b78edb8c03e5 in 18
+filtering 164 parent commits for file libarchive/archive_read_support_format_zip.c
+0 out3/out6/CVE-2016-1541/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out6/CVE-2016-1541 1462618740)
+Original Project = libarchive_libarchive
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Reiderr/poketibia" "Remeres Map Editor By Senhor/dependencies/vs/include/libarchive/archive_read_support_format_zip.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2016-1541: libarchive_libarchive, libarchive/archive_read_support_format_zip.c out3/out6/CVE-2016-1541/results.fixed.csv)
+out3/out6/CVE-2016-1541/results.fixed.csv
+out3/out6/CVE-2016-1541/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2016-1583 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-1583, torvalds_linux, file.c
+Calling ./rgl2 to get all commits
+filtering 6 child commits for file fs/ecryptfs/file.c
+filtering 88 parent commits for file fs/ecryptfs/file.c
+0 out3/out6/CVE-2016-1583/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out6/CVE-2016-1583 1467025140)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/fs/ecryptfs/file.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "balaga/mt6589_kernel" "kernel/fs/ecryptfs/file.c"
+   Repository access blocked: https://api.github.com/repos/balaga/mt6589_kernel/contents/kernel/fs/ecryptfs/file.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "caxyu/mstar6a918" "code/3.1.10_Napoli_tvos/3.1.10/fs/ecryptfs/file.c"
+   Repository access blocked: https://api.github.com/repos/caxyu/mstar6a918/contents/code/3.1.10_Napoli_tvos/3.1.10/fs/ecryptfs/file.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "chizu/AMlogic_Meson6_030812release" "fs/ecryptfs/file.c"
+   Repository access blocked: https://api.github.com/repos/chizu/AMlogic_Meson6_030812release/contents/fs/ecryptfs/file.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ckeiom/FSL_Linux" "fs/ecryptfs/file.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/fs/ecryptfs/file.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "cxy1997/Operating-System" "Project 2/kernel/goldfish/fs/ecryptfs/file.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/dclcs/linuxmooc/contents/实验源码/fs/ecryptfs/file.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "dclcs/linuxmooc" "实验源码/fs/ecryptfs/file.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "dipcore/wenshuai.xi" "Mstar_code/kernel/fs/ecryptfs/file.c"
+   Repository access blocked: https://api.github.com/repos/dipcore/wenshuai.xi/contents/Mstar_code/kernel/fs/ecryptfs/file.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Divic/OHA-Android-2.2_r1.1" "kernel-armadillo500fx/fs/ecryptfs/file.c"
+   Repository access blocked: https://api.github.com/repos/Divic/OHA-Android-2.2_r1.1/contents/kernel-armadillo500fx/fs/ecryptfs/file.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "elenril/VMG1312-B" "kernel/linux/fs/ecryptfs/file.c"
+   Repository access blocked: https://api.github.com/repos/elenril/VMG1312-B/contents/kernel/linux/fs/ecryptfs/file.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "kernel/beagleboard/fs/ecryptfs/file.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/kernel/beagleboard/fs/ecryptfs/file.c;;
+Rate limit exceeded, sleeping 2045 seconds (from 23:13:10)

@@ -1,0 +1,326 @@
+
+------------ CVE-2018-1000501 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000501, InstantUpdate_CMS, auth.php
+Calling ./rgl2 to get all commits
+filtering 1 child commits for file iu-application/controllers/administration/auth.php
+filtering 1 parent commits for file iu-application/controllers/administration/auth.php
+0 out3/out10/CVE-2018-1000501/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-1000501 1530030540)
+Original Project = InstantUpdate_CMS
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000501: InstantUpdate_CMS, iu-application/controllers/administration/auth.php out3/out10/CVE-2018-1000501/results.fixed.csv)
+out3/out10/CVE-2018-1000501/results.fixed.csv
+out3/out10/CVE-2018-1000501/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2018-1000524 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000524, fatcerberus_minisphere, map_engine.c
+Calling ./rgl2 to get all commits
+filtering 9 child commits for file src/minisphere/map_engine.c
+filtering 87 parent commits for file src/minisphere/map_engine.c
+0 out3/out10/CVE-2018-1000524/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-1000524 1530030540)
+Original Project = fatcerberus_minisphere
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000524: fatcerberus_minisphere, src/minisphere/map_engine.c out3/out10/CVE-2018-1000524/results.fixed.csv)
+out3/out10/CVE-2018-1000524/results.fixed.csv
+out3/out10/CVE-2018-1000524/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2018-1000528 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000528, gosa-project_gosa-core, password.php
+Calling ./rgl2 to get all commits
+filtering 6 child commits for file html/password.php
+no add40ac9ff745dfb77d617ba79882ab6876f20e4 in 45
+no 01260fc1883423b9ad3ad0d6a5822f7aee747a2c in 1
+filtering 40 parent commits for file html/password.php
+0 out3/out10/CVE-2018-1000528/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-1000528 1530030540)
+Original Project = gosa-project_gosa-core
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000528: gosa-project_gosa-core, html/password.php out3/out10/CVE-2018-1000528/results.fixed.csv)
+out3/out10/CVE-2018-1000528/results.fixed.csv
+out3/out10/CVE-2018-1000528/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2018-1000534 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000534, laurent22_joplin, MdToHtml.js
+Calling ./rgl2 to get all commits
+filtering 58 child commits for file ReactNativeClient/lib/MdToHtml.js
+ssh_exchange_identification: Connection closed by remote host
+filtering 54 parent commits for file ReactNativeClient/lib/MdToHtml.js
+0 out3/out10/CVE-2018-1000534/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-1000534 1530030540)
+Original Project = laurent22_joplin
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000534: laurent22_joplin, ReactNativeClient/lib/MdToHtml.js out3/out10/CVE-2018-1000534/results.fixed.csv)
+out3/out10/CVE-2018-1000534/results.fixed.csv
+out3/out10/CVE-2018-1000534/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2018-1000658 (5 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000658, LimeSurvey_LimeSurvey, common_helper.php
+Calling ./rgl2 to get all commits
+filtering 126 child commits for file application/helpers/common_helper.php
+no 979eacedd113555af314f0e9cbd6eebcfe37eade in 23
+no ddf117019aba385806b300392662ad7a004c36e5 in 93
+no 49e2d2fcbcf0c85469243e6c2d9cf6237950e298 in 73
+no 4166d26e155082a42b4476a929086b8fd4abc6fa in 65
+no 0726f1f55bf98f1d0d231531f0ff59d11e0bbe2e in 7
+no 0d67b02864e2a3fa251d2c4a7a658fea69dc69d7 in 13
+no 506dd2a457a5cce02e3f644bcacf015d8d73c660 in 80
+no 12fc718c697280dd675fb7ba53c036c2f7495cae in 18
+no 36a2cc6f9eac5e3bb14a366677a6e9d0f948f383 in 54
+no aa00a0a5a5bc103084ad2cca2e02805fcedf5473 in 42
+no 551de0fddaf2f1d4afda86acd9d7aefd2871c289 in 85
+no cc808548ab2ce08836b91291f4cb2bff375a79ed in 76
+no f4d4c1b65b4eb3ca5240a74052eb42f0d8848790 in 116
+no 6f6e12841a5b4256293774172dcd687930e93bf0 in 111
+no ad617e402f5d8f1377d9a31688a5f45e78eed422 in 45
+no 6b571a390a93e5d45e1208781f7d502565bb910b in 107
+no 7238a601d3c04f2619c0c42a2f4040d9fc74dcee in 114
+no 228a596f16c97cc19dcafb8d40b73f563a330c8c in 34
+no 7b9e6711e1e673522247905f4d1d3fa199e57da1 in 123
+no 47c2f7e022aaafc812e0f74eb46437d9b26a9f9d in 71
+no 400b13e580d48fe5b137b591433db0a887462f13 in 64
+no 51166e661dd2c93fae7fb9e48ed8385fc6d6600e in 81
+no c56c388e37f5614916af4da06d02c09eb7a926d0 in 69
+no f97374248479d3d564ed8d2dd8ffa10768462650 in 121
+no fa2e825a0469ab78f6f9314efda714a7b87be926 in 122
+filtering 746 parent commits for file application/helpers/common_helper.php
+0 out3/out10/CVE-2018-1000658/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-1000658 1536254940)
+Original Project = LimeSurvey_LimeSurvey
+Error: get_latest_rev failed:
+./get_latest_rev "github" "loklei/limesurvey" "application/helpers/common_helper.php"
+   This repository is empty: https://api.github.com/repos/loklei/limesurvey/contents/application/helpers/common_helper.php;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/njZhuMin/NnuTeachSkill/contents/量表/limesurvey/application/helpers/common_helper.php
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "njZhuMin/NnuTeachSkill" "量表/limesurvey/application/helpers/common_helper.php"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "zahilman/WebKit" "Lime Survey/application/helpers/common_helper.php"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000658: LimeSurvey_LimeSurvey, application/helpers/common_helper.php out3/out10/CVE-2018-1000658/results.fixed.csv)
+out3/out10/CVE-2018-1000658/results.fixed.csv
+out3/out10/CVE-2018-1000658/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2018-1000815 (6 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000815, brave_muon, content_settings_observer.cc
+Calling ./rgl2 to get all commits
+Error: commit c18663aa171c6cdf03da3e8c70df8663645b97c4 not in out3/out10/CVE-2018-1000815/stage1/commits
+Failure (go1): "./go1 out3/out10/CVE-2018-1000815"
+
+------------ CVE-2018-1000884 (7 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000884, serghey-rodin_vesta, index.php
+Calling ./rgl2 to get all commits
+filtering 5 child commits for file web/reset/index.php
+filtering 14 parent commits for file web/reset/index.php
+0 out3/out10/CVE-2018-1000884/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-1000884 1545341340)
+Original Project = serghey-rodin_vesta
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000884: serghey-rodin_vesta, web/reset/index.php out3/out10/CVE-2018-1000884/results.fixed.csv)
+out3/out10/CVE-2018-1000884/results.fixed.csv
+out3/out10/CVE-2018-1000884/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2018-10017 (8 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-10017, OpenMPT_openmpt, Snd_fx.cpp
+Calling ./rgl2 to get all commits
+filtering 171 child commits for file soundlib/Snd_fx.cpp
+no 095a3074df71ef2336a42fe9132e4383d4530418 in 9
+no 628a4060e1b6e1e162da153f420ff162f64f5858 in 98
+no dfbadf99ef7eeb67a1d52c0a285e4fb8d2957173 in 95
+no 58ed7529de92771db047b98fb68c02803fc8add9 in 88
+no 0d04dd11cc652480ac1ac5315d64ec4e46c4800c in 13
+no da85f8084b19efedac5dedb0698f6520c43f2817 in 90
+no 9cd9d7ad5954ac6a14323f30c4a8ceba1cb85512 in 28
+no 2d459f3408541193c4453f3acdd5c49c21d3867d in 45
+no d777adb654255483d60fee3bbbbe65d2d13b06e4 in 87
+no 4ccfc94908e95647b6a4a1c9c77d72ec406aa909 in 76
+no 4d2d0678222ba715fde5362d1b5089b4dca7ca2f in 77
+no b42c9ed016c3b2ba1882421cb66217f17dd536a4 in 52
+no cae4dfde73b0650f5247f80c868e027033b6e0e7 in 74
+no 41b6e1cf4d5bc67ca9d5f71a26de165e56fcac44 in 65
+no 092836f16d7436d143377cde5fc4a68695c986df in 9
+no 2af975668e6ffa2171f90e4197f65245af4e1b2f in 42
+no 3fb13fec1a91e179064be41b81f6a2f18521eb02 in 63
+no eaaaedee6994a9934831ad1cdc965639b49fc5dd in 106
+no f85d61ceb28dd01f6113b1d8aa4e0312edfc0789 in 120
+no ab80a3e6c538d7291903d5244408be1a3d6e7ec0 in 43
+no edd17bd581a26e7ef72af65c6bfe8115817e2024 in 109
+no 97a9dbe27f8ef154c40f6e9aa709bd952d7554b4 in 23
+no 37876dd2f7a6e474e05b58a2326329fe3e0262e7 in 55
+no 543b210bcb08b4e62d364b16c0df8181f6a3f58e in 84
+no ff2b0455f6070dbe843159945ef3b4e2e0f86cf3 in 127
+no b50d881229225715291bd2238948566125b6c1a4 in 53
+no 61d706930a75c92cdbdc36116e8fe8937eaa5e52 in 97
+no aea2d4ac76afcbb4224b753d900b84b3e6d37ee1 in 46
+no 1c9861cbd28ce07500eae3cf3b0af27f3e699a5a in 28
+no 8275f03e9ee68b30c259c34338425fc81298e0b3 in 2
+no f8f729f9149e0648b18dfd087dff251085b4d872 in 120
+no fc24f9834ec883d3015b004892dd35495c92009d in 124
+no ebad6b8d31785d79c30a34e6f2fd059055e9fc54 in 107
+no a2c67c0de47ee35dd034c9dc5a60ea15a5e995bf in 34
+no 8571c1cf3570e5afc95ce7fd243c78f04bf43688 in 5
+no b37c0d3702ea6a567c09ee504dff91977c6ab7f4 in 51
+no 0398d8df5c9e079bed3ea6be36f09bf07cd552c0 in 3
+no 2fd7cfcc83006ce48e4ff97ee3bf80ccd5744218 in 47
+no e8b1d316b8c2aa1e48b20244d8a53e4459b5de81 in 104
+no a0245d957ae5fe2149612bbd9e385bcec5ab43c6 in 32
+filtering 611 parent commits for file soundlib/Snd_fx.cpp
+0 out3/out10/CVE-2018-10017/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-10017 1523424540)
+Original Project = OpenMPT_openmpt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "iVideo/fennec" "plugins/decoders/decoder mod/soundlib/Snd_fx.cpp"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2018-10017: OpenMPT_openmpt, soundlib/Snd_fx.cpp out3/out10/CVE-2018-10017/results.fixed.csv)
+out3/out10/CVE-2018-10017/results.fixed.csv
+out3/out10/CVE-2018-10017/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2018-10021 (9 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-10021, torvalds_linux, sas_scsi_host.c
+Calling ./rgl2 to get all commits
+filtering 37 child commits for file drivers/scsi/libsas/sas_scsi_host.c
+no 095478a6e5bf590f2bbf341569eb25173c9c5f32 in 9
+no 6a91c3e31578979a93b500efc76af4d3499f75ad in 106
+no 5c9bf3635b66add7d829b4d8d538ae0d770d9d89 in 92
+no 3f2e252ef727318f81588704461735617ad55b88 in 63
+no 4fea759edfa795b170a72bfd3be7b7601012ce4b in 79
+no 72f8810e1fdcd52deedfd294497fa8337703a632 in 114
+no 29d7769055a21968c0bbfe866affe1640d90bd1d in 41
+no e8585452953a040a6d1d901e5b2e8c327f09e219 in 104
+no 69b80a0ed0b5d0c54ee1618eb5a015699e8c47c5 in 105
+no 693e66a0a6ac56322687f614ba6e8bfbc43a1530 in 105
+no 2037a340314f4be8977563006476bd15c859eda2 in 32
+no 350d85ba5badb90af0299862c4422fa016ebc91b in 53
+no 001ec7f89bea94259ededbedc8b5627b93848b8a in 0
+no 4aef43b25df2bc81bebea1aa335a0696ab3a2275 in 74
+no 2dd6801a671c0a82e756355d20669ad5bbe89073 in 45
+no 9aacf6fe90592cc7f64d56505e42606b61b76f00 in 26
+no 3a20e64281fd481f59c5c188d60632ef1d3264ea in 58
+no 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d in 75
+filtering 111 parent commits for file drivers/scsi/libsas/sas_scsi_host.c
+0 out3/out10/CVE-2018-10021/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out10/CVE-2018-10021 1523467740)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "8bits-jpg/BP2" "A PLACER DS KERNEL-SGP-MSM8916 LINEAGE DEPENDENCY/android_kernel_SGP_msm8916/drivers/scsi/libsas/sas_scsi_host.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/drivers/scsi/libsas/sas_scsi_host.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "b00tbu9/NeoL-phoenix-Kernel" "NeoL Kernel/drivers/scsi/libsas/sas_scsi_host.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "balaga/mt6589_kernel" "kernel/drivers/scsi/libsas/sas_scsi_host.c"
+   Repository access blocked: https://api.github.com/repos/balaga/mt6589_kernel/contents/kernel/drivers/scsi/libsas/sas_scsi_host.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "behrk2/ICSofCNAbyJLJ" "kernel/samsung/epic4gtouch/drivers/scsi/libsas/sas_scsi_host.c"
+   Repository access blocked: https://api.github.com/repos/behrk2/ICSofCNAbyJLJ/contents/kernel/samsung/epic4gtouch/drivers/scsi/libsas/sas_scsi_host.c;;
+Rate limit exceeded, sleeping 2044 seconds (from 23:13:11)

@@ -1,0 +1,66 @@
+
+------------ CVE-2018-18955 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-18955, torvalds_linux, user_namespace.c
+Calling ./rgl2 to get all commits
+filtering 20 child commits for file kernel/user_namespace.c
+no 0ac983f512033cb7b5e210c9589768ad25b1e36b in 10
+ssh_exchange_identification: Connection closed by remote host
+filtering 94 parent commits for file kernel/user_namespace.c
+0 out3/out11/CVE-2018-18955/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out11/CVE-2018-18955 1542400140)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/kernel/user_namespace.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ajason08/CIC_projects" "archived_projects/Distribucion de Zipf/kernel/user_namespace.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "b00tbu9/NeoL-phoenix-Kernel" "NeoL Kernel/kernel/user_namespace.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "balaga/mt6589_kernel" "kernel/kernel/user_namespace.c"
+   Repository access blocked: https://api.github.com/repos/balaga/mt6589_kernel/contents/kernel/kernel/user_namespace.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "behrk2/ICSofCNAbyJLJ" "kernel/samsung/epic4gtouch/kernel/user_namespace.c"
+   Repository access blocked: https://api.github.com/repos/behrk2/ICSofCNAbyJLJ/contents/kernel/samsung/epic4gtouch/kernel/user_namespace.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "caxyu/mstar6a918" "code/3.1.10_Napoli_tvos/3.1.10/kernel/user_namespace.c"
+   Repository access blocked: https://api.github.com/repos/caxyu/mstar6a918/contents/code/3.1.10_Napoli_tvos/3.1.10/kernel/user_namespace.c;;
+Warning: curl failed with error code 7, retrying
+Error: get_latest_rev failed:
+./get_latest_rev "github" "chizu/AMlogic_Meson6_030812release" "kernel/user_namespace.c"
+   Repository access blocked: https://api.github.com/repos/chizu/AMlogic_Meson6_030812release/contents/kernel/user_namespace.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ckeiom/FSL_Linux" "kernel/user_namespace.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/kernel/user_namespace.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "CompSCI/SGS4" "Kernel Uncompressed/kernel/user_namespace.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Rate limit exceeded, sleeping 2028 seconds (from 23:13:27)

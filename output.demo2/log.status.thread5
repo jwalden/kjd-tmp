@@ -1,0 +1,137 @@
+
+------------ CVE-2015-5706 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2015-5706, torvalds_linux, namei.c
+Calling ./rgl2 to get all commits
+filtering 525 child commits for file fs/namei.c
+no 3bd8bc897161730042051cd5f9c6ed1e94cb5453 in 59
+no 4cb640248041dab1c718a6140d758dad5a84b8ec in 76
+no b16c001de0f66bc633aefe770a8b0a75c8c39a3b in 49
+no a4f5b52167a80edec74093fe6fef291a0318f4ba in 36
+no 03fa86e9f79d8b9a6aa28965829a4a8646139a0a in 3
+no 6e180327153071281dbbf6a16759e49862debdca in 110
+no 7e4745a09426b3fe63e9fbea3190e0f8500820a4 in 126
+no 51c6546c30ea6efe9aa819015bd61ffefc910944 in 81
+no 82ef069805a352bacb22fd4322b746edf809603c in 2
+no 20aac6c60981f5bfacd66661d090d907bf1482f0 in 32
+no 952923ddc01120190dcf671e7b354364ce1d1362 in 21
+no 2c5ca23f7414eb2c782f945aa417cfab7b5c88dd in 44
+no 6f664045c8688c40ad0591abd6ab89db9ecd7945 in 111
+no 30476f7e6dbcb075850c6e33b15460dd4868c985 in 48
+no 52dba645ca3a2e8695f14fefb608a3b82a7c8a4e in 82
+no e5ca024e165d952b12da5ea86c36ea70d70bfc98 in 101
+no c7031c144043c5b9a9b8827aaf44a67937559418 in 71
+no 27a77913448fe976f7c1d5e4b5467a5fa1b2a195 in 39
+no 2d878178baf32dda7eaf6c1de05a42ab19fe4094 in 45
+ssh_exchange_identification: read: Connection reset by peer
+no 00675017e0aeba5305665c52ded4ddce6a4c0231 in 0
+no b3d4650d82c71b9c9a8184de9e8bb656012b289e in 51
+no 4897e722b54f10e2e96c3eeca260caa7a8b0dbff in 72
+no a37d9a17f099072fe4d3a9048b0321978707a918 in 35
+no 9c011be132972ff94bde2ae99064e29f94e85c68 in 28
+no 1bd9c4e4f0494915b2391f373d25096579f835ff in 27
+filtering 714 parent commits for file fs/namei.c
+0 out3/out5/CVE-2015-5706/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out5/CVE-2015-5706 1441018740)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/fs/namei.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ckeiom/FSL_Linux" "fs/namei.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/fs/namei.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "CompSCI/SGS4" "Kernel Uncompressed/fs/namei.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/dclcs/linuxmooc/contents/实验源码/fs/namei.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "dclcs/linuxmooc" "实验源码/fs/namei.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Divic/OHA-Android-2.2_r1.1" "kernel-beagleboard-xm/fs/namei.c"
+   Repository access blocked: https://api.github.com/repos/Divic/OHA-Android-2.2_r1.1/contents/kernel-beagleboard-xm/fs/namei.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "elenril/VMG1312-B" "kernel/linux/fs/namei.c"
+   Repository access blocked: https://api.github.com/repos/elenril/VMG1312-B/contents/kernel/linux/fs/namei.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "kernel/armadillo440/fs/namei.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/kernel/armadillo440/fs/namei.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "galigalikun/OHA-Android-2.3.4_r1.0" "board/pandaboard/kernel/fs/namei.c"
+   Repository access blocked: https://api.github.com/repos/galigalikun/OHA-Android-2.3.4_r1.0/contents/board/pandaboard/kernel/fs/namei.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.kernel" "git.kernel.org/pub_scm_linux_kernel_git_clrkwllms_rt-linux" "fs/namei.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.kernel" "git.kernel.org/pub_scm_linux_kernel_git_eyryu_ap_samsung-ap-2.6.24" "fs/namei.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.kernel" "git.kernel.org/pub_scm_linux_kernel_git_ralf_linux-m68k" "fs/namei.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ibnsllam/UbuntuTouch" "Source to compile/kernel/hp/tenderloin/fs/namei.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Rate limit exceeded, sleeping 2047 seconds (from 23:13:08)

@@ -1,0 +1,789 @@
+
+------------ CVE-2020-11710 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11710, Kong_docs.konghq.com, docs_nav_0.10.x.yml
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file app/_data/docs_nav_0.10.x.yml
+filtering 12 parent commits for file app/_data/docs_nav_0.10.x.yml
+0 out3/out14/CVE-2020-11710/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-11710 1586711700)
+Original Project = Kong_docs.konghq.com
+Success (go2)
+Stage 3 (./go3 CVE-2020-11710: Kong_docs.konghq.com, app/_data/docs_nav_0.10.x.yml out3/out14/CVE-2020-11710/results.fixed.csv)
+out3/out14/CVE-2020-11710/results.fixed.csv
+out3/out14/CVE-2020-11710/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-11722 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11722, crawl_crawl, clua.cc
+Calling ./rgl2 to get all commits
+filtering 5 child commits for file crawl-ref/source/clua.cc
+filtering 230 parent commits for file crawl-ref/source/clua.cc
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+0 out3/out14/CVE-2020-11722/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-11722 1586718900)
+Original Project = crawl_crawl
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/play-crawl" "sourceforge.net/play-crawl" "src/clua.cc"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2020-11722: crawl_crawl, crawl-ref/source/clua.cc out3/out14/CVE-2020-11722/results.fixed.csv)
+out3/out14/CVE-2020-11722/results.fixed.csv
+out3/out14/CVE-2020-11722/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-11810 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11810, OpenVPN_openvpn, multi.c
+Calling ./rgl2 to get all commits
+filtering 70 child commits for file src/openvpn/multi.c
+no a5b4bad46978a01162fb820ea25594d6333aa9db in 37
+no 6a5612fe82453915755aca945ff4e876a25f582a in 106
+no abe49856d81f51136d543539202a0bf8fb946474 in 43
+no 7a50f5f633ca179214d102806c582de9a076ec8a in 122
+no d2e6605fec0d8641deef0ec7807811d0222bb71e in 82
+no b0cbab96cc6e886d9eb8e304068ff61705d2a137 in 48
+no 0fcb7cadb225d7f43e29c3ad6a1e9c34abbb8a63 in 15
+no 65a21eb14f4afd80864e88ff425f5d9ef8d8fdec in 101
+no 1800d77ec54dc8608c4933a46d3d23437cf224c1 in 24
+filtering 58 parent commits for file src/openvpn/multi.c
+0 out3/out14/CVE-2020-11810/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-11810 1588000500)
+Original Project = OpenVPN_openvpn
+no tree f09bad4364cf302cc41b8697f49d4075c1ba8d42 for commit 30d2e68ca9abc34a64762110894cd065451e0bb5
+no tree 11c7fb102b32c3f110f5f36fb204c590b0130329 for commit 30d2e68ca9abc34a64762110894cd065451e0bb5
+no tree f09bad4364cf302cc41b8697f49d4075c1ba8d42 for commit c696d6afb58c677894a503dc8f89471abdf53c14
+no tree 11c7fb102b32c3f110f5f36fb204c590b0130329 for commit c696d6afb58c677894a503dc8f89471abdf53c14
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/openvpn/src/openvpn/multi.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/routertesting" "sourceforge.net/routertesting" "release/src/router/openvpn/src/openvpn/multi.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Tdunk18/WDMarvell" "WDMyCloud Firmware/Open_Source_packages/openvpn-2.3.0/src/openvpn/multi.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2020-11810: OpenVPN_openvpn, src/openvpn/multi.c out3/out14/CVE-2020-11810/results.fixed.csv)
+out3/out14/CVE-2020-11810/results.fixed.csv
+out3/out14/CVE-2020-11810/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-11932 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11932, CanonicalLtd_subiquity, filesystem.py
+Calling ./rgl2 to get all commits
+filtering 88 child commits for file subiquity/models/filesystem.py
+no 6f523b4568f85e917a4bacea45460906d660951e in 111
+no 57fb6b80728bf2f9c0bafe3a30bf91d1e425d92d in 87
+no ce146ab28a517beb3136432feeb44866ddf94137 in 78
+no 6e2ecfc497fd2e77962aeed89d6aa3a6f900c182 in 110
+no 111aefc54ad746026d108eabef1ac7bb5af1e1fb in 17
+no 832caeda554d283eefedfa1faa412587d2cd4878 in 3
+no 396dca07b848ec649007f08c3856b0bdf2b21ff8 in 57
+no f3859904a4dba0731cefc74ecce6accda2a94b20 in 115
+no 5d5f9ca49e56068507d403d8e5afab0194bd9bec in 93
+no 58c1ee834e7698b3a90e95a4babbbfb18ec49943 in 88
+no 40a6ff71d921152c801526b3f7ad4c84bf6ca224 in 64
+no 5aa3bd3560ec2ab6605a4e61b636b244f4f284b6 in 90
+no 69b765efd5bb29e6e5d9ed22abe1aa4243ec3293 in 105
+no 40b2f3267b4b3cd35af626d63537608c9b8419ab in 64
+no 5eacceaf406e21bef03a9cc995330663969d0eaf in 94
+no ce3126efb6e4840e09666149f5d958af571e3992 in 78
+no b07405a744d47052b4dfc1cf4c32d8dc6559c63c in 48
+no f3634dc2427f2b7813853fc03f9ad8367d374a87 in 115
+no ce4316fc23b38d2760762b5af9b886b1f1e6ea5e in 78
+no d2c7a21fc2abde307f570e108ad22683e34077bd in 82
+no 36241271a54f10b7fb2317bfc601a09e85770c9a in 54
+no f5dad435edc4c9612493c36ed2f363ea73f2cef1 in 117
+no 4c33463b9e896de47dbed46d8ad228a4f0137281 in 76
+no 2a84dc69801d5e2e6d7ed3132acba379d46b3605 in 42
+no 7b36b1907a1e89556192e5aa1dee6815b3c01040 in 123
+no d0ccc98aadc489abc4cca24549c654b2a94df74f in 80
+no a17bd659e26708a20b64b7a8d733debd761eb7ba in 33
+no 68b9c42fac04ee6c31fd4ea14451b857c905c164 in 104
+no 83cfdbdfead8389c4a2002ebca21636ded3f5876 in 3
+no 345bd1470793ec4a184829a3b8ad90926ad99c3d in 52
+no a61e609ec763b5606d401ad6d23d5d17b79b1f83 in 38
+no bd4e4785a9bc4f44ceb7423bac09502719819971 in 61
+filtering 306 parent commits for file subiquity/models/filesystem.py
+0 out3/out14/CVE-2020-11932/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-11932 1589332500)
+Original Project = CanonicalLtd_subiquity
+Success (go2)
+Stage 3 (./go3 CVE-2020-11932: CanonicalLtd_subiquity, subiquity/models/filesystem.py out3/out14/CVE-2020-11932/results.fixed.csv)
+out3/out14/CVE-2020-11932/results.fixed.csv
+out3/out14/CVE-2020-11932/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-11939 (5 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11939, ntop_nDPI, ssh.c
+Calling ./rgl2 to get all commits
+filtering 24 child commits for file src/lib/protocols/ssh.c
+no 1d4e27c4739f74ccef19fde7e6008d725ea93a69 in 29
+no f25deeccb1ccbebd6346271828762fdd8326c32b in 114
+no 3a087e951d96f509c75344ad6791591e10e4f1cd in 58
+no 23a476127624ba19ff410c0f26bddfbd800bface in 35
+filtering 25 parent commits for file src/lib/protocols/ssh.c
+0 out3/out14/CVE-2020-11939/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-11939 1587654900)
+Original Project = ntop_nDPI
+Success (go2)
+Stage 3 (./go3 CVE-2020-11939: ntop_nDPI, src/lib/protocols/ssh.c out3/out14/CVE-2020-11939/results.fixed.csv)
+out3/out14/CVE-2020-11939/results.fixed.csv
+out3/out14/CVE-2020-11939/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-11940 (6 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11940, ntop_nDPI, ssh.c
+Calling ./rgl2 to get all commits
+filtering 25 child commits for file src/lib/protocols/ssh.c
+no 1d4e27c4739f74ccef19fde7e6008d725ea93a69 in 29
+no f25deeccb1ccbebd6346271828762fdd8326c32b in 114
+no 3a087e951d96f509c75344ad6791591e10e4f1cd in 58
+no 23a476127624ba19ff410c0f26bddfbd800bface in 35
+filtering 24 parent commits for file src/lib/protocols/ssh.c
+0 out3/out14/CVE-2020-11940/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-11940 1587654900)
+Original Project = ntop_nDPI
+Success (go2)
+Stage 3 (./go3 CVE-2020-11940: ntop_nDPI, src/lib/protocols/ssh.c out3/out14/CVE-2020-11940/results.fixed.csv)
+out3/out14/CVE-2020-11940/results.fixed.csv
+out3/out14/CVE-2020-11940/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-11958 (7 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11958, skvadrik_re2c, scanner.cc
+Calling ./rgl2 to get all commits
+filtering 20 child commits for file src/parse/scanner.cc
+no bc3a1c277089f90e1c45d9ea3ec826fc21c3fd2c in 60
+no 6264787bb10a496c3d6abf762e67774b814d1a89 in 98
+no 51c3d5f5acd18da6aea9d3deebc855776344fe8f in 81
+no ff408ec4ced6ff4089b11107bb8cdb5c7f218c87 in 127
+no 4cb1a5d567d3a4b23b163e63cf926f735965e3a7 in 76
+no d4845e2ec223e976a2c16901d3226c7c6038aef7 in 84
+no 57c79c13ca9d1a4708e407b1116edbdc8ca08ac3 in 87
+no 98aa4455467b2b5540a6bcc7265bd16258582827 in 24
+no 04b049f8c2bc09ad5991bab438439f14eed125fe in 4
+no b1b246b4a392b133b2ae3c75efbe7a145951e03c in 49
+no 61af1763fd6ef44cc4c5c249aa268453f3c32672 in 97
+no 5ac98bc208cf83b86a81cadce2a738ebfafe8f9b in 90
+no 48e83fcaab9e76f1cffdcf7087f8f6e2a540ef09 in 72
+filtering 2 parent commits for file src/parse/scanner.cc
+0 out3/out14/CVE-2020-11958/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-11958 1587431700)
+Original Project = skvadrik_re2c
+Success (go2)
+Stage 3 (./go3 CVE-2020-11958: skvadrik_re2c, src/parse/scanner.cc out3/out14/CVE-2020-11958/results.fixed.csv)
+out3/out14/CVE-2020-11958/results.fixed.csv
+out3/out14/CVE-2020-11958/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-12062 (8 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12062, openssh_openssh-portable, scp.c
+Calling ./rgl2 to get all commits
+filtering 42 child commits for file scp.c
+no 1bdf86725b77733bb5f17c54888b88a10b2f6538 in 27
+no 56a0697fe079ff3e1ba30a2d5c26b5e45f7b71f8 in 86
+no 16ea8b85838dd7a4dbeba4e51ac4f43fd68b1e5b in 22
+no 449bcb8403adfb9724805d02a51aea76046de185 in 68
+no 9699151b039ecc5fad9ac6c6c02e9afdbd26f15f in 22
+no 8cfa73f8a2bde4c98773f33f974c650bdb40dd3c in 12
+no ac7c9ec894ed0825d04ef69c55babb49bab1d32e in 44
+no 63670d4e9030bcee490d5a9cce561373ac5b3b23 in 99
+filtering 232 parent commits for file scp.c
+0 out3/out14/CVE-2020-12062/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-12062 1591028100)
+Original Project = openssh_openssh-portable
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Amo10/Computer-Science-2014-2015" "Pico CTF/Pico CTF 2014/openssh-6.7p1/scp.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "A-star-ayush/C_examples" "Networking/From Online sources/openssh/scp.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "cutff/family" "Unix Family/Linux.OpenSsh-3.7.1p2/src/scp.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "fcccode/malwares" "Unix Family/Linux.OpenSsh-3.7.1p2/src/scp.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "james9909/PracticeCTF" "picoCTF-2014/SSH Backdoor/openssh-6.7p1-evil/scp.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/ls-2018/py/contents/运维自动化/CrazyEye/src/openssh-7.3p1/scp.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ls-2018/py" "运维自动化/CrazyEye/src/openssh-7.3p1/scp.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "rashidqm/nx-source-2" "Client/Core/nxssh/scp.c"
+   Repository access blocked: https://api.github.com/repos/rashidqm/nx-source-2/contents/Client/Core/nxssh/scp.c;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/syarale/read_sftp_code/contents/openssh-源码阅读笔记/scp.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "syarale/read_sftp_code" "openssh-源码阅读笔记/scp.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Tdunk18/WDMarvell" "WDMyCloud Firmware/Open_Source_packages/openssh-5.0p1/scp.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "themcaffee/Code-Everyday" "CTFs/picoctf2014/bad openssh/openssh-6.7p1/scp.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2020-12062: openssh_openssh-portable, scp.c out3/out14/CVE-2020-12062/results.fixed.csv)
+out3/out14/CVE-2020-12062/results.fixed.csv
+out3/out14/CVE-2020-12062/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-12066 (9 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12066, teeworlds_teeworlds, server.cpp
+Calling ./rgl2 to get all commits
+filtering 39 child commits for file src/engine/server/server.cpp
+no 7c5415dc7ec6089d67a1eda946664c141d429bbd in 124
+no 1445bd9ff5e38d5d3d325a75422f4bddbe78d20b in 20
+no cbe756779b6d44be66bca960f5589e5ab889c230 in 75
+no f3ea5f6a1f131796d90be9fd58245f7ffa80f525 in 115
+no 45ab0d73a255b3209594d3623fcccd1b8e326780 in 69
+no 9cb7291746ceab3b350c8ce9f8153f58b4bbe27f in 28
+no c42408eabd7ca412e3792b7d2f80e7b9cc8d12ac in 68
+no f4f6955a571c107272f231a5179f854eb10dc1df in 116
+no 74bac9e8e809b7076b57f8a7ade0a93631d6df85 in 116
+no 191e16ba1d9533007c958ead67457fbcf2a89fb5 in 25
+no 6a8cd97fadf9cf71d45178df0f7940f03dc5da4e in 106
+no 08ef1bcdc55fc073052db7a9f8294618c5de20a0 in 8
+no c314fae3908444487c2ac6c6c383b2b61e1272d5 in 67
+no f5407f6c3d9e3ffd9290a85c0c9361f900ca963a in 117
+no d07d24d8fdf47f31acd6ca45fed6238bc7f405f4 in 80
+no cfe5d6328a458a3dce3aac75fdcea8104780879d in 79
+no 746c3bf7212e029cb37209625982deb0d4fed9d8 in 116
+no 0370b94e34c887201ace2e21011980414f85434f in 3
+no 4f28113abd56ccb47c432078948b402cd31fe0ab in 79
+no 0323477192b364cee72934d94ad401c7fc41d9b9 in 3
+no b37e32f2f626469c9759de095a63872ac4ba201a in 51
+no 297a16d335a3cad45b1b7ac66bd6dd870aaef844 in 41
+no 0ca4e1b1c8db4208e5d27ef927db10c556c29834 in 12
+no 404282e001563a50d6ce75e38aacaf0a79d94ed4 in 64
+filtering 204 parent commits for file src/engine/server/server.cpp
+0 out3/out14/CVE-2020-12066/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-12066 1587575700)
+Original Project = teeworlds_teeworlds
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/games-team_teeworlds" "src/engine/server/server.cpp"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2020-12066: teeworlds_teeworlds, src/engine/server/server.cpp out3/out14/CVE-2020-12066/results.fixed.csv)
+out3/out14/CVE-2020-12066/results.fixed.csv
+out3/out14/CVE-2020-12066/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-12078 (10 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12078, Opmantek_open-audit, discoveries_helper.php
+Calling ./rgl2 to get all commits
+filtering 84 child commits for file code_igniter/application/helpers/discoveries_helper.php
+no a63b1edc9b61fd6671835f703aa04369d377c675 in 38
+no c8287bd5c50715cda9966af18500f91754b98ac0 in 72
+no 4c484648f39200297785a0847ff73c158bec2fcc in 76
+no 1676a73f566862de95dcb9f9ac407b11b6f5f489 in 22
+no 35f821da66869b8d1f524700ae5ab50515a6321a in 53
+no 92b170b93f940dc1aade1ece5446c2379792818a in 18
+no 0e0663430009ac8304a4756db3edd5b152500920 in 14
+no 34f63ef3f33fd5b8ae7dd03e263362c238293ced in 52
+no 5f6617c65ac1299bcc89e7f1a094ae545eb65f7a in 95
+no 3817ccf3ca5eb2511d41f5f09434757fd5f24f8c in 56
+no 37e1481f08bffc707c9b7d4bf9bfe0ced5d31827 in 55
+no 3e9e76d6b931fb3ca36ce9edd369abd7bba0810d in 62
+no 77d8ee6bed1691050d2a9a115412038cf7e27f5f in 119
+no 7c11882d56e7a7df3fbd8cf992dc3592aeb5a4b4 in 124
+no 514f4399b7f2b734b9ae07db18c8c386faf06715 in 81
+no 476641a750a2f5ef25c46df77f31187589695cc9 in 71
+no 82825b938a55d6d38f81b166574eeb616d5ba0f0 in 2
+no 96245c3900df80b990155f174d52bb248269bdab in 22
+no c2c3727bdd88168b35d7f5414f6b1192387bf355 in 66
+no 14418390369160235ba1d5a727f1f75dbf14a488 in 20
+no f8d0f9283bd8abf3b867fc0b2440ab5a0da1153e in 120
+no 3b90c20f031b75f7d7fb0d2d7751211997acdf7c in 59
+no d4a815da5e21e472d5faa5678fe6e1d10a98075f in 84
+no 68768d036a4e05f6ff7bf02da885f06d19eefcf4 in 104
+no 6b352e10c467ea1214a036ef6d0596b578880883 in 107
+no c4c58c85c9163f487daf6e9ac50c8441b31d8f5d in 68
+no b6da5884c79a55eddb09cf46c8549fe0917c8fa0 in 54
+no 8435ba018ccf61f675759424226e2b0d16d87d96 in 4
+no 46db19952df424e7b391bae96ff11248ddf6e99b in 70
+no 3ce041c44027d9663535d893f47276b77028a0fc in 60
+no eb499298b9f7c02a857fdf149430f67b96400de2 in 107
+no d3ef96b17fbd28caf86b2fbc3b29b2e1f60d3589 in 83
+no 843c1860ad4b7d66fb5ceab531b58ae7cd0db43e in 4
+no 0e24802198dc5fd4e7b5de76e5bdab78656a90b3 in 14
+no f380a255a35debf6a3b37e5b6943604dd798fd8c in 115
+no 4dbe9ae23e6022297aa22c98b6a6525288304a51 in 77
+no f3d4ffb784becb9b342c62fee3e64e0ec2c938ba in 115
+no 203c2888eacabafc2b44c32d9b80e18b9f519525 in 32
+no 254fc2123e59573b7cc39164b6ff2557193aa15d in 37
+no 61aaa17cfcae1b14d5d9ee0f02941f9e0e3e310b in 97
+no 6d6d28723017f9afdd9ac413f3dc70d591615170 in 109
+no 224cdcac6101c4cee9f0a0148cfc4c7ba830c4cc in 34
+no 6114986c350d4ed276aa75a6ac7890628ddac406 in 97
+no ac71dbae34e53e5d8c0cdc3e3f308612400b08f2 in 44
+no 1dd4d5ec21da4e7b13c3d4db4ce999f9651b8e2c in 29
+no 7155f019d2727cba02f5fc22c1b9537583ebc38f in 113
+no fddad501008a9542968f686465ec154d37061b1f in 125
+no ec6995a53c01e3bf697849fb18d64ba861fbfc02 in 108
+no 708d9cdd557a2530e2490d07d49e53652029c56a in 112
+no 208913c34fed0dc64dbc867107a88b94681e791b in 32
+no 00ddc643ee212d6793dadf10d4e9069c9ee0277b in 0
+no c772fe9f47e636e911b1096083e47b5df6fc9b6a in 71
+no fa5b01c7497483fb22c3bb0ac3987a7d9e8b8e53 in 122
+filtering 27 parent commits for file code_igniter/application/helpers/discoveries_helper.php
+0 out3/out14/CVE-2020-12078/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-12078 1588083300)
+Original Project = Opmantek_open-audit
+Success (go2)
+Stage 3 (./go3 CVE-2020-12078: Opmantek_open-audit, code_igniter/application/helpers/discoveries_helper.php out3/out14/CVE-2020-12078/results.fixed.csv)
+out3/out14/CVE-2020-12078/results.fixed.csv
+out3/out14/CVE-2020-12078/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-12268 (11 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12268, ArtifexSoftware_jbig2dec, jbig2_image.c
+Calling ./rgl2 to get all commits
+filtering 6 child commits for file jbig2_image.c
+filtering 84 parent commits for file jbig2_image.c
+0 out3/out14/CVE-2020-12268/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-12268 1587953700)
+Original Project = ArtifexSoftware_jbig2dec
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/hcyang66_icdar-ost2019" "recipes /pdf-tools/mupdf-1.11-source/thirdparty/jbig2dec/jbig2_image.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "bitbucket.org/IT12055654_pdf-reader-android" "android PDFReader Vresion/version 0_0_1/newpdf/jni/thirdparty/jbig2dec/jbig2_image.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/Brinews/partTime/contents/32-pdfȡ��/sumatrapdf-read-only/ext/jbig2dec/jbig2_image.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Brinews/partTime" "32-pdfȡ��/sumatrapdf-read-only/ext/jbig2dec/jbig2_image.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "EliFix/Embedded-Master-ARM" "external/ghostscript/jbig2dec/jbig2_image.c"
+   Repository access blocked: https://api.github.com/repos/EliFix/Embedded-Master-ARM/contents/external/ghostscript/jbig2dec/jbig2_image.c;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/hazed7/schoolbot/contents/Хлам/ghostscript-9.09/jbig2dec/jbig2_image.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "hazed7/schoolbot" "Хлам/ghostscript-9.09/jbig2dec/jbig2_image.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "l1007482035/printer" "OEM Printer Customization Plug-in Samples/C++/oemps/ghostscript-9.21/jbig2dec/jbig2_image.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "openthos/printer-analysis" "HP P1108最简移植/ghostscript/ghostscript-9.14/jbig2dec/jbig2_image.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2020-12268: ArtifexSoftware_jbig2dec, jbig2_image.c out3/out14/CVE-2020-12268/results.fixed.csv)
+out3/out14/CVE-2020-12268/results.fixed.csv
+out3/out14/CVE-2020-12268/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-12284 (12 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12284, FFmpeg_FFmpeg, cbs_jpeg.c
+Calling ./rgl2 to get all commits
+filtering 9 child commits for file libavcodec/cbs_jpeg.c
+no 2ba04bafb427ea93e3614c0469a6e13e55ac9dc9 in 43
+no 2d722b6638a1b925d7e9e01e45611c450bfcf7ee in 45
+no 66d7a211329e79ad61316f67726e89d07c21d862 in 102
+no f183ae787a73f263706212dde151c1edddd6fb1c in 113
+filtering 7 parent commits for file libavcodec/cbs_jpeg.c
+0 out3/out14/CVE-2020-12284/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-12284 1588054500)
+Original Project = FFmpeg_FFmpeg
+Error: get_latest_rev failed:
+./get_latest_rev "github" "czhao35/AmazingMusic-web" "Presentation Version Folder/library/ffmpeg-4.1/libavcodec/cbs_jpeg.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/frustreated/android_security-1/contents/工具与方法论沉淀/FFmpeg-master/libavcodec/cbs_jpeg.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "frustreated/android_security-1" "工具与方法论沉淀/FFmpeg-master/libavcodec/cbs_jpeg.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "jasongwaley182/Jarvis" "venv/lib/python3.7/site-packages/ffmpeg-4.2 2.1/libavcodec/cbs_jpeg.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Warning: curl failed with error code 7, retrying
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/gstreamer-team_gst-libav1.0" "gst-libs/ext/libav/libavcodec/cbs_jpeg.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2020-12284: FFmpeg_FFmpeg, libavcodec/cbs_jpeg.c out3/out14/CVE-2020-12284/results.fixed.csv)
+out3/out14/CVE-2020-12284/results.fixed.csv
+out3/out14/CVE-2020-12284/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2020-12464 (13 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12464, torvalds_linux, message.c
+Calling ./rgl2 to get all commits
+filtering 14 child commits for file drivers/usb/core/message.c
+filtering 186 parent commits for file drivers/usb/core/message.c
+0 out3/out14/CVE-2020-12464/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out14/CVE-2020-12464 1588184100)
+Original Project = torvalds_linux
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acecilia/PCCMute" "Stage 1/beagle-kernel-3.7/kernel/drivers/usb/core/message.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "alexzeitgeist/YT2" "Lenovo YT3-X90(Row&China)Open Source/kernel/cht/drivers/usb/core/message.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Rate limit exceeded, sleeping 2039 seconds (from 23:13:16)

@@ -1,0 +1,1233 @@
+
+------------ CVE-2021-27886 (1 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-27886, rakibtg_docker-web-gui, terminal.js
+Calling ./rgl2 to get all commits
+filtering 1 child commits for file backend/utilities/terminal.js
+filtering 1 parent commits for file backend/utilities/terminal.js
+0 out3/out16/CVE-2021-27886/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-27886 1614644100)
+Original Project = rakibtg_docker-web-gui
+Success (go2)
+Stage 3 (./go3 CVE-2021-27886: rakibtg_docker-web-gui, backend/utilities/terminal.js out3/out16/CVE-2021-27886/results.fixed.csv)
+out3/out16/CVE-2021-27886/results.fixed.csv
+out3/out16/CVE-2021-27886/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-27904 (2 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-27904, MISP_MISP, SharingGroupServer.php
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file app/Model/SharingGroupServer.php
+ssh_exchange_identification: Connection closed by remote host
+filtering 13 parent commits for file app/Model/SharingGroupServer.php
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+0 out3/out16/CVE-2021-27904/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-27904 1614669300)
+Original Project = MISP_MISP
+Success (go2)
+Stage 3 (./go3 CVE-2021-27904: MISP_MISP, app/Model/SharingGroupServer.php out3/out16/CVE-2021-27904/results.fixed.csv)
+out3/out16/CVE-2021-27904/results.fixed.csv
+out3/out16/CVE-2021-27904/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28041 (3 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28041, openssh_openssh-portable, ssh-agent.c
+Calling ./rgl2 to get all commits
+filtering 13 child commits for file ssh-agent.c
+no 247082b5013f0d4fcae8f97453f2a2f01bcda811 in 36
+no 39d17e189f8e72c34c722579d8d4e701fa5132da in 57
+no 72bcd7993dadaf967bb3d8564ee31cbf38132b5d in 114
+no a23698c3082ffe661abed14b020eac9b0c25eb9f in 34
+no cb885178f36b83d0f14cfe9f345d2068103feed0 in 75
+no 715c892f0a5295b391ae92c26ef4d6a86ea96e8e in 113
+no a6d7677c4abcfba268053e5867f2acabe3aa371b in 38
+no baaff0ff4357cc5a079621ba6e2d7e247b765061 in 58
+no 39f00dcf44915f20684160f0a88d3ef8a3278351 in 57
+no 4c1e3ce85e183a9d0c955c88589fed18e4d6a058 in 76
+filtering 305 parent commits for file ssh-agent.c
+0 out3/out16/CVE-2021-28041/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28041 1614978900)
+Original Project = openssh_openssh-portable
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Amo10/Computer-Science-2014-2015" "Pico CTF/Pico CTF 2014/openssh-6.7p1/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "A-star-ayush/C_examples" "Networking/From Online sources/openssh/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "cutff/family" "Unix Family/Linux.OpenSsh-3.7.1p2/src/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "fcccode/malwares" "Unix Family/Linux.OpenSsh-3.7.1p2/src/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "hawk98/RTL9607C" "user/ssh/ssh-agent.c"
+   Repository access blocked: https://api.github.com/repos/hawk98/RTL9607C/contents/user/ssh/ssh-agent.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "james9909/PracticeCTF" "picoCTF-2014/SSH Backdoor/openssh-6.7p1-evil/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/ls-2018/py/contents/运维自动化/CrazyEye/src/openssh-7.3p1/ssh-agent.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ls-2018/py" "运维自动化/CrazyEye/src/openssh-7.3p1/ssh-agent.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "MoonshotNL/examplecode" "openssh 6.2 snap 22022013/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "qubir/PhoenixA20_android_external_sourcecode" "openssh/ssh-agent.c"
+   Repository access blocked: https://api.github.com/repos/qubir/PhoenixA20_android_external_sourcecode/contents/openssh/ssh-agent.c;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "rashidqm/nx-source-2" "Client/Core/nxssh/ssh-agent.c.SSH.original"
+   Repository access blocked: https://api.github.com/repos/rashidqm/nx-source-2/contents/Client/Core/nxssh/ssh-agent.c.SSH.original;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/a20sdk" "sourceforge.net/a20sdk" "android/external/openssh/ssh-agent.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+./get_latest_rev "git.code.sf.net/p/me722-cm" "sourceforge.net/me722-cm" "external/openssh/ssh-agent.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/syarale/read_sftp_code/contents/openssh-源码阅读笔记/ssh-agent.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "syarale/read_sftp_code" "openssh-源码阅读笔记/ssh-agent.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Tdunk18/WDMarvell" "WDMyCloud Firmware/Open_Source_packages/openssh-5.0p1/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "themcaffee/Code-Everyday" "CTFs/picoctf2014/bad openssh/openssh-6.7p1/ssh-agent.c"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Success (go2)
+Stage 3 (./go3 CVE-2021-28041: openssh_openssh-portable, ssh-agent.c out3/out16/CVE-2021-28041/results.fixed.csv)
+out3/out16/CVE-2021-28041/results.fixed.csv
+out3/out16/CVE-2021-28041/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28379 (4 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28379, myvesta_vesta, UploadHandler.php
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file web/upload/UploadHandler.php
+filtering 14 parent commits for file web/upload/UploadHandler.php
+0 out3/out16/CVE-2021-28379/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28379 1615788900)
+Original Project = myvesta_vesta
+Success (go2)
+Stage 3 (./go3 CVE-2021-28379: myvesta_vesta, web/upload/UploadHandler.php out3/out16/CVE-2021-28379/results.fixed.csv)
+out3/out16/CVE-2021-28379/results.fixed.csv
+out3/out16/CVE-2021-28379/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28662 (5 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28662, squid-cache_squid, RegisteredHeaders.cc
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file src/http/RegisteredHeaders.cc
+no bf95c10aa95bf8e56d9d8d1545cb5a3aafab0d2c in 63
+filtering 19 parent commits for file src/http/RegisteredHeaders.cc
+0 out3/out16/CVE-2021-28662/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28662 1622117700)
+Original Project = squid-cache_squid
+Error: get_latest_rev failed:
+./get_latest_rev "salsa.debian" "salsa.debian.org/squid-team_squid" "src/http/RegisteredHeaders.cc"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2021-28662: squid-cache_squid, src/http/RegisteredHeaders.cc out3/out16/CVE-2021-28662/results.fixed.csv)
+out3/out16/CVE-2021-28662/results.fixed.csv
+out3/out16/CVE-2021-28662/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28832 (6 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28832, VSCodeVim_Vim, package.json
+Calling ./rgl2 to get all commits
+filtering 418 child commits for file package.json
+no 1aa948e5b295357f51ee0584a9dd2ff0d25f2a7d in 26
+no 418dae14de6aec2835caf5200be6c48ba802275f in 65
+no 4a9d36e5f75a60db4b548b13bc2fb5ee3d031e27 in 74
+no 4edfade4f4e9b6d179e696b9723a9caa8ef1a5b0 in 78
+no cfab9ae68585e803298bc93bddf3e3ac652609af in 79
+no aedbe0444a8d05bb2706ab644472d7b66a974f97 in 46
+no 8656f51c35fcbf672998158638ac4276fa08befc in 6
+no c5a18267cef30ff6ea99b2822fd136d5f6de8ba6 in 69
+no e8e619d1cf76021e62da7622b8132060d82b814c in 104
+no 6cf6a153a1d9dc687d6ddc7438ada275f67f430c in 108
+no 8880fd0b2953ac66014aba72150878bc3314f7fe in 8
+no fe9b77de6de3ab73ff2f9a1eeee7c94ea159a771 in 126
+no 880f5023d5e32663ef02bb5b2f04fc25576060dc in 8
+no 1c208ee8f4b80925a25f6873d9d825af195f5f11 in 28
+no f0346009134b296a6c89af1d73e7af1db5d0dfb6 in 112
+no 7b078562282189ece2b2c2b67c2a598fead25f59 in 123
+no 29122ba57d95c54aacd78edc85133c4b6f282bc3 in 41
+no e86e7400fdc1026017e927209ecb0b2a4b88865e in 104
+no bd9ee5d2700a66bdc02b24ce23f60d6bc4ce2f23 in 61
+no e291e0b40b276f67b64fc3ee817e463be5dff6e0 in 98
+no a01daae9f0f531e35bda849e21c2a34e00958d84 in 32
+no 172a0341f773a45b228c4db4aeb15089c4854dbf in 23
+no ca5fcf84492cdd5458e3cde8dc60c1328b4c4ce8 in 74
+no 772bdbed61672ac101aa413e8b10fe2092f50b1c in 119
+no 5c8a2d971e69afc3fdec4213b62f019d02089c90 in 92
+no 2eb752dd7f57274f9a4b752f3aea0d9864807f81 in 46
+no 5270b5d8ad07b52e8b4c33a104a369b150fe663e in 82
+no 2a8fae0593c378fbc1dbca7926e89c5c1f3d1a2b in 42
+no fbf7e85673e24e5b8eccfb73d38e13029d38c045 in 123
+no 9cb97752d3a404341fe1722a61ac6de23870519a in 28
+no 6159073a11f7877079b077fb999db42344b9b7af in 97
+no a8b72eddbc5ffc222d4472a04fabdf44cb75ecbb in 40
+no 59481327cf8eddf2770cf40630aa0db8068a5729 in 89
+no 762bfe2c30297113e1b6da3dfb1e04d11b37312a in 118
+no 68c0796bd619d2318c2877650733cff9adef8493 in 104
+no 17547f5f8e305cc4c462bae6b5bf0a61142a71eb in 23
+no df206e7f160f4a8ac747b05e721492cae594ff9f in 95
+no fec71b6f4a9b85e2d92cb47a31bd6b089aa05c6a in 126
+no 8fa69566737edbe10b84fab00b20a9124778e7e0 in 15
+no 24f73fe4176f2358a0fb18f8aec8f1f1f5af9907 in 36
+no 9446b4a332fc7633df990f6973306a87de9f4942 in 20
+no c7f35e49f69e38ce660945966970d4c8defc3333 in 71
+no 8b82e683eaa9b8b459b9a2fa4a4f4a86c5749503 in 11
+no 8285b6e3db864b752a32c75a76da0e896f2fd387 in 2
+no 1ca293869e57fdb13c8bea652c708e0279f4bbbd in 28
+no fc09d8ff73ce9757214ee6495e1702445542c947 in 124
+no 6c76f33e6dc039e99bdaa1cd63b5bba2e9f3e454 in 108
+no 4edbfda8387af04286de9abec42dba6a9dd3ed8f in 78
+no abe750044d54e96aa90bf9a6c23fe6f6bbe704e6 in 43
+no fb36f30669048507f956817cd7a29ea612b6f726 in 123
+no 75453f88dbc8135cc876bc2cb144142dc8da8a9f in 117
+no 6c39de08bf130ba0740cb7c0bd63bcb02ca8d945 in 108
+no eca6e44b8892948b59065b5685ea40ea1e2f489c in 108
+no 4923d7cd80c5894131b361f6b938c658c925bd25 in 73
+no 2628f88d6d8cac38765be1148590cfeeeb5e24c8 in 38
+no a9e5e4f6a48ba1693a72b69a6102f11c88f07ef3 in 41
+no b8d86076af176a10be62da32203b9588678228c4 in 56
+no a83794974c382cba8d2443b2bf7a946a94935c4e in 40
+no 6e1bb072164915dfa58328f7fb20e4f5d8bf6535 in 110
+no f06d97a514205893dbd03a43b5e99011beac8735 in 112
+no 29871f6b863293590672774329408c5a7b118138 in 41
+no a567ecd27e42ac3d22649c1396b60414a6c4473f in 37
+no 7cb1c81a45e8080476e474979d2a2a80b74865bc in 124
+no e140f0db930bf141d6b36c5f5afae13b50ebbd14 in 97
+no 4695c91e3bc03ea4c63617a29b9c24f0615b1d90 in 70
+no 644622256de0b81a0d8c749470cf821dd42b52ab in 100
+no 3746f0c0393dfbf476500725b82d22f9c41e6bfd in 55
+no 3210e8f08f8c61dc58f4c5e14ca2daac00e80523 in 50
+no c89e8e1aa19ddd2419dff58e3e7769639f0cb19e in 72
+no 7cc09289f3e22a3bd0a4008eacd69bd259eada19 in 124
+no c842439c5d00e8bf2a9bf6d32b3522d7e2eceffc in 72
+no c692ee8131d448dce61740deba6c5a4de2ccde97 in 70
+no 7ed7c00fac2bc0939e9992bf766d28a9a7bfb80a in 126
+no 15585b6477c86ce87200ce3f0fbff609c1da9b4a in 21
+no b74305e170a59bc8c35faf3788db23336ebc6489 in 55
+no fa5490a97ef6b3f7dec0af01c62a1d74a23aad0d in 122
+no 8a9c52e248ba7719429fedd8864c9cecd8a5ce27 in 10
+no 443c9261680d5438c165da536b890d02f6d3022e in 68
+no 2637cc79550cf817a3a39e07551277c94058f213 in 38
+no f51da481dd1d4c2d3c5d0d9bf8fc19626ab35ddd in 117
+no 11537a9ac14d4ac79ac2c8b068f2d909456b4410 in 17
+no ea05931a0cc58dc7b2244ff51680054c8ade3584 in 106
+no 349ce010e19f3d3276cf05ca0cf36a02264dd29e in 52
+no ec6e7c839dc587ed757709b70455d1187ca65eea in 108
+no f3a9f6a31742bbde8b507515f097397f9fcda077 in 115
+no 50ce05a8df8c9ac085e347e9bf171c2b15fbf789 in 80
+no 4ae296739c50486fa859a076eb6c45d755b1de73 in 74
+no 357c6a7a68a9da2c4d693b60a0b270c08e349f07 in 53
+no aea84e1df3900968bfc16303a0daf0b262f1b633 in 46
+no 31a0f91e7223de31bd9c4a1a09fc3a60d174b70b in 49
+no 6a9a04205517ac56a0befd40c20d8f9cf4cb6aa9 in 106
+no cdae68f65ad6fb71157783bb24877f6c254c892d in 77
+no 1aa6e3f260f16f55bccd7ef7967d15836019dfcb in 26
+no 173d401f8738ca520622a76f80d650e9373cd569 in 23
+no 2041ed2fc645db90ace414561c6842dc91a9bc32 in 32
+no 5985f1416f706e4fc52e74420651b8fa9205a9d6 in 89
+no 12fb8e5b3eae85254861662362ba8723093f751c in 18
+no 201946661900bff70f1e23062cf028d04a0af7eb in 32
+no f992c93625dd6678db303c4f50a3f66d6c65bfd4 in 121
+no 9369b24953737cb5b23b017a09dd596f57d75124 in 19
+no 380d7bc046208a999b2f96f83edffa17848d10fc in 56
+no 81b21fcfb92ff12e779ecfae511b3461106816ce in 1
+no 5225816e26a3d2cc4c4db4dde60a5f7e3b4340be in 82
+no c58cc75f9751d636b9675ce33c570d7fa1505a19 in 69
+no a8728855b0f394c33c4e7b002ae765301d57ea2d in 40
+no 4dd5bf92854eec012dcea0d4f671184ab1034141 in 77
+no cb3c27347a033db2d1da73a72daf7d4e539fe48c in 75
+no f242eb533749d18c1784dc606beb8cf7616662ee in 114
+no bc2fb3a25c18e3ffe5b4f144d8e4a659b840fc0f in 60
+no 7374b01d53f0f78ea8b1178770b2997055e316f7 in 115
+no 2c63b1f2374072248bf658ed59607dd28683e951 in 44
+no 1bd9a533c333250bee528e304431ad28bac6ef76 in 27
+no f7665a33a45b7e423c53583dc40642d729bdf838 in 119
+no 6865b4d2ed19714a861b22f4163e40ce2bb9dcc5 in 104
+no 3691072e7a0396842e85bc9190d664388f0b2139 in 54
+no 450a5fe2da4fb83e5da430307431a19c84bca577 in 69
+no a195076ff42b15b5b3e1daae035d66bb52f92c8a in 33
+no 0c517f60b5764112f53ece44212f7e9c45e3fb5c in 12
+no 221a08f563432796661dc11c761b8bfbb0b4a5dc in 34
+no e47c5305615d618256909bd9558d91c20f40c465 in 100
+no 5bdc7a2675c3563277d933c7e084e5f0666ddd82 in 91
+no dd57d475bac21a85009ed10f1b6553ed562adfc4 in 93
+no 781bb8f5fd1bb252b5875104127f2023abc1aa74 in 120
+no 7b9a89dc7ea31338f9b7860b6f9dfdd94a3c43c8 in 123
+no 521949ec25ffb3bb5cf084825cd19c759d947c0f in 82
+no 3ed0f884036869177c2818c8a409dca8b75895da in 62
+no 223a86ad4e2f226f44a0fc7f23fcdd6e0cf15918 in 34
+no 2f7df7c7d737ee8626544521b0d417c8037f3690 in 47
+no d228f24b863722c82079bcc253a06bd08e5b5980 in 82
+no 7f9ec82784cf14d9bea6bf21f223f1e395e8cd9b in 127
+no 79c605f53d88d8da48ffba6664a32d189ed3a021 in 121
+no 3c7927bdb897394a970fc789e687834f024b755e in 60
+no 6782a87d81f01ea2c8314c5dda8941561d404bb6 in 103
+no 64779ff757a22c28944a1b99163f350e4237771c in 100
+no 5efd8b09ff7641e26495149fd294d20c0aa3b969 in 94
+no d477cdb7a423026459eb0a8df2f71cad85d4cbf7 in 84
+no 3b72bd3efc6e910b58b18e30de058f89686dd800 in 59
+no c4989cab0366158e9df4b9036c7871bff854844a in 68
+no 2e3e6c26de18a04150036d4f35fc542083adffd4 in 46
+no 0ef89825ac6414232540d62e140950a9f4aa0fd5 in 14
+no c64f555f8751eb2a743db867fbff10526d990c5a in 70
+no f238e433b3a1199014da00782f11f53e60797a81 in 114
+no 0d6ed8e7dcc709d5911e92442dc98409ffba1345 in 13
+no 670592f6ed694519c90916019400fa375ee393f6 in 103
+no 1e108484fb99ed6907957a5eaf89bec5655d5a50 in 30
+no 10002d20be28ea22f1922c544df316126b7c4884 in 16
+no 76275fa2d465ac6a491d7705f543800af963e0e8 in 118
+no 3499afc91ccbf7e5637eccb730f08025462a2285 in 52
+no ee7ed8bc5102a8f464dab524bab233dda5424788 in 110
+no 0652fc3d1ec1c58a2704b0d8d6913634d6bdefd2 in 6
+no 1cae7faa6707843c7ae13161204fd5cc2a225d4d in 28
+no 857d7de4e5981a07fd4d98542d9a0e4a6dacd4ea in 5
+no f148baa8027d9b9130365eeb2f5841c2163bf998 in 113
+no 77c2d06821035fc8d73af7f62e61cfa9d843e1d9 in 119
+no 849e9c163b91484a7de76715fe38cb03671ead07 in 4
+no 0214f265769942f594eee531211b7f31ba44df74 in 2
+no d706e5ff54690888489b601e63db359cc7e28c0f in 87
+no af473a6f4d768054fc39f37835c2111fa0800ee5 in 47
+no 2abfce68a92babc745a0202650fb53a2e381374c in 42
+no 2732d37699ffb4a08ec9f3383bfcbf35a21e92df in 39
+no 78fecccaf2d27459ee14146a4dfb9332404d6db8 in 120
+no 4f9a40bcfc2f0e66be7d512bf161d58de1ef11bb in 79
+no 7368ad3578ba124b686c8fa2b2f6f84be3db8ea5 in 115
+no b72a58ff72936d773e2c074953d17c8deedd48bb in 55
+no 5983d1120b452e47ca8337b3f8ab3c71467dc31b in 89
+no 26bfc6faf2c7668456035a510288d7a7a302a5ee in 38
+no db1f61654c2cde2b233bd73396704fd088e96459 in 91
+no 66512ec7c1cfe525347f8723d49954964e85b2d9 in 102
+no af28ba6eaaaf7af73bf88a445fc861bf6adc07de in 47
+no 6735a07859778d12540017d6159cd27d69d8adf8 in 103
+no 7b5d82746e0a626743dd0041beb8525272834735 in 123
+no 492316b2e648c0d566fd0ee6c1dbc5ebc67cc5f2 in 73
+no 08b03ae2eb87e793b72bcc3bf30f7b47f1828140 in 8
+no 6dd011dc9519fc17ec714dd67f7e23ffa62addb2 in 109
+no f4f3642e8dadb9b8b5b104b2f5a85433d3b5f335 in 116
+no 897ee04612452b0614c96a75e0410a1a83ebbc84 in 9
+no a88bb729b48ea4aaba66391c82d1678d4685c02e in 40
+no f985348d9266bebe44c3bca6b1adf2fd2033c13c in 121
+no 26226b93b2d675c82cc2dded47d21fefe92cc933 in 38
+no fc34b03a801a86d7a36897b919a35879f0191aa4 in 124
+no 586284fc4fb39261bb88d2f9994f6114ba902bf7 in 88
+no 38a33052b63447fa52920f35bb3984b22748904e in 56
+no a698425fdd41421c9506f0d68dad96c02060f21c in 38
+no f42a7580d0cdc530d928ca7393ed0c90d507fdb3 in 116
+no 18c16c174e018abc066e0d05abc5ab1140fbf247 in 24
+no c0b41103390264547ccc1a222f25e7ea5ce9698d in 64
+no 69cc471f1069dc949faab8f9617373fc0f88c216 in 105
+no b5573cde0fccb2ad43f1321906ed523f2b0af8d8 in 53
+no a21f46fd0c05bd6af93ea9e7b29ff3af4ba34b46 in 34
+no 115420398da3149d62a58bb2c54f2d0f645c63f6 in 17
+no f4fef4cad5941e3ea6063b6eecac967d4bd51246 in 116
+no 60d1b340eca31fb047f14f646b89ec36663b73ae in 96
+no ab44116806af34e2a4f5bf3007a3581810549dc9 in 43
+no 8a7ed95c07cae0a1e7d0c63b2eefb5834d45d1b4 in 10
+no 8971b4ad74cf381ef020573cc8c39de783fec689 in 9
+no f601196351910c7457ab9e7b7d27af6238d5bdd1 in 118
+no 3a0f125ca18fb70abd8d069bcfd627a8c12a89a8 in 58
+no a946d96e35dd15ea69cae0671c0654ce576f87cf in 41
+no 5eb6e2b76900d994fe0926e627f5aa0e78dcb101 in 94
+no c5301b2a6c86d72552390904460968bb712604d1 in 69
+no b9214996979874d5798fb1a1c97ea5e16c755de8 in 57
+no ac5c996cf8be1fcfd5583a178e361dcf556f9b6e in 44
+no 21e294328d0c2fd48e3db9a4cc6104c7f0fd779c in 33
+no 8b492395b40741dfff6a264ed41c21bcd747993e in 11
+no c712aef496d8ed71467ef9e341100ef42ba3d034 in 71
+no a799b2ca7bd52dbdb9577f9f86b259d79b06a1dc in 39
+no acc9c1cd7b44c1fe6de3b787800946a4b12ace74 in 44
+no 82c92cc73279711c9008e4c458baf106aeca1734 in 2
+no 701f4790cfe218001470b363a5239009f9cd3d55 in 112
+no 00d862f00a418394d15de5ed243ed97fa0c56a7b in 0
+no f1186203afea368a915e4269ced44591f8ca0e45 in 113
+no 163d1bf38e980f45cc110a1b06f76a0cee72a8ce in 22
+no 9b469dc24cbc07ec8c16c226c9b6e94c5cc88b83 in 27
+no cc257b799dc0838125a659c56440a97b95599f8b in 76
+no 4ac8aeb077e3e6fe50de20d6992d5f07f08118c1 in 74
+no 64ff88ef81b441ddadefcc2868d505860a4dbd1c in 100
+no 9001dcc77b3f053db8856c8f8a41a7b3bce96de2 in 16
+no 94f833ee1af0d8a706ee0c79a59b9b87b19ef8f0 in 20
+no 77f87946fefaf0bbae786285f07ffaa9227f8bd9 in 119
+no 53e699ca1168ebc79ede8dd538b56a83fcfedbcb in 83
+no 7382a24e196d86998ee95e3ca06acac319e86756 in 115
+no 94503c480eb69e638249600ead655600040051b8 in 20
+no f4b06cfff6c956e725d87f36606518c49024aa6b in 116
+no f64d6986810b46cd31ab9bc538c8bc6bcfef6ef6 in 118
+no 312bedec774b97cf90eb065a4462a7f390d0a9cb in 49
+no 4c10e4967976da379c686d78f102d0a6fbad49fc in 76
+no 8f0462958bd79f06690c5643af079053c9554c8a in 15
+no 62003a76ecfa0e9d0d7f4449254d930fb2f8b05f in 98
+no 2fbffbabdf04ed862b2f64db6af68d3bad609a3b in 47
+no 4a7da4d17c30d2120c66f7d70a296af52c4ff890 in 74
+no cb8b1de8180cd2144d6908b5ab9baeddcbe1c8c0 in 75
+no a69989c8439975229a9ca0ba9203bef90e6ff4e5 in 38
+no 694d4fc8d3c4e7efab18d3b5fa826a71e01c3682 in 105
+no 6810126aaa108ad8c70bb2dbac7a2d574bd90f5b in 104
+no 963dfef19a128091f4490a8e1023c0cc42dce0b9 in 22
+no 2d221c06b5b9c35e7778f2b2909fdda2bbec895d in 45
+no b2cec30724c36d7004b52c990bec6e48540aaa5b in 50
+no 4dd19db4979bb50ccff1b0e1351218d873cb1936 in 77
+no 2da276357ddfe6fba3640b04b05113bd3e66156b in 45
+filtering 1211 parent commits for file package.json
+0 out3/out16/CVE-2021-28832/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28832 1617606900)
+Original Project = VSCodeVim_Vim
+Success (go2)
+Stage 3 (./go3 CVE-2021-28832: VSCodeVim_Vim, package.json out3/out16/CVE-2021-28832/results.fixed.csv)
+out3/out16/CVE-2021-28832/results.fixed.csv
+out3/out16/CVE-2021-28832/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28848 (7 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28848, mintty_mintty, termout.c
+Calling ./rgl2 to get all commits
+filtering 37 child commits for file src/termout.c
+no 11950953122acb95697be1d571c127094c0a57df in 17
+no eac7c0bfa7f4a116221564306d747f09c5656750 in 106
+no 533052330886f33769b4050aac57ed9ed012e97a in 83
+no b7e16d2d551cebff34a6a4a372d81ae20878cd81 in 55
+no 5177e5edc459c8156d57898b55fe9d1663c1fd7a in 81
+no 2cec60f780d40e3a23f90d21efbd21f8eeacea29 in 44
+no d835532517c5516da7c414dcc31e9b7656f1ae7f in 88
+no 35bb630bb3fe43e0082fbf996b80ed545f696350 in 53
+no ecc822e756ba9c00fa8b9c75eec61b7c866d8dbd in 108
+no 50db7ea421e003b88b52f45398cd9d0b5681ab89 in 80
+no 42887c097a3dfe6ab27baf0463b1b5c5c529e86e in 66
+no 61b3ca0104e1c11f88d1ec8b472789b05a61f7ce in 97
+no 716b882ab7b5415bbb4f739454703cc468adfa42 in 113
+no 84d6661c34b1129a742bf861cfc3b979da4d248e in 4
+no 3d03b15616b9dcee27aaa27c428332ea75fbf178 in 61
+no dd01fa8605cfa68696f54a15729066590520615e in 93
+no fe6a565de299322fbd51580af1c3fbefea23c8e0 in 126
+no 5ae8e60ae695a4a1dc6d7b23e147e8ed0b0042e4 in 90
+no 7ecea6cbfef1475c015120838a2a4e5691400e0d in 126
+no 7b7757886c0ae91ce4e124c23a548e1ad5b99735 in 123
+no 57a4cf650fd85b4474991aee168b7fab93198150 in 87
+filtering 296 parent commits for file src/termout.c
+0 out3/out16/CVE-2021-28848/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28848 1622722500)
+Original Project = mintty_mintty
+Success (go2)
+Stage 3 (./go3 CVE-2021-28848: mintty_mintty, src/termout.c out3/out16/CVE-2021-28848/results.fixed.csv)
+out3/out16/CVE-2021-28848/results.fixed.csv
+out3/out16/CVE-2021-28848/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28855 (8 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28855, jsummers_deark, pict.c
+Calling ./rgl2 to get all commits
+filtering 3 child commits for file modules/pict.c
+no 22239d3b990df4d65448476342e66a6d6706faf1 in 34
+filtering 72 parent commits for file modules/pict.c
+0 out3/out16/CVE-2021-28855/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28855 1618420500)
+Original Project = jsummers_deark
+Success (go2)
+Stage 3 (./go3 CVE-2021-28855: jsummers_deark, modules/pict.c out3/out16/CVE-2021-28855/results.fixed.csv)
+out3/out16/CVE-2021-28855/results.fixed.csv
+out3/out16/CVE-2021-28855/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28856 (9 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28856, jsummers_deark, fmtutil.c
+Calling ./rgl2 to get all commits
+filtering 37 child commits for file src/fmtutil.c
+no aaeb5f150c34e10c4bbe1e0fbe45d96039e6977a in 42
+no 6ee20e8974dd8ba8b1b358207c22de81320796f9 in 110
+no 3f8a4e42ca8d4e7dcc02422cf345ecc690c85b69 in 63
+no d88af4c3bb4083cfd3860c105c3567c7973c03f1 in 88
+no 94b1928ec448421843b44e80d398d7a1a57c2268 in 20
+no 603139d56c2ddc48c5a675265c833b6e7327bbe9 in 96
+no f782398cf970d762d371f6d97b3cf6e01073ecf0 in 119
+no 05eb84b637b60edebdae45b2e81430cfd43f4ff6 in 5
+no 59763cae546ce62cfb2455e8fbf9284b18d45c06 in 89
+no 4745fa6909d3a1bb3a9d6490e29387ac46b41dbf in 71
+no 4492437f288855c7284e87f61f4ac83c5f1eda4b in 68
+no d2a93cced3964a5d4c09f602e3579d1a4860c40c in 82
+no 977cbcf2e1fa3cb07e96e48fe5b70f384afae6b8 in 23
+no a9f4b76181dd77770d6b4d295363589e6a58f9ac in 41
+no 5b0749517497033abe19f6aeda89f14d6548e81e in 91
+no 095fdcb9d31165395c720793ec361c68648471d1 in 9
+no 2caa46346c399a1ede75326203169703561e8e9f in 44
+no bff6392a2430afc453560165f93f676794bef434 in 63
+no e82917575110a7712a54f8f53c4267c4cdde1793 in 104
+no 7c7111ad434ea9d06f7abba3b8593546226cfa75 in 124
+no f02455f590e11968cd092bc6e7b512df024fee1a in 112
+filtering 21 parent commits for file src/fmtutil.c
+1 out3/out16/CVE-2021-28856/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28856 1618420500)
+Original Project = jsummers_deark
+Success (go2)
+Stage 3 (./go3 CVE-2021-28856: jsummers_deark, src/fmtutil.c out3/out16/CVE-2021-28856/results.fixed.csv)
+out3/out16/CVE-2021-28856/results.fixed.csv
+out3/out16/CVE-2021-28856/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28874 (10 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28874, SerenityOS_serenity, Decoder.cpp
+Calling ./rgl2 to get all commits
+filtering 21 child commits for file Userland/Libraries/LibTextCodec/Decoder.cpp
+no 3f3f45580ab7266258e97cb3cecf1e24716d61c5 in 63
+no 086969277e74d8ba065bf8145d3aeb0dec0bfee5 in 8
+no b006a60366c513528d0f7fe818be2558150e9b11 in 48
+no 6a95df25264b4f5e616608dd02826b61e25e1112 in 106
+no 9c2a7c0e03fcfcf32c89b7e51f921c88afbe41cf in 28
+no 0e0f98a45e32f39d7f703269a8cabff1010843ca in 14
+no 835a344337ae8de897e6c4be9e82b834b340060b in 3
+no 94965ba28d9592d7c68f6e438bbc1e244533fc3c in 20
+no 6003b6f4d3f7c7d88202ee28a474e5f953d6b0c6 in 96
+no 6f5102f435b151d9e58eaccf7b9047a329207a9a in 111
+no 8b1108e4858f797c9216dc8ae4a3918ad50c73b4 in 11
+no d7ffa5142498095644055f11aba99bad351221d5 in 87
+filtering 5 parent commits for file Userland/Libraries/LibTextCodec/Decoder.cpp
+0 out3/out16/CVE-2021-28874/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28874 1617714900)
+Original Project = SerenityOS_serenity
+Success (go2)
+Stage 3 (./go3 CVE-2021-28874: SerenityOS_serenity, Userland/Libraries/LibTextCodec/Decoder.cpp out3/out16/CVE-2021-28874/results.fixed.csv)
+out3/out16/CVE-2021-28874/results.fixed.csv
+out3/out16/CVE-2021-28874/results.fixed.html
+Success (go3)
+
+
+------------ CVE-2021-28957 (11 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28957, lxml_lxml, __init__.py
+Calling ./rgl2 to get all commits
+filtering 8 child commits for file src/lxml/__init__.py
+no d65e63229e8958bc08344a85cd3f09ceeef933c3 in 86
+no 853c9e9cbf1c82d1ad3c096362372a048108905e in 5
+no e82c9153c4a7d505480b94c60b9a84d79d948efb in 104
+no 393443595416bafc14e345331969274e85726e7a in 57
+no 5c4f6a23d5758ec66cfe22b082a40c2e08df4658 in 92
+filtering 14 parent commits for file src/lxml/__init__.py
+0 out3/out16/CVE-2021-28957/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out3/out16/CVE-2021-28957 1616303700)
+Original Project = lxml_lxml
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/1436348913/Python-/contents/python大作业/venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "1436348913/Python-" "python大作业/venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "A9dr8weed/Page-Parser" "Page Parser/env/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "aaronbsavage94/Python-Data-Projects" "Predictions/VA Median House Price/env/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "abmfahimshahriar/News-Scraper-using-scrapy" "News Scraper/venv/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/acldm/backup_code/contents/workspace/python/时光网爬虫/venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "acldm/backup_code" "workspace/python/时光网爬虫/venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/ad1095445/flask_demo/contents/TestLou1的副本/FlaskEnv/lib/python3.6/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ad1095445/flask_demo" "TestLou1的副本/FlaskEnv/lib/python3.6/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ade5t/stylistic_analysis_of_text" "plugins/Созвучность слов/lib/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "adi2624/DigitalWellBeing" "My First Project/adi2624-fakenews-d3d60fedb0be/flask/venv/lib/python3.7/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "AgusQuintanar/TEC" "FIRST SEMESTER/PROGRAMMING FUNDAMENTS/PYTHON/TAREAS/Funciones/venv/lib/python3.6/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "aidantlynch00/rit-cs" "Personal/Amazon Price Tracker/venv/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "AimersUom/TrendAnalysis" "KeywordExtraction_ImpactPrediction/KeywordExtraction_ImpactPrediction/Extract tweets/venv/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ajmal017/cmf-investment-info-acquisition-service" "ETF Info Acquisition/venv/lib/python3.6/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Aleksei741/Python_Lesson" "Методы сбора и обработки данных из сети Интернет/Lesson_5/scrapy_280/venv/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/Alice-py/Interesting-Projects/contents/美桌爬虫+展示网页/scrapy_venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Alice-py/Interesting-Projects" "美桌爬虫+展示网页/scrapy_venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "alirezaryahi/Weather-app-with-Django" "Django weather app/venv/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Amitj96/Optimizing-Airline-Ticket-Purchase-Timing" "Airline Prediction/src/codes/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Andreasmitha2/Python" "AppData/Local/Plex Media Server/Plug-ins/Framework.bundle/Contents/Resources/Platforms/Windows/i386/Libraries/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "animan01/computer-science-lab" "V (1 part)/Web-mining/Lab/Python/venv/lib/python3.4/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/AniongOC/Python/contents/scrapyzés/venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "AniongOC/Python" "scrapyzés/venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "anjali1361/Hackathon_App" "telegrambot backend/virtual-env_files/lib/python3.8/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "AnkitM18-tech/Web_Scraping" "Web Scraping/env/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/anthrax3/CodeRecord/contents/22开源项目修改/windows日志平台/venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "anthrax3/CodeRecord" "22开源项目修改/windows日志平台/venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "arunabhthakur94/codesnippets" "Scrapy Angellist/venv/lib/python3.7/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ashleyyma6/School-Python-Projects" "theChatRoom client side/venv/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "asuarezf/OdooServer12" "Odoo 12.0/python/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "audi-faruoq/youtube" "Python Tutorial Web Scraping With Selenium and BeautifulSoup | Python One Day Builds - Project 1/env/lib/python3.8/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "Austin-Kho/PythonEx" "개발자를 위한 파이썬/09-crolling_venv/lib/python3.6/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "avalok11/Geekbrains" "Geek University Big Data/3_parsing_data/Lesson6/scrapy_files/venv/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Error: get_latest_rev failed:
+./get_latest_rev "github" "ayoubridouani/scrapping_websites_and_data_preprocessing" "Scrapy Hespress/venv/lib/python3.7/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/baixue1/dasanxia/contents/爬取豆瓣音乐作品及其相关链接/venv/lib/python3.7/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+./get_latest_rev "github" "baixue1/dasanxia" "爬取豆瓣音乐作品及其相关链接/venv/lib/python3.7/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+./get_latest_rev "github" "baothien9214/odoo12_Test" "Odoo 12.0/python/Lib/site-packages/lxml/__init__.py"
+   usage: get_latest_rev <host> <project> <file path>
+       supported hosts: github, gitlab, bitbucket
+           shortcuts: gh, gl, bb
+       example: get_latest_rev github openssl/openssl apps/info.c
+       example: get_latest_rev github openssl/openssl ssl/statem/extensions.c
+       example: get_latest_rev gitlab tortoisegit/tortoisegit LICENSE
+       example: get_latest_rev bitbucket swsc/lookup showCnt
+Rate limit exceeded, sleeping 2039 seconds (from 23:13:16)
