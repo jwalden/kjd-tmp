@@ -1,0 +1,38 @@
+
+------------ CVE-2012-6544 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2012-6544, torvalds_linux, hci_sock.c
+Calling ./rgl2 to get all commits
+filtering 140 child commits for file net/bluetooth/hci_sock.c
+filtering 77 parent commits for file net/bluetooth/hci_sock.c
+0 out5/out2/CVE-2012-6544/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out2/CVE-2012-6544 1363380900)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 1025 seconds (from 16:50:46)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 11 seconds (from 17:08:08)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 55 seconds (from 17:08:53)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 2079 seconds (from 17:33:14)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 46 seconds (from 18:09:03)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.kernel" "git.kernel.org/pub_scm_linux_kernel_git_eyryu_ap_samsung-ap-2.6.24" "net/bluetooth/hci_sock.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.kernel" "git.kernel.org/pub_scm_linux_kernel_git_ralf_linux-m68k" "net/bluetooth/hci_sock.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+./go2: line 102: out5/out2/CVE-2012-6544/stage2/gitlab.com_albis-linux_stb-8xxx/linux_bad.txt: No such file or directory
+./go2: line 104: out5/out2/CVE-2012-6544/stage2/gitlab.com_albis-linux_stb-8xxx/linux_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out2/CVE-2012-6544/stage2/gitlab.com_albis-linux_stb-8xxx/linux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out2/CVE-2012-6544/stage2/gitlab.com_albis-linux_stb-8xxx/linux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out2/CVE-2012-6544/stage2/gitlab.com_albis-linux_stb-8xxx/linux_bad_sorted.txt’ for reading: No such file or directory
+./go2: line 102: out5/out2/CVE-2012-6544/stage2/gitlab.com_SecoSource_iMX6_BSP4/linux-3-0-35-secoboards-imx6_bad.txt: No such file or directory
+./go2: line 104: out5/out2/CVE-2012-6544/stage2/gitlab.com_SecoSource_iMX6_BSP4/linux-3-0-35-secoboards-imx6_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out2/CVE-2012-6544/stage2/gitlab.com_SecoSource_iMX6_BSP4/linux-3-0-35-secoboards-imx6_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out2/CVE-2012-6544/stage2/gitlab.com_SecoSource_iMX6_BSP4/linux-3-0-35-secoboards-imx6_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out2/CVE-2012-6544/stage2/gitlab.com_SecoSource_iMX6_BSP4/linux-3-0-35-secoboards-imx6_bad_sorted.txt’ for reading: No such file or directory
+Rate limit exceeded, sleeping 2267 seconds (from 18:30:07)

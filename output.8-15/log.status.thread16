@@ -1,0 +1,800 @@
+
+------------ CVE-2021-27886 (1 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-27886, rakibtg_docker-web-gui, terminal.js
+Calling ./rgl2 to get all commits
+filtering 1 child commits for file backend/utilities/terminal.js
+filtering 1 parent commits for file backend/utilities/terminal.js
+0 out5/out16/CVE-2021-27886/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-27886 1614644100)
+Original Project = rakibtg_docker-web-gui
+Success (go2)
+Stage 3 (./go3 CVE-2021-27886: rakibtg_docker-web-gui, backend/utilities/terminal.js out5/out16/CVE-2021-27886/results.fixed.csv)
+out5/out16/CVE-2021-27886/results.fixed.csv
+out5/out16/CVE-2021-27886/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-27886/results.notfixed.csv
+out5/out16/CVE-2021-27886/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-27886/results.unknown.csv
+out5/out16/CVE-2021-27886/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-27904 (2 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-27904, MISP_MISP, SharingGroupServer.php
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file app/Model/SharingGroupServer.php
+filtering 13 parent commits for file app/Model/SharingGroupServer.php
+0 out5/out16/CVE-2021-27904/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-27904 1614669300)
+Original Project = MISP_MISP
+Success (go2)
+Stage 3 (./go3 CVE-2021-27904: MISP_MISP, app/Model/SharingGroupServer.php out5/out16/CVE-2021-27904/results.fixed.csv)
+out5/out16/CVE-2021-27904/results.fixed.csv
+out5/out16/CVE-2021-27904/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-27904/results.notfixed.csv
+out5/out16/CVE-2021-27904/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-27904/results.unknown.csv
+out5/out16/CVE-2021-27904/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28041 (3 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28041, openssh_openssh-portable, ssh-agent.c
+Calling ./rgl2 to get all commits
+filtering 13 child commits for file ssh-agent.c
+no 247082b5013f0d4fcae8f97453f2a2f01bcda811 in 36
+filtering 305 parent commits for file ssh-agent.c
+0 out5/out16/CVE-2021-28041/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28041 1614978900)
+Original Project = openssh_openssh-portable
+Rate limit exceeded, sleeping 1029 seconds (from 16:50:42)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 1 seconds (from 17:08:18)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 62 seconds (from 17:08:46)
+Rate limit reset, continuing
+./go2: line 102: out5/out16/CVE-2021-28041/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad.txt: No such file or directory
+./go2: line 104: out5/out16/CVE-2021-28041/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out16/CVE-2021-28041/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out16/CVE-2021-28041/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out16/CVE-2021-28041/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/ls-2018/py/contents/运维自动化/CrazyEye/src/openssh-7.3p1/ssh-agent.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ls-2018/py" "运维自动化/CrazyEye/src/openssh-7.3p1/ssh-agent.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/a20sdk" "sourceforge.net/a20sdk" "android/external/openssh/ssh-agent.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/me722-cm" "sourceforge.net/me722-cm" "external/openssh/ssh-agent.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/syarale/read_sftp_code/contents/openssh-源码阅读笔记/ssh-agent.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "syarale/read_sftp_code" "openssh-源码阅读笔记/ssh-agent.c"
+   Error: jq reports invalid json in response;;
+NUMMMMMM: num_commits=./get_num_commits github bitbucket.org/dilos_openssh-portable
+    
+Success (go2)
+Stage 3 (./go3 CVE-2021-28041: openssh_openssh-portable, ssh-agent.c out5/out16/CVE-2021-28041/results.fixed.csv)
+out5/out16/CVE-2021-28041/results.fixed.csv
+out5/out16/CVE-2021-28041/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28041/results.notfixed.csv
+out5/out16/CVE-2021-28041/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28041/results.unknown.csv
+out5/out16/CVE-2021-28041/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28379 (4 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28379, myvesta_vesta, UploadHandler.php
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file web/upload/UploadHandler.php
+filtering 14 parent commits for file web/upload/UploadHandler.php
+0 out5/out16/CVE-2021-28379/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28379 1615788900)
+Original Project = myvesta_vesta
+Success (go2)
+Stage 3 (./go3 CVE-2021-28379: myvesta_vesta, web/upload/UploadHandler.php out5/out16/CVE-2021-28379/results.fixed.csv)
+out5/out16/CVE-2021-28379/results.fixed.csv
+out5/out16/CVE-2021-28379/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28379/results.notfixed.csv
+out5/out16/CVE-2021-28379/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28379/results.unknown.csv
+out5/out16/CVE-2021-28379/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28662 (5 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28662, squid-cache_squid, RegisteredHeaders.cc
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file src/http/RegisteredHeaders.cc
+filtering 19 parent commits for file src/http/RegisteredHeaders.cc
+0 out5/out16/CVE-2021-28662/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28662 1622117700)
+Original Project = squid-cache_squid
+Error: get_latest_rev failed:
+   ./get_latest_rev "salsa.debian" "salsa.debian.org/squid-team_squid" "src/http/RegisteredHeaders.cc"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2021-28662: squid-cache_squid, src/http/RegisteredHeaders.cc out5/out16/CVE-2021-28662/results.fixed.csv)
+out5/out16/CVE-2021-28662/results.fixed.csv
+out5/out16/CVE-2021-28662/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28662/results.notfixed.csv
+out5/out16/CVE-2021-28662/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28662/results.unknown.csv
+out5/out16/CVE-2021-28662/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28832 (6 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28832, VSCodeVim_Vim, package.json
+Calling ./rgl2 to get all commits
+filtering 418 child commits for file package.json
+no 1aa948e5b295357f51ee0584a9dd2ff0d25f2a7d in 26
+no 418dae14de6aec2835caf5200be6c48ba802275f in 65
+no 4a9d36e5f75a60db4b548b13bc2fb5ee3d031e27 in 74
+no 4edfade4f4e9b6d179e696b9723a9caa8ef1a5b0 in 78
+no cfab9ae68585e803298bc93bddf3e3ac652609af in 79
+no aedbe0444a8d05bb2706ab644472d7b66a974f97 in 46
+no 8656f51c35fcbf672998158638ac4276fa08befc in 6
+no c5a18267cef30ff6ea99b2822fd136d5f6de8ba6 in 69
+no e8e619d1cf76021e62da7622b8132060d82b814c in 104
+no 6cf6a153a1d9dc687d6ddc7438ada275f67f430c in 108
+no 8880fd0b2953ac66014aba72150878bc3314f7fe in 8
+no fe9b77de6de3ab73ff2f9a1eeee7c94ea159a771 in 126
+no 880f5023d5e32663ef02bb5b2f04fc25576060dc in 8
+no 1c208ee8f4b80925a25f6873d9d825af195f5f11 in 28
+no f0346009134b296a6c89af1d73e7af1db5d0dfb6 in 112
+no 7b078562282189ece2b2c2b67c2a598fead25f59 in 123
+no 29122ba57d95c54aacd78edc85133c4b6f282bc3 in 41
+no e86e7400fdc1026017e927209ecb0b2a4b88865e in 104
+no bd9ee5d2700a66bdc02b24ce23f60d6bc4ce2f23 in 61
+no e291e0b40b276f67b64fc3ee817e463be5dff6e0 in 98
+no a01daae9f0f531e35bda849e21c2a34e00958d84 in 32
+no 172a0341f773a45b228c4db4aeb15089c4854dbf in 23
+no ca5fcf84492cdd5458e3cde8dc60c1328b4c4ce8 in 74
+no 772bdbed61672ac101aa413e8b10fe2092f50b1c in 119
+no 5c8a2d971e69afc3fdec4213b62f019d02089c90 in 92
+no 2eb752dd7f57274f9a4b752f3aea0d9864807f81 in 46
+no 5270b5d8ad07b52e8b4c33a104a369b150fe663e in 82
+no 2a8fae0593c378fbc1dbca7926e89c5c1f3d1a2b in 42
+no fbf7e85673e24e5b8eccfb73d38e13029d38c045 in 123
+no 9cb97752d3a404341fe1722a61ac6de23870519a in 28
+no 6159073a11f7877079b077fb999db42344b9b7af in 97
+no a8b72eddbc5ffc222d4472a04fabdf44cb75ecbb in 40
+no 59481327cf8eddf2770cf40630aa0db8068a5729 in 89
+no 762bfe2c30297113e1b6da3dfb1e04d11b37312a in 118
+no 68c0796bd619d2318c2877650733cff9adef8493 in 104
+no 17547f5f8e305cc4c462bae6b5bf0a61142a71eb in 23
+no df206e7f160f4a8ac747b05e721492cae594ff9f in 95
+no fec71b6f4a9b85e2d92cb47a31bd6b089aa05c6a in 126
+no 8fa69566737edbe10b84fab00b20a9124778e7e0 in 15
+no 24f73fe4176f2358a0fb18f8aec8f1f1f5af9907 in 36
+no 9446b4a332fc7633df990f6973306a87de9f4942 in 20
+no c7f35e49f69e38ce660945966970d4c8defc3333 in 71
+no 8b82e683eaa9b8b459b9a2fa4a4f4a86c5749503 in 11
+no 8285b6e3db864b752a32c75a76da0e896f2fd387 in 2
+no 1ca293869e57fdb13c8bea652c708e0279f4bbbd in 28
+no fc09d8ff73ce9757214ee6495e1702445542c947 in 124
+no 6c76f33e6dc039e99bdaa1cd63b5bba2e9f3e454 in 108
+no 4edbfda8387af04286de9abec42dba6a9dd3ed8f in 78
+no abe750044d54e96aa90bf9a6c23fe6f6bbe704e6 in 43
+no fb36f30669048507f956817cd7a29ea612b6f726 in 123
+no 75453f88dbc8135cc876bc2cb144142dc8da8a9f in 117
+no 6c39de08bf130ba0740cb7c0bd63bcb02ca8d945 in 108
+no eca6e44b8892948b59065b5685ea40ea1e2f489c in 108
+no 4923d7cd80c5894131b361f6b938c658c925bd25 in 73
+no 2628f88d6d8cac38765be1148590cfeeeb5e24c8 in 38
+no a9e5e4f6a48ba1693a72b69a6102f11c88f07ef3 in 41
+no b8d86076af176a10be62da32203b9588678228c4 in 56
+no a83794974c382cba8d2443b2bf7a946a94935c4e in 40
+no 6e1bb072164915dfa58328f7fb20e4f5d8bf6535 in 110
+no f06d97a514205893dbd03a43b5e99011beac8735 in 112
+no 29871f6b863293590672774329408c5a7b118138 in 41
+no a567ecd27e42ac3d22649c1396b60414a6c4473f in 37
+no 7cb1c81a45e8080476e474979d2a2a80b74865bc in 124
+no e140f0db930bf141d6b36c5f5afae13b50ebbd14 in 97
+no 4695c91e3bc03ea4c63617a29b9c24f0615b1d90 in 70
+no 644622256de0b81a0d8c749470cf821dd42b52ab in 100
+no 3746f0c0393dfbf476500725b82d22f9c41e6bfd in 55
+no 3210e8f08f8c61dc58f4c5e14ca2daac00e80523 in 50
+no c89e8e1aa19ddd2419dff58e3e7769639f0cb19e in 72
+no 7cc09289f3e22a3bd0a4008eacd69bd259eada19 in 124
+no c842439c5d00e8bf2a9bf6d32b3522d7e2eceffc in 72
+no c692ee8131d448dce61740deba6c5a4de2ccde97 in 70
+no 7ed7c00fac2bc0939e9992bf766d28a9a7bfb80a in 126
+no 15585b6477c86ce87200ce3f0fbff609c1da9b4a in 21
+no b74305e170a59bc8c35faf3788db23336ebc6489 in 55
+no fa5490a97ef6b3f7dec0af01c62a1d74a23aad0d in 122
+no 8a9c52e248ba7719429fedd8864c9cecd8a5ce27 in 10
+no 443c9261680d5438c165da536b890d02f6d3022e in 68
+no 2637cc79550cf817a3a39e07551277c94058f213 in 38
+no f51da481dd1d4c2d3c5d0d9bf8fc19626ab35ddd in 117
+no 11537a9ac14d4ac79ac2c8b068f2d909456b4410 in 17
+no ea05931a0cc58dc7b2244ff51680054c8ade3584 in 106
+no 349ce010e19f3d3276cf05ca0cf36a02264dd29e in 52
+no ec6e7c839dc587ed757709b70455d1187ca65eea in 108
+no f3a9f6a31742bbde8b507515f097397f9fcda077 in 115
+no 50ce05a8df8c9ac085e347e9bf171c2b15fbf789 in 80
+no 4ae296739c50486fa859a076eb6c45d755b1de73 in 74
+no 357c6a7a68a9da2c4d693b60a0b270c08e349f07 in 53
+no aea84e1df3900968bfc16303a0daf0b262f1b633 in 46
+no 31a0f91e7223de31bd9c4a1a09fc3a60d174b70b in 49
+no 6a9a04205517ac56a0befd40c20d8f9cf4cb6aa9 in 106
+no cdae68f65ad6fb71157783bb24877f6c254c892d in 77
+no 1aa6e3f260f16f55bccd7ef7967d15836019dfcb in 26
+no 173d401f8738ca520622a76f80d650e9373cd569 in 23
+no 2041ed2fc645db90ace414561c6842dc91a9bc32 in 32
+no 5985f1416f706e4fc52e74420651b8fa9205a9d6 in 89
+no 12fb8e5b3eae85254861662362ba8723093f751c in 18
+no 201946661900bff70f1e23062cf028d04a0af7eb in 32
+no f992c93625dd6678db303c4f50a3f66d6c65bfd4 in 121
+no 9369b24953737cb5b23b017a09dd596f57d75124 in 19
+no 380d7bc046208a999b2f96f83edffa17848d10fc in 56
+no 81b21fcfb92ff12e779ecfae511b3461106816ce in 1
+no 5225816e26a3d2cc4c4db4dde60a5f7e3b4340be in 82
+no c58cc75f9751d636b9675ce33c570d7fa1505a19 in 69
+no a8728855b0f394c33c4e7b002ae765301d57ea2d in 40
+no 4dd5bf92854eec012dcea0d4f671184ab1034141 in 77
+no cb3c27347a033db2d1da73a72daf7d4e539fe48c in 75
+no f242eb533749d18c1784dc606beb8cf7616662ee in 114
+no bc2fb3a25c18e3ffe5b4f144d8e4a659b840fc0f in 60
+no 7374b01d53f0f78ea8b1178770b2997055e316f7 in 115
+no 2c63b1f2374072248bf658ed59607dd28683e951 in 44
+no 1bd9a533c333250bee528e304431ad28bac6ef76 in 27
+no f7665a33a45b7e423c53583dc40642d729bdf838 in 119
+no 6865b4d2ed19714a861b22f4163e40ce2bb9dcc5 in 104
+no 3691072e7a0396842e85bc9190d664388f0b2139 in 54
+no 450a5fe2da4fb83e5da430307431a19c84bca577 in 69
+no a195076ff42b15b5b3e1daae035d66bb52f92c8a in 33
+no 0c517f60b5764112f53ece44212f7e9c45e3fb5c in 12
+no 221a08f563432796661dc11c761b8bfbb0b4a5dc in 34
+no e47c5305615d618256909bd9558d91c20f40c465 in 100
+no 5bdc7a2675c3563277d933c7e084e5f0666ddd82 in 91
+no dd57d475bac21a85009ed10f1b6553ed562adfc4 in 93
+no 781bb8f5fd1bb252b5875104127f2023abc1aa74 in 120
+filtering 1211 parent commits for file package.json
+0 out5/out16/CVE-2021-28832/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28832 1617606900)
+Original Project = VSCodeVim_Vim
+Rate limit exceeded, sleeping 1984 seconds (from 17:34:49)
+Rate limit reset, continuing
+Success (go2)
+Stage 3 (./go3 CVE-2021-28832: VSCodeVim_Vim, package.json out5/out16/CVE-2021-28832/results.fixed.csv)
+out5/out16/CVE-2021-28832/results.fixed.csv
+out5/out16/CVE-2021-28832/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28832/results.notfixed.csv
+out5/out16/CVE-2021-28832/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28832/results.unknown.csv
+out5/out16/CVE-2021-28832/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28848 (7 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28848, mintty_mintty, termout.c
+Calling ./rgl2 to get all commits
+filtering 37 child commits for file src/termout.c
+no 11950953122acb95697be1d571c127094c0a57df in 17
+filtering 296 parent commits for file src/termout.c
+0 out5/out16/CVE-2021-28848/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28848 1622722500)
+Original Project = mintty_mintty
+Success (go2)
+Stage 3 (./go3 CVE-2021-28848: mintty_mintty, src/termout.c out5/out16/CVE-2021-28848/results.fixed.csv)
+out5/out16/CVE-2021-28848/results.fixed.csv
+out5/out16/CVE-2021-28848/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28848/results.notfixed.csv
+out5/out16/CVE-2021-28848/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28848/results.unknown.csv
+out5/out16/CVE-2021-28848/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28855 (8 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28855, jsummers_deark, pict.c
+Calling ./rgl2 to get all commits
+filtering 3 child commits for file modules/pict.c
+no 22239d3b990df4d65448476342e66a6d6706faf1 in 34
+filtering 72 parent commits for file modules/pict.c
+0 out5/out16/CVE-2021-28855/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28855 1618420500)
+Original Project = jsummers_deark
+Success (go2)
+Stage 3 (./go3 CVE-2021-28855: jsummers_deark, modules/pict.c out5/out16/CVE-2021-28855/results.fixed.csv)
+out5/out16/CVE-2021-28855/results.fixed.csv
+out5/out16/CVE-2021-28855/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28855/results.notfixed.csv
+out5/out16/CVE-2021-28855/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28855/results.unknown.csv
+out5/out16/CVE-2021-28855/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28856 (9 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28856, jsummers_deark, fmtutil.c
+Calling ./rgl2 to get all commits
+filtering 37 child commits for file src/fmtutil.c
+no aaeb5f150c34e10c4bbe1e0fbe45d96039e6977a in 42
+no 6ee20e8974dd8ba8b1b358207c22de81320796f9 in 110
+no 3f8a4e42ca8d4e7dcc02422cf345ecc690c85b69 in 63
+no d88af4c3bb4083cfd3860c105c3567c7973c03f1 in 88
+no 94b1928ec448421843b44e80d398d7a1a57c2268 in 20
+no 603139d56c2ddc48c5a675265c833b6e7327bbe9 in 96
+no f782398cf970d762d371f6d97b3cf6e01073ecf0 in 119
+no 05eb84b637b60edebdae45b2e81430cfd43f4ff6 in 5
+no 59763cae546ce62cfb2455e8fbf9284b18d45c06 in 89
+no 4745fa6909d3a1bb3a9d6490e29387ac46b41dbf in 71
+no 4492437f288855c7284e87f61f4ac83c5f1eda4b in 68
+no d2a93cced3964a5d4c09f602e3579d1a4860c40c in 82
+no 977cbcf2e1fa3cb07e96e48fe5b70f384afae6b8 in 23
+no a9f4b76181dd77770d6b4d295363589e6a58f9ac in 41
+no 5b0749517497033abe19f6aeda89f14d6548e81e in 91
+no 095fdcb9d31165395c720793ec361c68648471d1 in 9
+no 2caa46346c399a1ede75326203169703561e8e9f in 44
+no bff6392a2430afc453560165f93f676794bef434 in 63
+no e82917575110a7712a54f8f53c4267c4cdde1793 in 104
+no 7c7111ad434ea9d06f7abba3b8593546226cfa75 in 124
+no f02455f590e11968cd092bc6e7b512df024fee1a in 112
+filtering 21 parent commits for file src/fmtutil.c
+1 out5/out16/CVE-2021-28856/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28856 1618420500)
+Original Project = jsummers_deark
+Success (go2)
+Stage 3 (./go3 CVE-2021-28856: jsummers_deark, src/fmtutil.c out5/out16/CVE-2021-28856/results.fixed.csv)
+out5/out16/CVE-2021-28856/results.fixed.csv
+out5/out16/CVE-2021-28856/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28856/results.notfixed.csv
+out5/out16/CVE-2021-28856/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28856/results.unknown.csv
+out5/out16/CVE-2021-28856/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28874 (10 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28874, SerenityOS_serenity, Decoder.cpp
+Calling ./rgl2 to get all commits
+filtering 21 child commits for file Userland/Libraries/LibTextCodec/Decoder.cpp
+no 3f3f45580ab7266258e97cb3cecf1e24716d61c5 in 63
+filtering 5 parent commits for file Userland/Libraries/LibTextCodec/Decoder.cpp
+0 out5/out16/CVE-2021-28874/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28874 1617714900)
+Original Project = SerenityOS_serenity
+Success (go2)
+Stage 3 (./go3 CVE-2021-28874: SerenityOS_serenity, Userland/Libraries/LibTextCodec/Decoder.cpp out5/out16/CVE-2021-28874/results.fixed.csv)
+out5/out16/CVE-2021-28874/results.fixed.csv
+out5/out16/CVE-2021-28874/results.fixed.html
+Success (go3)
+out5/out16/CVE-2021-28874/results.notfixed.csv
+out5/out16/CVE-2021-28874/results.notfixed.html
+Success (go3)
+out5/out16/CVE-2021-28874/results.unknown.csv
+out5/out16/CVE-2021-28874/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2021-28957 (11 of 168)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2021-28957, lxml_lxml, __init__.py
+Calling ./rgl2 to get all commits
+filtering 8 child commits for file src/lxml/__init__.py
+no d65e63229e8958bc08344a85cd3f09ceeef933c3 in 86
+no 853c9e9cbf1c82d1ad3c096362372a048108905e in 5
+filtering 14 parent commits for file src/lxml/__init__.py
+0 out5/out16/CVE-2021-28957/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out16/CVE-2021-28957 1616303700)
+Original Project = lxml_lxml
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/1436348913/Python-/contents/python大作业/venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "1436348913/Python-" "python大作业/venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/acldm/backup_code/contents/workspace/python/时光网爬虫/venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "acldm/backup_code" "workspace/python/时光网爬虫/venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/ad1095445/flask_demo/contents/TestLou1的副本/FlaskEnv/lib/python3.6/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ad1095445/flask_demo" "TestLou1的副本/FlaskEnv/lib/python3.6/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/ade5t/stylistic_analysis_of_text/contents/plugins/Созвучность%20слов/lib/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ade5t/stylistic_analysis_of_text" "plugins/Созвучность слов/lib/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/Aleksei741/Python_Lesson/contents/Методы%20сбора%20и%20обработки%20данных%20из%20сети%20Интернет/Lesson_5/scrapy_280/venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "Aleksei741/Python_Lesson" "Методы сбора и обработки данных из сети Интернет/Lesson_5/scrapy_280/venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/Alice-py/Interesting-Projects/contents/美桌爬虫+展示网页/scrapy_venv/Lib/site-packages/lxml/__init__.py
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "Alice-py/Interesting-Projects" "美桌爬虫+展示网页/scrapy_venv/Lib/site-packages/lxml/__init__.py"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 2272 seconds (from 18:30:02)

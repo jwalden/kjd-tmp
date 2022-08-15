@@ -1,0 +1,1092 @@
+
+------------ CVE-2016-7524 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7524, ImageMagick_ImageMagick, meta.c
+Calling ./rgl2 to get all commits
+filtering 46 child commits for file coders/meta.c
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 4a8a0d4f26b828532f266143d9dd3b8ca6fb52ac in 74
+no f18599b05e2ee0c54ecdc7dbd7527227973822e9 in 113
+no 083ac80d33d0274ab7915751edaf8eed7b306672 in 8
+filtering 51 parent commits for file coders/meta.c
+0 out5/out7/CVE-2016-7524/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7524 1580998500)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7524: ImageMagick_ImageMagick, coders/meta.c out5/out7/CVE-2016-7524/results.fixed.csv)
+out5/out7/CVE-2016-7524/results.fixed.csv
+out5/out7/CVE-2016-7524/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7524/results.notfixed.csv
+out5/out7/CVE-2016-7524/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7524/results.unknown.csv
+out5/out7/CVE-2016-7524/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7525 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7525, ImageMagick_ImageMagick, psd.c
+Calling ./rgl2 to get all commits
+filtering 235 child commits for file coders/psd.c
+no d90c06fef6df2b44b906a8570adac56896205204 in 89
+no 80bd592dd20d4a1287842459ca3801c3ae3866cd in 0
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 3a256ce9002ebfb88da77f415869f9f81f4d4187 in 58
+no e31b13c7497fa9b16fc051624747ac69f203f195 in 99
+no 0dadfa75c7fa54f57d771f6c6f97b969863d2601 in 13
+no 9c9a84cec4ab28ee0b57c2b9266d6fbe68183512 in 28
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 7adbd9998130d5d3014bd6a3ed58d93f24b06987 in 122
+no bb38559758dedfb70a318c1b8c1ecffead52d636 in 59
+no 79eec9112cd5f5a0d356b0989229422070c294f4 in 121
+no 2b6531d36c68316211dfe89b1f99fe2dd07b0371 in 43
+no 0e417f477b5914308ce7e8de13a5c6e787a133d1 in 14
+no 63cfa542ab3d2d15eb067b12ef9160d6eebd9845 in 99
+no c43c03cf02d4e94d2df03dd6913f34b8a6db8cc0 in 68
+no 0a4e4026f01be479fa3f92f349f3da29912eea86 in 10
+no 9b562c258e638e725dc078ef0a73337d8444441f in 27
+no dd26030975e827fe9af9c5d10b5ff69c429a2961 in 93
+no 927796d9340a1591c8ed9ea4a26f21cdf59b6282 in 18
+no 9c9b65e53859f422f890c38ca85ab1a46ea2b64f in 28
+no f21961130656ccc3ae1e91ba5b653e0b27778028 in 114
+no 12431a37363724d32b8419fb62a730a898890956 in 18
+no 39a9ab792c997be4c722ea998d2af6e0470341a0 in 57
+no f8373be7636aa975a4ff63e0299e6f9f67d8aa01 in 120
+no 3b265d7066c36e08e6b619fa2d3b8ac80fe7eac9 in 59
+no b3a8c527e0df0c49854f5f32012f3c1e36eb52c7 in 51
+no c07194a63d417c92e2e9e07deb1781027037e121 in 64
+no 186e62abf45b692086e8f6355ce8f49826f02ab2 in 24
+no 7ff13033d0982e4f1d8095acfc07df948a8eef20 in 127
+no d221c6ff23d5a1fb5acb13a7ae7bda9c517bb940 in 82
+no 55fc1abb3422a00a94b66f4cf6a560a36eb2624c in 85
+no 50e2f07b37414dec19fd470d78fb2750428b2bed in 80
+no 113f8f901efa88c63779d393340872c443ecfa3b in 17
+no 53e954000034cac934a07e88da0c87b1cff13775 in 83
+no 43ee149af2ba600ffc4cf4a688d8e57a4b408596 in 67
+no c191d5d0da3489fd0ab0640bd4450f4cee122471 in 65
+no 3c4656a3f39071b7e7a35f6ddd9ec0d1333d68ff in 60
+no 325f1f12643ed86f893b347c21f0811ff2a1dfee in 50
+filtering 260 parent commits for file coders/psd.c
+0 out5/out7/CVE-2016-7525/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7525 1492714740)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7525: ImageMagick_ImageMagick, coders/psd.c out5/out7/CVE-2016-7525/results.fixed.csv)
+out5/out7/CVE-2016-7525/results.fixed.csv
+out5/out7/CVE-2016-7525/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7525/results.notfixed.csv
+out5/out7/CVE-2016-7525/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7525/results.unknown.csv
+out5/out7/CVE-2016-7525/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7526 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7526, ImageMagick_ImageMagick, wpg.c
+Calling ./rgl2 to get all commits
+filtering 75 child commits for file coders/wpg.c
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 366946defe55a8ea03dbbf87319a0f7cd6d0e324 in 54
+filtering 64 parent commits for file coders/wpg.c
+0 out5/out7/CVE-2016-7526/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7526 1492714740)
+Original Project = ImageMagick_ImageMagick
+Rate limit exceeded, sleeping 1030 seconds (from 16:50:41)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 11 seconds (from 17:08:08)
+Rate limit reset, continuing
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7526: ImageMagick_ImageMagick, coders/wpg.c out5/out7/CVE-2016-7526/results.fixed.csv)
+out5/out7/CVE-2016-7526/results.fixed.csv
+out5/out7/CVE-2016-7526/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7526/results.notfixed.csv
+out5/out7/CVE-2016-7526/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7526/results.unknown.csv
+out5/out7/CVE-2016-7526/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7527 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7527, ImageMagick_ImageMagick, wpg.c
+Calling ./rgl2 to get all commits
+filtering 77 child commits for file coders/wpg.c
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 366946defe55a8ea03dbbf87319a0f7cd6d0e324 in 54
+filtering 62 parent commits for file coders/wpg.c
+0 out5/out7/CVE-2016-7527/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7527 1492714740)
+Original Project = ImageMagick_ImageMagick
+Rate limit exceeded, sleeping 17 seconds (from 17:09:31)
+Rate limit reset, continuing
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7527: ImageMagick_ImageMagick, coders/wpg.c out5/out7/CVE-2016-7527/results.fixed.csv)
+out5/out7/CVE-2016-7527/results.fixed.csv
+out5/out7/CVE-2016-7527/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7527/results.notfixed.csv
+out5/out7/CVE-2016-7527/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7527/results.unknown.csv
+out5/out7/CVE-2016-7527/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7528 (5 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7528, ImageMagick_ImageMagick, viff.c
+Calling ./rgl2 to get all commits
+filtering 42 child commits for file coders/viff.c
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no c8362214aca7af3d7af410a2c6fd87fa41cbf0f0 in 72
+no b1d42802bb46e86aa2d45fb9b3e31fc70cae1e8c in 49
+filtering 73 parent commits for file coders/viff.c
+0 out5/out7/CVE-2016-7528/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7528 1492613940)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7528: ImageMagick_ImageMagick, coders/viff.c out5/out7/CVE-2016-7528/results.fixed.csv)
+out5/out7/CVE-2016-7528/results.fixed.csv
+out5/out7/CVE-2016-7528/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7528/results.notfixed.csv
+out5/out7/CVE-2016-7528/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7528/results.unknown.csv
+out5/out7/CVE-2016-7528/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7529 (6 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7529, ImageMagick_ImageMagick, xcf.c
+Calling ./rgl2 to get all commits
+filtering 59 child commits for file coders/xcf.c
+no 03646225cbf3346d8ae455a0abbb2607cdb0e8e0 in 3
+no 4cec11d25697bf36279de36639cc5516c4ae4b40 in 76
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 4853d63c7c83a72c4722c096931d15b79f3bd8d3 in 72
+no 6b15959d781808e3b6e8f1f3c4acbb73e6e0a1c9 in 107
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+filtering 60 parent commits for file coders/xcf.c
+0 out5/out7/CVE-2016-7529/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7529 1492613940)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7529: ImageMagick_ImageMagick, coders/xcf.c out5/out7/CVE-2016-7529/results.fixed.csv)
+out5/out7/CVE-2016-7529/results.fixed.csv
+out5/out7/CVE-2016-7529/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7529/results.notfixed.csv
+out5/out7/CVE-2016-7529/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7529/results.unknown.csv
+out5/out7/CVE-2016-7529/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7530 (7 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7530, ImageMagick_ImageMagick, quantum.c
+Calling ./rgl2 to get all commits
+filtering 35 child commits for file MagickCore/quantum.c
+no 5d2d4139d093f1d2deeefc8b6649842d77e4184e in 93
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 914c2e86b4e088c4f5ecbc5bebd6ea96215a53b9 in 17
+no fa0e7bf41ae8362216b180c33c3f152805374b05 in 122
+no cb656913eb12c67f3d8a3098635e239c3d94bf18 in 75
+no c909df15fc9e55b99c9d4480d4ed48a141fb943b in 73
+no ab39cc4abe3510b31d9e3dafe8a3b898ce627605 in 43
+no bd77531ae8dd24adb583f87e7c0b73c306ac64cc in 61
+no 22cfaf35dcea6d07e5353660794edca16b363c6b in 34
+no 2c35b9a24bd6abf17b1f135ced20611f4ad7fa17 in 44
+no e36bd84b0935b204a27a05aa041dfea6faf25099 in 99
+no 219d19f96e6a87b17ab26dfa6eadc7ad3169092a in 33
+no 8891ec1db10a70558deef45f61941b4fe0576b66 in 8
+filtering 39 parent commits for file MagickCore/quantum.c
+0 out5/out7/CVE-2016-7530/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7530 1492714740)
+Original Project = ImageMagick_ImageMagick
+Success (go2)
+Stage 3 (./go3 CVE-2016-7530: ImageMagick_ImageMagick, MagickCore/quantum.c out5/out7/CVE-2016-7530/results.fixed.csv)
+out5/out7/CVE-2016-7530/results.fixed.csv
+out5/out7/CVE-2016-7530/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7530/results.notfixed.csv
+out5/out7/CVE-2016-7530/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7530/results.unknown.csv
+out5/out7/CVE-2016-7530/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7532 (8 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7532, ImageMagick_ImageMagick, psd.c
+Calling ./rgl2 to get all commits
+filtering 236 child commits for file coders/psd.c
+no d90c06fef6df2b44b906a8570adac56896205204 in 89
+no 80bd592dd20d4a1287842459ca3801c3ae3866cd in 0
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 3a256ce9002ebfb88da77f415869f9f81f4d4187 in 58
+no e31b13c7497fa9b16fc051624747ac69f203f195 in 99
+no 0dadfa75c7fa54f57d771f6c6f97b969863d2601 in 13
+no 9c9a84cec4ab28ee0b57c2b9266d6fbe68183512 in 28
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 7adbd9998130d5d3014bd6a3ed58d93f24b06987 in 122
+no bb38559758dedfb70a318c1b8c1ecffead52d636 in 59
+no 79eec9112cd5f5a0d356b0989229422070c294f4 in 121
+no 2b6531d36c68316211dfe89b1f99fe2dd07b0371 in 43
+no 0e417f477b5914308ce7e8de13a5c6e787a133d1 in 14
+no 63cfa542ab3d2d15eb067b12ef9160d6eebd9845 in 99
+no c43c03cf02d4e94d2df03dd6913f34b8a6db8cc0 in 68
+no 0a4e4026f01be479fa3f92f349f3da29912eea86 in 10
+no 9b562c258e638e725dc078ef0a73337d8444441f in 27
+no dd26030975e827fe9af9c5d10b5ff69c429a2961 in 93
+no 927796d9340a1591c8ed9ea4a26f21cdf59b6282 in 18
+no 9c9b65e53859f422f890c38ca85ab1a46ea2b64f in 28
+no f21961130656ccc3ae1e91ba5b653e0b27778028 in 114
+no 12431a37363724d32b8419fb62a730a898890956 in 18
+no 39a9ab792c997be4c722ea998d2af6e0470341a0 in 57
+no f8373be7636aa975a4ff63e0299e6f9f67d8aa01 in 120
+no 3b265d7066c36e08e6b619fa2d3b8ac80fe7eac9 in 59
+no b3a8c527e0df0c49854f5f32012f3c1e36eb52c7 in 51
+no c07194a63d417c92e2e9e07deb1781027037e121 in 64
+no 186e62abf45b692086e8f6355ce8f49826f02ab2 in 24
+no 7ff13033d0982e4f1d8095acfc07df948a8eef20 in 127
+no d221c6ff23d5a1fb5acb13a7ae7bda9c517bb940 in 82
+no 55fc1abb3422a00a94b66f4cf6a560a36eb2624c in 85
+no 50e2f07b37414dec19fd470d78fb2750428b2bed in 80
+no 113f8f901efa88c63779d393340872c443ecfa3b in 17
+no 53e954000034cac934a07e88da0c87b1cff13775 in 83
+no 43ee149af2ba600ffc4cf4a688d8e57a4b408596 in 67
+no c191d5d0da3489fd0ab0640bd4450f4cee122471 in 65
+no 3c4656a3f39071b7e7a35f6ddd9ec0d1333d68ff in 60
+no 325f1f12643ed86f893b347c21f0811ff2a1dfee in 50
+filtering 259 parent commits for file coders/psd.c
+0 out5/out7/CVE-2016-7532/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7532 1492714740)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7532: ImageMagick_ImageMagick, coders/psd.c out5/out7/CVE-2016-7532/results.fixed.csv)
+out5/out7/CVE-2016-7532/results.fixed.csv
+out5/out7/CVE-2016-7532/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7532/results.notfixed.csv
+out5/out7/CVE-2016-7532/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7532/results.unknown.csv
+out5/out7/CVE-2016-7532/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7533 (9 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7533, ImageMagick_ImageMagick, wpg.c
+Calling ./rgl2 to get all commits
+filtering 76 child commits for file coders/wpg.c
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 366946defe55a8ea03dbbf87319a0f7cd6d0e324 in 54
+filtering 63 parent commits for file coders/wpg.c
+0 out5/out7/CVE-2016-7533/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7533 1492613940)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7533: ImageMagick_ImageMagick, coders/wpg.c out5/out7/CVE-2016-7533/results.fixed.csv)
+out5/out7/CVE-2016-7533/results.fixed.csv
+out5/out7/CVE-2016-7533/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7533/results.notfixed.csv
+out5/out7/CVE-2016-7533/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7533/results.unknown.csv
+out5/out7/CVE-2016-7533/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7536 (10 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7536, ImageMagick_ImageMagick, profile.c
+Calling ./rgl2 to get all commits
+filtering 104 child commits for file MagickCore/profile.c
+no d90c06fef6df2b44b906a8570adac56896205204 in 89
+no c1766ca97e10178f77194ac8d6666e40ee699801 in 65
+no 4e20a27b8790d8308f0477723f4998184db2d432 in 78
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no a564acf287b19b000ab276bf05d6b05d4ea9ecfe in 37
+no 5775664a028c8fdd9fe9d99a4628d08ec57f424c in 87
+no 8891ec1db10a70558deef45f61941b4fe0576b66 in 8
+no 6ce66717d9e976ed947eeae7639d2a2e625a4c10 in 108
+no 123b15740896247379d4202cfefa700f5f065fb1 in 18
+no dd263149f709f1a8fe4e17e23fe6eb17f15dac04 in 93
+filtering 104 parent commits for file MagickCore/profile.c
+0 out5/out7/CVE-2016-7536/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7536 1492714740)
+Original Project = ImageMagick_ImageMagick
+Success (go2)
+Stage 3 (./go3 CVE-2016-7536: ImageMagick_ImageMagick, MagickCore/profile.c out5/out7/CVE-2016-7536/results.fixed.csv)
+out5/out7/CVE-2016-7536/results.fixed.csv
+out5/out7/CVE-2016-7536/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7536/results.notfixed.csv
+out5/out7/CVE-2016-7536/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7536/results.unknown.csv
+out5/out7/CVE-2016-7536/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7537 (11 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7537, ImageMagick_ImageMagick, pdb.c
+Calling ./rgl2 to get all commits
+filtering 42 child commits for file coders/pdb.c
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no ef8d0d76df6cfc20e1138eec0d4910e8142a7da5 in 111
+filtering 61 parent commits for file coders/pdb.c
+0 out5/out7/CVE-2016-7537/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7537 1492613940)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7537: ImageMagick_ImageMagick, coders/pdb.c out5/out7/CVE-2016-7537/results.fixed.csv)
+out5/out7/CVE-2016-7537/results.fixed.csv
+out5/out7/CVE-2016-7537/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7537/results.notfixed.csv
+out5/out7/CVE-2016-7537/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7537/results.unknown.csv
+out5/out7/CVE-2016-7537/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7538 (12 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7538, ImageMagick_ImageMagick, psd.c
+Calling ./rgl2 to get all commits
+filtering 231 child commits for file coders/psd.c
+no d90c06fef6df2b44b906a8570adac56896205204 in 89
+no 80bd592dd20d4a1287842459ca3801c3ae3866cd in 0
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 3a256ce9002ebfb88da77f415869f9f81f4d4187 in 58
+no e31b13c7497fa9b16fc051624747ac69f203f195 in 99
+no 0dadfa75c7fa54f57d771f6c6f97b969863d2601 in 13
+no 9c9a84cec4ab28ee0b57c2b9266d6fbe68183512 in 28
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 7adbd9998130d5d3014bd6a3ed58d93f24b06987 in 122
+no bb38559758dedfb70a318c1b8c1ecffead52d636 in 59
+no 79eec9112cd5f5a0d356b0989229422070c294f4 in 121
+no 2b6531d36c68316211dfe89b1f99fe2dd07b0371 in 43
+no 0e417f477b5914308ce7e8de13a5c6e787a133d1 in 14
+no 63cfa542ab3d2d15eb067b12ef9160d6eebd9845 in 99
+no c43c03cf02d4e94d2df03dd6913f34b8a6db8cc0 in 68
+no 0a4e4026f01be479fa3f92f349f3da29912eea86 in 10
+no 9b562c258e638e725dc078ef0a73337d8444441f in 27
+no dd26030975e827fe9af9c5d10b5ff69c429a2961 in 93
+no 927796d9340a1591c8ed9ea4a26f21cdf59b6282 in 18
+no 9c9b65e53859f422f890c38ca85ab1a46ea2b64f in 28
+no f21961130656ccc3ae1e91ba5b653e0b27778028 in 114
+no 12431a37363724d32b8419fb62a730a898890956 in 18
+no 39a9ab792c997be4c722ea998d2af6e0470341a0 in 57
+no f8373be7636aa975a4ff63e0299e6f9f67d8aa01 in 120
+no 3b265d7066c36e08e6b619fa2d3b8ac80fe7eac9 in 59
+no b3a8c527e0df0c49854f5f32012f3c1e36eb52c7 in 51
+no c07194a63d417c92e2e9e07deb1781027037e121 in 64
+no 186e62abf45b692086e8f6355ce8f49826f02ab2 in 24
+no 7ff13033d0982e4f1d8095acfc07df948a8eef20 in 127
+no d221c6ff23d5a1fb5acb13a7ae7bda9c517bb940 in 82
+no 55fc1abb3422a00a94b66f4cf6a560a36eb2624c in 85
+no 50e2f07b37414dec19fd470d78fb2750428b2bed in 80
+no 113f8f901efa88c63779d393340872c443ecfa3b in 17
+no 53e954000034cac934a07e88da0c87b1cff13775 in 83
+no 43ee149af2ba600ffc4cf4a688d8e57a4b408596 in 67
+no c191d5d0da3489fd0ab0640bd4450f4cee122471 in 65
+no 3c4656a3f39071b7e7a35f6ddd9ec0d1333d68ff in 60
+no 325f1f12643ed86f893b347c21f0811ff2a1dfee in 50
+filtering 264 parent commits for file coders/psd.c
+0 out5/out7/CVE-2016-7538/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7538 1492714740)
+Original Project = ImageMagick_ImageMagick
+NUMMMMMM: num_commits=./get_num_commits github CAFA1/CAFA
+    126
+NUMMMMMM: num_commits=./get_num_commits github OpenCMISS-Dependencies/ImageMagick
+    3
+Success (go2)
+Stage 3 (./go3 CVE-2016-7538: ImageMagick_ImageMagick, coders/psd.c out5/out7/CVE-2016-7538/results.fixed.csv)
+out5/out7/CVE-2016-7538/results.fixed.csv
+out5/out7/CVE-2016-7538/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7538/results.notfixed.csv
+out5/out7/CVE-2016-7538/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7538/results.unknown.csv
+out5/out7/CVE-2016-7538/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7545 (13 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7545, SELinuxProject_selinux, sandbox
+Calling ./rgl2 to get all commits
+filtering 5 child commits for file policycoreutils/sandbox/sandbox
+filtering 33 parent commits for file policycoreutils/sandbox/sandbox
+6 out5/out7/CVE-2016-7545/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7545 1484859540)
+Original Project = SELinuxProject_selinux
+NUMMMMMM: num_commits=./get_num_commits github 271674605/GoogleAndroidSource
+    1
+NUMMMMMM: num_commits=./get_num_commits github 5059d/kernel_5059d_mt6739_tcl
+    2
+NUMMMMMM: num_commits=./get_num_commits github 5l1v3r1/source-1
+    15
+NUMMMMMM: num_commits=./get_num_commits github ACollect/tig_tset
+    2
+NUMMMMMM: num_commits=./get_num_commits github AdrianDC/aosp_development_sony8960_q
+    1
+NUMMMMMM: num_commits=./get_num_commits github afeng11/bpi-s905x3-android9
+    
+NUMMMMMM: num_commits=./get_num_commits github alexhe/KernelForAndroid
+    12
+NUMMMMMM: num_commits=./get_num_commits github altaway/lenovo_p1a42
+    
+NUMMMMMM: num_commits=./get_num_commits github Ante0/BLA_OREO_EMUI8
+    27
+NUMMMMMM: num_commits=./get_num_commits github Ante0/DUK_OREO_EMUI8
+    23
+NUMMMMMM: num_commits=./get_num_commits github AOSDP/android_external_selinux
+    
+NUMMMMMM: num_commits=./get_num_commits github AOSP8146/external
+    1
+NUMMMMMM: num_commits=./get_num_commits github arahman4710/test2
+    221
+NUMMMMMM: num_commits=./get_num_commits github Arcelik/mmis
+    
+NUMMMMMM: num_commits=./get_num_commits github beconf/lxc-for-android-7.1.2
+    7
+NUMMMMMM: num_commits=./get_num_commits github berkantkz/lgx240y-opensource
+    
+NUMMMMMM: num_commits=./get_num_commits github BPI-SINOVOIP/BPI-A64-Android7
+    71
+NUMMMMMM: num_commits=./get_num_commits github briangorman/honor7x-source
+    1
+NUMMMMMM: num_commits=./get_num_commits github Cell-LXC/external
+    
+NUMMMMMM: num_commits=./get_num_commits github CeriumOS/external_selinux
+    
+NUMMMMMM: num_commits=./get_num_commits github chntylz/kirin980_mate20pro_kernel
+    1
+NUMMMMMM: num_commits=./get_num_commits github codingsf/Magisk
+    6
+NUMMMMMM: num_commits=./get_num_commits github daedroza/aosp_development_sony8960_n
+    1
+NUMMMMMM: num_commits=./get_num_commits github darkinfusion/external-selinux
+    1
+NUMMMMMM: num_commits=./get_num_commits github davidpoblador/the-docs
+    391
+NUMMMMMM: num_commits=./get_num_commits github dongdong331/test
+    18
+NUMMMMMM: num_commits=./get_num_commits github donginhb/pro3288-07inch
+    
+NUMMMMMM: num_commits=./get_num_commits github donginhb/rp3288-21-5inch
+    
+NUMMMMMM: num_commits=./get_num_commits github edorus/magisk-andrax-mod
+    10
+NUMMMMMM: num_commits=./get_num_commits github ericmar/android_kernel_mt6739
+    
+NUMMMMMM: num_commits=./get_num_commits github eurolinux-enterprise-linux-sources/policycoreutils
+    
+NUMMMMMM: num_commits=./get_num_commits github experiment322/android_kernel_sony_mt6757
+    7
+NUMMMMMM: num_commits=./get_num_commits github FabianBeck/m5-pro-gnu
+    7
+NUMMMMMM: num_commits=./get_num_commits github fukehan/p_external
+    1
+NUMMMMMM: num_commits=./get_num_commits github fyyy4030/arm-linux-gnueabihf
+    15
+NUMMMMMM: num_commits=./get_num_commits github gaojianzhong/nxp_android
+    
+NUMMMMMM: num_commits=./get_num_commits github ghat/honor7x
+    2
+NUMMMMMM: num_commits=./get_num_commits github ghsecuritylab/sgswplatform
+    15
+NUMMMMMM: num_commits=./get_num_commits github ghsecuritylab/zuk_ham_sourcecode
+    11
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/01098996_h5_android-7.0
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/9tripod_x3288_nougat
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/9tripod_x3399_marshmallow
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/9tripod_x3399_nougat
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/ancient-rom_android_external_selinux
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/arvs47_yu-yureka-2
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/Autogramma_Android_7_1_2_M
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/brian0218_android-6.0.1_r81
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/clgl_312x_mm
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/exconfidential_t-alps-release-q0/sauce/external_selinux
+    unknown (gitlab)
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad.txt: No such file or directory
+./go2: line 163: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good_sorted.txt: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_good_sorted.txt’ for reading: No such file or directory
+./go2: line 167: out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/external_selinux_bad_sorted.txt’ for reading: No such file or directory
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/friendlyelec_rk3399-android-8.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/Henkate_ticai_src
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/iotdev_brillo
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/izhoujinjian_apq8096_la.um.7.5.r1-03100-8x96.0_p_v5.0
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/JBSSupport_mantis3399_external
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/jxltom_king_rp_rk3399
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/jxltom_king_rp_rk3399_ddr3_8.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/jxltom_rd_rk3399_lpddr4_8.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/ldh928_FireNow-Marshmallow
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/lzmlzm_RK3328-Nougat
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/mksadique_xperia_z4_tablet_sgp712_wifionly
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/protruly_v10
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_king_rp_3288_sdk_7.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_nano_3288_8.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_nano_3288_sdk_7.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_nano-px30-android8.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_pro_3399_7.1.2
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_rk3399pro-android9.0-sdk
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_rp_3128_7.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/rpdzkj2018_rp-h6-android7.0
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/SamarV-121_ALPS-8.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/satou9029_3288_7.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/tanglexu_s5pxx18-android-7
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/TeeFirefly_FireNow-Nougat
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/troopii_alcatel-android-part_1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/willwithus123_x3399_android6
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/yanite_king_rp_3288_8.1
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/zfree_firenow-oreo-rk3399
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/zhwuba_platform-external
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits github harman-dev/selinux
+    1
+NUMMMMMM: num_commits=./get_num_commits github hejsekvojtech/lenovo_opensource
+    
+NUMMMMMM: num_commits=./get_num_commits github HellDogPro/Open-source-releases-Nokia-7.2
+    2
+NUMMMMMM: num_commits=./get_num_commits github henriyulianto/hi6250_kernel_source_LLD
+    18
+NUMMMMMM: num_commits=./get_num_commits github henriyulianto/Honor-9-Lite_LLD_LLD-AL20-AL30-L22_EMUI8.0_Android8.0
+    6
+NUMMMMMM: num_commits=./get_num_commits github Henry1098/ALice
+    
+NUMMMMMM: num_commits=./get_num_commits github hexdebug/MHA-Hi3660-Mate9
+    17
+NUMMMMMM: num_commits=./get_num_commits github IHNEL/AOSP_RK3128_Full
+    13
+NUMMMMMM: num_commits=./get_num_commits github itdog2019/sources
+    24
+NUMMMMMM: num_commits=./get_num_commits github Jackeagle/kernel_msm-3.18
+    499042
+NUMMMMMM: num_commits=./get_num_commits github Jihadist/SH-M09
+    4
+NUMMMMMM: num_commits=./get_num_commits github Jiu-xiao/Mate10pro
+    2
+NUMMMMMM: num_commits=./get_num_commits github josn-jys/NEM-Code_Opensource-EMUI5.0
+    1
+NUMMMMMM: num_commits=./get_num_commits github jpacg/su-binary
+    54
+NUMMMMMM: num_commits=./get_num_commits github Keneral/ae3
+    6
+NUMMMMMM: num_commits=./get_num_commits github KenMccormick/official_hi6250_external
+    3
+NUMMMMMM: num_commits=./get_num_commits github kindle4jerry/honor-play-kernel-8.1-kindle4jerry
+    6
+NUMMMMMM: num_commits=./get_num_commits github kindle4jerry/honor-play-kernel-9.0-kindle4jerry
+    32
+NUMMMMMM: num_commits=./get_num_commits github kindle4jerry/honor-play-kernel-9.1-kindle4jerry
+    67
+NUMMMMMM: num_commits=./get_num_commits github kindle4jerry/HWI-kernel-9.0.1
+    7
+NUMMMMMM: num_commits=./get_num_commits github kindle4jerry/VTR-kernel-9.1
+    4
+NUMMMMMM: num_commits=./get_num_commits github kmahyyg/android_external_huawei_g9_plus
+    1
+NUMMMMMM: num_commits=./get_num_commits github kshms10904/platform_external_selinux
+    4
+NUMMMMMM: num_commits=./get_num_commits github KuzCOrp/external_phab2plus
+    
+NUMMMMMM: num_commits=./get_num_commits github lexyan/shield-tv-kernel
+    7
+NUMMMMMM: num_commits=./get_num_commits github LuigiVampa92/SystemEdxposed
+    8
+NUMMMMMM: num_commits=./get_num_commits github LuigiVampa92/unlocked-bootloader-backdoor-demo
+    3
+NUMMMMMM: num_commits=./get_num_commits github Mark4551124015/Kernel_Huawei_ALP_PIE
+    4
+NUMMMMMM: num_commits=./get_num_commits github MT6797/external
+    14
+NUMMMMMM: num_commits=./get_num_commits github PDi-Communication-Systems-Inc/aseries-android
+    
+NUMMMMMM: num_commits=./get_num_commits github penn5/android_kernel_honor_ieland
+    1
+NUMMMMMM: num_commits=./get_num_commits github pexip/os-policycoreutils
+    27
+NUMMMMMM: num_commits=./get_num_commits github posophe/setools3
+    7311
+NUMMMMMM: num_commits=./get_num_commits github ProWrangler/nokia_external
+    
+NUMMMMMM: num_commits=./get_num_commits github rendiix/android-prebuilt-binary-tools
+    
+NUMMMMMM: num_commits=./get_num_commits github renhongfei001/zztg_ubuntu_sc20
+    26
+NUMMMMMM: num_commits=./get_num_commits github RNG-ZacharyZhang/LON-NG_EMUI5.0_opensource
+    
+NUMMMMMM: num_commits=./get_num_commits github rruck/android_huawei_victoria
+    1
+NUMMMMMM: num_commits=./get_num_commits github rrvuhpg/android_device_sony_tubads
+    5
+NUMMMMMM: num_commits=./get_num_commits github saagarjha/bntv450-source
+    1
+NUMMMMMM: num_commits=./get_num_commits github salsa.debian.org/android-tools-team/android-platform-external-libselinux
+    
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 163: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good_sorted.txt: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_good_sorted.txt’ for reading: No such file or directory
+./go2: line 167: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_android-tools-team/android-platform-external-libselinux_bad_sorted.txt’ for reading: No such file or directory
+NUMMMMMM: num_commits=./get_num_commits salsa.debian salsa.debian.org/r_chandramouli-guest/android-platform-external-libselinux
+    unknown (salsa.debian)
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 156: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 161: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad.txt: No such file or directory
+./go2: line 163: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good_sorted.txt: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_good_sorted.txt’ for reading: No such file or directory
+./go2: line 167: out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out7/CVE-2016-7545/stage2/salsa.debian.org_r_chandramouli-guest/android-platform-external-libselinux_bad_sorted.txt’ for reading: No such file or directory
+NUMMMMMM: num_commits=./get_num_commits salsa.debian salsa.debian.org/selinux-team_mcstrans
+    unknown (salsa.debian)
+NUMMMMMM: num_commits=./get_num_commits github sanko/Lenovo-CD-17302F_opensource_15.42.1
+    1
+NUMMMMMM: num_commits=./get_num_commits github STRYDER-007/aosp_development_aospcaf
+    6
+NUMMMMMM: num_commits=./get_num_commits github sujitroy/X00TD_aosp
+    
+NUMMMMMM: num_commits=./get_num_commits github Surge1223/fastboot_ndk
+    3
+NUMMMMMM: num_commits=./get_num_commits github TheMuppets/proprietary_vendor_lge
+    20
+NUMMMMMM: num_commits=./get_num_commits github tnakamur/ace_opensource
+    4
+NUMMMMMM: num_commits=./get_num_commits github tnakamur/so02l_opensource
+    8
+NUMMMMMM: num_commits=./get_num_commits github Toetje585/android_kernel_asus_P01M_5_6_0
+    
+NUMMMMMM: num_commits=./get_num_commits github toffyjan/android_kernel_Sony_redwood
+    1
+NUMMMMMM: num_commits=./get_num_commits github tonight0210/external
+    
+NUMMMMMM: num_commits=./get_num_commits github topjohnwu/Magisk
+    5933
+NUMMMMMM: num_commits=./get_num_commits github tormenta360/lgx240f
+    6
+NUMMMMMM: num_commits=./get_num_commits github tremblingHands/android-container-app
+    12
+NUMMMMMM: num_commits=./get_num_commits github tsaito20/sk-conf
+    2
+NUMMMMMM: num_commits=./get_num_commits github UchihaDev/HyperPlus-Pie
+    4
+NUMMMMMM: num_commits=./get_num_commits github uraganu1/XperiaXASystemMod
+    147
+NUMMMMMM: num_commits=./get_num_commits github Uukrull/shieldtv-kernel-v30
+    3
+NUMMMMMM: num_commits=./get_num_commits github wayneeseguin/mdcg
+    7
+NUMMMMMM: num_commits=./get_num_commits github wk415190639/nougat
+    56
+NUMMMMMM: num_commits=./get_num_commits github xdtianyu/android-6.0.0_r1
+    9
+NUMMMMMM: num_commits=./get_num_commits github xdtianyu/android-7.0.0_r1
+    12
+NUMMMMMM: num_commits=./get_num_commits github xdtianyu/android-8.0.0_r4
+    19
+NUMMMMMM: num_commits=./get_num_commits github yacodelurker/vogue10emui10
+    1
+NUMMMMMM: num_commits=./get_num_commits github yos-two/mt8163-external
+    
+NUMMMMMM: num_commits=./get_num_commits github ystk/debian-policycoreutils
+    2
+NUMMMMMM: num_commits=./get_num_commits github zhaozihanzzh/android_external_honor_hulk
+    1
+Success (go2)
+Stage 3 (./go3 CVE-2016-7545: SELinuxProject_selinux, policycoreutils/sandbox/sandbox out5/out7/CVE-2016-7545/results.fixed.csv)
+out5/out7/CVE-2016-7545/results.fixed.csv
+out5/out7/CVE-2016-7545/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7545/results.notfixed.csv
+out5/out7/CVE-2016-7545/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7545/results.unknown.csv
+out5/out7/CVE-2016-7545/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7553 (14 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7553, irssi_scripts.irssi.org, buf.pl
+Calling ./rgl2 to get all commits
+filtering 13 child commits for file scripts/buf.pl
+filtering 2 parent commits for file scripts/buf.pl
+0 out5/out7/CVE-2016-7553/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7553 1488236340)
+Original Project = irssi_scripts.irssi.org
+NUMMMMMM: num_commits=./get_num_commits github irssi/irssi
+    6640
+Success (go2)
+Stage 3 (./go3 CVE-2016-7553: irssi_scripts.irssi.org, scripts/buf.pl out5/out7/CVE-2016-7553/results.fixed.csv)
+out5/out7/CVE-2016-7553/results.fixed.csv
+out5/out7/CVE-2016-7553/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7553/results.notfixed.csv
+out5/out7/CVE-2016-7553/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7553/results.unknown.csv
+out5/out7/CVE-2016-7553/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7565 (15 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7565, exponentcms_exponent-cms, index.php
+Calling ./rgl2 to get all commits
+filtering 15 child commits for file install/index.php
+filtering 75 parent commits for file install/index.php
+0 out5/out7/CVE-2016-7565/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7565 1487012340)
+Original Project = exponentcms_exponent-cms
+Success (go2)
+Stage 3 (./go3 CVE-2016-7565: exponentcms_exponent-cms, install/index.php out5/out7/CVE-2016-7565/results.fixed.csv)
+out5/out7/CVE-2016-7565/results.fixed.csv
+out5/out7/CVE-2016-7565/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7565/results.notfixed.csv
+out5/out7/CVE-2016-7565/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7565/results.unknown.csv
+out5/out7/CVE-2016-7565/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7797 (16 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7797, ClusterLabs_pacemaker, tls_backend.c
+Calling ./rgl2 to get all commits
+filtering 10 child commits for file lrmd/tls_backend.c
+filtering 20 parent commits for file lrmd/tls_backend.c
+0 out5/out7/CVE-2016-7797/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7797 1490371140)
+Original Project = ClusterLabs_pacemaker
+NUMMMMMM: num_commits=./get_num_commits github eurolinux-enterprise-linux-sources/pacemaker
+    
+NUMMMMMM: num_commits=./get_num_commits github ystk/debian-pacemaker
+    2
+Success (go2)
+Stage 3 (./go3 CVE-2016-7797: ClusterLabs_pacemaker, lrmd/tls_backend.c out5/out7/CVE-2016-7797/results.fixed.csv)
+out5/out7/CVE-2016-7797/results.fixed.csv
+out5/out7/CVE-2016-7797/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7797/results.notfixed.csv
+out5/out7/CVE-2016-7797/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7797/results.unknown.csv
+out5/out7/CVE-2016-7797/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7799 (17 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7799, ImageMagick_ImageMagick, profile.c
+Calling ./rgl2 to get all commits
+filtering 98 child commits for file MagickCore/profile.c
+no d90c06fef6df2b44b906a8570adac56896205204 in 89
+no c1766ca97e10178f77194ac8d6666e40ee699801 in 65
+no 4e20a27b8790d8308f0477723f4998184db2d432 in 78
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no a564acf287b19b000ab276bf05d6b05d4ea9ecfe in 37
+no 5775664a028c8fdd9fe9d99a4628d08ec57f424c in 87
+no 8891ec1db10a70558deef45f61941b4fe0576b66 in 8
+no 6ce66717d9e976ed947eeae7639d2a2e625a4c10 in 108
+no 123b15740896247379d4202cfefa700f5f065fb1 in 18
+no dd263149f709f1a8fe4e17e23fe6eb17f15dac04 in 93
+filtering 110 parent commits for file MagickCore/profile.c
+0 out5/out7/CVE-2016-7799/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7799 1484762340)
+Original Project = ImageMagick_ImageMagick
+Rate limit exceeded, sleeping 1999 seconds (from 17:34:34)
+Rate limit reset, continuing
+Success (go2)
+Stage 3 (./go3 CVE-2016-7799: ImageMagick_ImageMagick, MagickCore/profile.c out5/out7/CVE-2016-7799/results.fixed.csv)
+out5/out7/CVE-2016-7799/results.fixed.csv
+out5/out7/CVE-2016-7799/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7799/results.notfixed.csv
+out5/out7/CVE-2016-7799/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7799/results.unknown.csv
+out5/out7/CVE-2016-7799/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7838 (18 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7838, vslavik_winsparkle, updatedownloader.cpp
+Calling ./rgl2 to get all commits
+filtering 11 child commits for file src/updatedownloader.cpp
+no 20391e4f2e3e5675ef69e9888220b5289abd01f7 in 32
+filtering 11 parent commits for file src/updatedownloader.cpp
+0 out5/out7/CVE-2016-7838/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7838 1497025740)
+Original Project = vslavik_winsparkle
+Error: get_latest_rev failed:
+   ./get_latest_rev "salsa.debian" "salsa.debian.org/pkg-voip-team_ring" "client-windows/winsparkle/src/updatedownloader.cpp"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2016-7838: vslavik_winsparkle, src/updatedownloader.cpp out5/out7/CVE-2016-7838/results.fixed.csv)
+out5/out7/CVE-2016-7838/results.fixed.csv
+out5/out7/CVE-2016-7838/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7838/results.notfixed.csv
+out5/out7/CVE-2016-7838/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7838/results.unknown.csv
+out5/out7/CVE-2016-7838/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7906 (19 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7906, ImageMagick_ImageMagick, attribute.c
+Calling ./rgl2 to get all commits
+filtering 116 child commits for file MagickCore/attribute.c
+no 56dba8e426519c4e95405b2018618edafe434daf in 86
+no 5733a82f41db607567df284253d07a60bcfd85f3 in 87
+no 8e605a2a3b8bb54393ffbf14b5d9af0973091aad in 14
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 781a8861e443b028477793d50406557bbee0451f in 120
+no 8891ec1db10a70558deef45f61941b4fe0576b66 in 8
+no ef939ef74c996b91e5dbd1cc73bc40030c0c8ae0 in 111
+no 6c90dd8ee5fe292714c6ac6b1d8046e7e48b2244 in 108
+no 2ad55fa3497655604ac03666342c7cc04e14a36f in 42
+no 3ab1ec4c4bb49d1ac49911c88d8d5101799f1e46 in 58
+no 36a5fa73c78600cbd0308e36440d84d4a84585b2 in 54
+no 0ad86b1de8de30a95f52e291f556836c7ce27701 in 10
+filtering 113 parent commits for file MagickCore/attribute.c
+0 out5/out7/CVE-2016-7906/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7906 1484762340)
+Original Project = ImageMagick_ImageMagick
+Success (go2)
+Stage 3 (./go3 CVE-2016-7906: ImageMagick_ImageMagick, MagickCore/attribute.c out5/out7/CVE-2016-7906/results.fixed.csv)
+out5/out7/CVE-2016-7906/results.fixed.csv
+out5/out7/CVE-2016-7906/results.fixed.html
+Success (go3)
+out5/out7/CVE-2016-7906/results.notfixed.csv
+out5/out7/CVE-2016-7906/results.notfixed.html
+Success (go3)
+out5/out7/CVE-2016-7906/results.unknown.csv
+out5/out7/CVE-2016-7906/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2016-7910 (20 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2016-7910, torvalds_linux, genhd.c
+Calling ./rgl2 to get all commits
+filtering 262 child commits for file block/genhd.c
+no aa0c680c3aa96a5f9f160d90dd95402ad578e2b0 in 42
+filtering 187 parent commits for file block/genhd.c
+0 out5/out7/CVE-2016-7910/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out7/CVE-2016-7910 1479275940)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 2272 seconds (from 18:30:02)

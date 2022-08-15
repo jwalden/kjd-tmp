@@ -1,0 +1,714 @@
+
+------------ CVE-2020-11710 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11710, Kong_docs.konghq.com, docs_nav_0.10.x.yml
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file app/_data/docs_nav_0.10.x.yml
+filtering 12 parent commits for file app/_data/docs_nav_0.10.x.yml
+0 out5/out14/CVE-2020-11710/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-11710 1586711700)
+Original Project = Kong_docs.konghq.com
+Success (go2)
+Stage 3 (./go3 CVE-2020-11710: Kong_docs.konghq.com, app/_data/docs_nav_0.10.x.yml out5/out14/CVE-2020-11710/results.fixed.csv)
+out5/out14/CVE-2020-11710/results.fixed.csv
+out5/out14/CVE-2020-11710/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-11710/results.notfixed.csv
+out5/out14/CVE-2020-11710/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-11710/results.unknown.csv
+out5/out14/CVE-2020-11710/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-11722 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11722, crawl_crawl, clua.cc
+Calling ./rgl2 to get all commits
+filtering 5 child commits for file crawl-ref/source/clua.cc
+filtering 230 parent commits for file crawl-ref/source/clua.cc
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+ssh_exchange_identification: Connection closed by remote host
+0 out5/out14/CVE-2020-11722/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-11722 1586718900)
+Original Project = crawl_crawl
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/play-crawl" "sourceforge.net/play-crawl" "src/clua.cc"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Success (go2)
+Stage 3 (./go3 CVE-2020-11722: crawl_crawl, crawl-ref/source/clua.cc out5/out14/CVE-2020-11722/results.fixed.csv)
+out5/out14/CVE-2020-11722/results.fixed.csv
+out5/out14/CVE-2020-11722/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-11722/results.notfixed.csv
+out5/out14/CVE-2020-11722/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-11722/results.unknown.csv
+out5/out14/CVE-2020-11722/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-11810 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11810, OpenVPN_openvpn, multi.c
+Calling ./rgl2 to get all commits
+filtering 71 child commits for file src/openvpn/multi.c
+no f08fcc2f1eb15941292d6e4e520642a4e474fd1e in 112
+no a5b4bad46978a01162fb820ea25594d6333aa9db in 37
+no 6a5612fe82453915755aca945ff4e876a25f582a in 106
+filtering 58 parent commits for file src/openvpn/multi.c
+0 out5/out14/CVE-2020-11810/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-11810 1588000500)
+Original Project = OpenVPN_openvpn
+no tree f09bad4364cf302cc41b8697f49d4075c1ba8d42 for commit 30d2e68ca9abc34a64762110894cd065451e0bb5
+no tree 11c7fb102b32c3f110f5f36fb204c590b0130329 for commit 30d2e68ca9abc34a64762110894cd065451e0bb5
+no tree f09bad4364cf302cc41b8697f49d4075c1ba8d42 for commit c696d6afb58c677894a503dc8f89471abdf53c14
+no tree 11c7fb102b32c3f110f5f36fb204c590b0130329 for commit c696d6afb58c677894a503dc8f89471abdf53c14
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/openvpn/src/openvpn/multi.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/routertesting" "sourceforge.net/routertesting" "release/src/router/openvpn/src/openvpn/multi.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Rate limit exceeded, sleeping 1031 seconds (from 16:50:40)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 5 seconds (from 17:08:14)
+Rate limit reset, continuing
+NUMMMMMM: num_commits=./get_num_commits github hanwckf/rt-n56u
+    5673
+NUMMMMMM: num_commits=./get_num_commits github RMerl/asuswrt-merlin
+    5092
+NUMMMMMM: num_commits=./get_num_commits github RMerl/asuswrt-merlin.ng
+    3563
+NUMMMMMM: num_commits=./get_num_commits salsa.debian salsa.debian.org/debian_openvpn
+    unknown (salsa.debian)
+NUMMMMMM: num_commits=./get_num_commits github tomatofirmware/tomato
+    23
+Success (go2)
+Stage 3 (./go3 CVE-2020-11810: OpenVPN_openvpn, src/openvpn/multi.c out5/out14/CVE-2020-11810/results.fixed.csv)
+out5/out14/CVE-2020-11810/results.fixed.csv
+out5/out14/CVE-2020-11810/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-11810/results.notfixed.csv
+out5/out14/CVE-2020-11810/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-11810/results.unknown.csv
+out5/out14/CVE-2020-11810/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-11932 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11932, CanonicalLtd_subiquity, filesystem.py
+Calling ./rgl2 to get all commits
+filtering 90 child commits for file subiquity/models/filesystem.py
+no 5fcd6776c1a27f16bccaf9cd56fd6abfdd3b7362 in 95
+no 434d90bbd3bb6acc88b2b49259b039874dece0ed in 67
+no 6f523b4568f85e917a4bacea45460906d660951e in 111
+no 57fb6b80728bf2f9c0bafe3a30bf91d1e425d92d in 87
+no ce146ab28a517beb3136432feeb44866ddf94137 in 78
+no 6e2ecfc497fd2e77962aeed89d6aa3a6f900c182 in 110
+no 111aefc54ad746026d108eabef1ac7bb5af1e1fb in 17
+no 832caeda554d283eefedfa1faa412587d2cd4878 in 3
+no 396dca07b848ec649007f08c3856b0bdf2b21ff8 in 57
+no f3859904a4dba0731cefc74ecce6accda2a94b20 in 115
+no 5d5f9ca49e56068507d403d8e5afab0194bd9bec in 93
+no 58c1ee834e7698b3a90e95a4babbbfb18ec49943 in 88
+no 40a6ff71d921152c801526b3f7ad4c84bf6ca224 in 64
+no 5aa3bd3560ec2ab6605a4e61b636b244f4f284b6 in 90
+no 69b765efd5bb29e6e5d9ed22abe1aa4243ec3293 in 105
+no 40b2f3267b4b3cd35af626d63537608c9b8419ab in 64
+no 5eacceaf406e21bef03a9cc995330663969d0eaf in 94
+no ce3126efb6e4840e09666149f5d958af571e3992 in 78
+no b07405a744d47052b4dfc1cf4c32d8dc6559c63c in 48
+no f3634dc2427f2b7813853fc03f9ad8367d374a87 in 115
+no ce4316fc23b38d2760762b5af9b886b1f1e6ea5e in 78
+no d2c7a21fc2abde307f570e108ad22683e34077bd in 82
+no 36241271a54f10b7fb2317bfc601a09e85770c9a in 54
+no f5dad435edc4c9612493c36ed2f363ea73f2cef1 in 117
+no 4c33463b9e896de47dbed46d8ad228a4f0137281 in 76
+no 2a84dc69801d5e2e6d7ed3132acba379d46b3605 in 42
+no 7b36b1907a1e89556192e5aa1dee6815b3c01040 in 123
+no d0ccc98aadc489abc4cca24549c654b2a94df74f in 80
+no a17bd659e26708a20b64b7a8d733debd761eb7ba in 33
+no 68b9c42fac04ee6c31fd4ea14451b857c905c164 in 104
+no 83cfdbdfead8389c4a2002ebca21636ded3f5876 in 3
+no 345bd1470793ec4a184829a3b8ad90926ad99c3d in 52
+no a61e609ec763b5606d401ad6d23d5d17b79b1f83 in 38
+no bd4e4785a9bc4f44ceb7423bac09502719819971 in 61
+filtering 306 parent commits for file subiquity/models/filesystem.py
+0 out5/out14/CVE-2020-11932/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-11932 1589332500)
+Original Project = CanonicalLtd_subiquity
+Success (go2)
+Stage 3 (./go3 CVE-2020-11932: CanonicalLtd_subiquity, subiquity/models/filesystem.py out5/out14/CVE-2020-11932/results.fixed.csv)
+out5/out14/CVE-2020-11932/results.fixed.csv
+out5/out14/CVE-2020-11932/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-11932/results.notfixed.csv
+out5/out14/CVE-2020-11932/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-11932/results.unknown.csv
+out5/out14/CVE-2020-11932/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-11939 (5 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11939, ntop_nDPI, ssh.c
+Calling ./rgl2 to get all commits
+filtering 24 child commits for file src/lib/protocols/ssh.c
+no 1d4e27c4739f74ccef19fde7e6008d725ea93a69 in 29
+no f25deeccb1ccbebd6346271828762fdd8326c32b in 114
+filtering 25 parent commits for file src/lib/protocols/ssh.c
+0 out5/out14/CVE-2020-11939/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-11939 1587654900)
+Original Project = ntop_nDPI
+NUMMMMMM: num_commits=./get_num_commits github danos/ndpi
+    227
+Success (go2)
+Stage 3 (./go3 CVE-2020-11939: ntop_nDPI, src/lib/protocols/ssh.c out5/out14/CVE-2020-11939/results.fixed.csv)
+out5/out14/CVE-2020-11939/results.fixed.csv
+out5/out14/CVE-2020-11939/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-11939/results.notfixed.csv
+out5/out14/CVE-2020-11939/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-11939/results.unknown.csv
+out5/out14/CVE-2020-11939/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-11940 (6 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11940, ntop_nDPI, ssh.c
+Calling ./rgl2 to get all commits
+filtering 25 child commits for file src/lib/protocols/ssh.c
+no 1d4e27c4739f74ccef19fde7e6008d725ea93a69 in 29
+no f25deeccb1ccbebd6346271828762fdd8326c32b in 114
+filtering 24 parent commits for file src/lib/protocols/ssh.c
+0 out5/out14/CVE-2020-11940/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-11940 1587654900)
+Original Project = ntop_nDPI
+NUMMMMMM: num_commits=./get_num_commits github danos/ndpi
+    227
+Success (go2)
+Stage 3 (./go3 CVE-2020-11940: ntop_nDPI, src/lib/protocols/ssh.c out5/out14/CVE-2020-11940/results.fixed.csv)
+out5/out14/CVE-2020-11940/results.fixed.csv
+out5/out14/CVE-2020-11940/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-11940/results.notfixed.csv
+out5/out14/CVE-2020-11940/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-11940/results.unknown.csv
+out5/out14/CVE-2020-11940/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-11958 (7 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-11958, skvadrik_re2c, scanner.cc
+Calling ./rgl2 to get all commits
+filtering 20 child commits for file src/parse/scanner.cc
+no bc3a1c277089f90e1c45d9ea3ec826fc21c3fd2c in 60
+no 6264787bb10a496c3d6abf762e67774b814d1a89 in 98
+no 51c3d5f5acd18da6aea9d3deebc855776344fe8f in 81
+no ff408ec4ced6ff4089b11107bb8cdb5c7f218c87 in 127
+no 4cb1a5d567d3a4b23b163e63cf926f735965e3a7 in 76
+no d4845e2ec223e976a2c16901d3226c7c6038aef7 in 84
+no 57c79c13ca9d1a4708e407b1116edbdc8ca08ac3 in 87
+no 98aa4455467b2b5540a6bcc7265bd16258582827 in 24
+no 04b049f8c2bc09ad5991bab438439f14eed125fe in 4
+no b1b246b4a392b133b2ae3c75efbe7a145951e03c in 49
+filtering 2 parent commits for file src/parse/scanner.cc
+0 out5/out14/CVE-2020-11958/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-11958 1587431700)
+Original Project = skvadrik_re2c
+NUMMMMMM: num_commits=./get_num_commits github jcfp/debpkg-re2c
+    
+Success (go2)
+Stage 3 (./go3 CVE-2020-11958: skvadrik_re2c, src/parse/scanner.cc out5/out14/CVE-2020-11958/results.fixed.csv)
+out5/out14/CVE-2020-11958/results.fixed.csv
+out5/out14/CVE-2020-11958/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-11958/results.notfixed.csv
+out5/out14/CVE-2020-11958/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-11958/results.unknown.csv
+out5/out14/CVE-2020-11958/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-12062 (8 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12062, openssh_openssh-portable, scp.c
+Calling ./rgl2 to get all commits
+filtering 42 child commits for file scp.c
+no 1bdf86725b77733bb5f17c54888b88a10b2f6538 in 27
+no 56a0697fe079ff3e1ba30a2d5c26b5e45f7b71f8 in 86
+filtering 232 parent commits for file scp.c
+0 out5/out14/CVE-2020-12062/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-12062 1591028100)
+Original Project = openssh_openssh-portable
+./go2: line 102: out5/out14/CVE-2020-12062/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad.txt: No such file or directory
+./go2: line 104: out5/out14/CVE-2020-12062/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out14/CVE-2020-12062/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out14/CVE-2020-12062/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out14/CVE-2020-12062/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/ls-2018/py/contents/运维自动化/CrazyEye/src/openssh-7.3p1/scp.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ls-2018/py" "运维自动化/CrazyEye/src/openssh-7.3p1/scp.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/syarale/read_sftp_code/contents/openssh-源码阅读笔记/scp.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "syarale/read_sftp_code" "openssh-源码阅读笔记/scp.c"
+   Error: jq reports invalid json in response;;
+NUMMMMMM: num_commits=./get_num_commits github bitbucket.org/dilos_openssh-portable
+    
+NUMMMMMM: num_commits=./get_num_commits github freebsd/freebsd
+    
+NUMMMMMM: num_commits=./get_num_commits github hanwckf/rt-n56u
+    5673
+NUMMMMMM: num_commits=./get_num_commits github pexip/os-openssh
+    112
+NUMMMMMM: num_commits=./get_num_commits github tizenorg/platform.upstream.openssh
+    39
+Success (go2)
+Stage 3 (./go3 CVE-2020-12062: openssh_openssh-portable, scp.c out5/out14/CVE-2020-12062/results.fixed.csv)
+out5/out14/CVE-2020-12062/results.fixed.csv
+out5/out14/CVE-2020-12062/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-12062/results.notfixed.csv
+out5/out14/CVE-2020-12062/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-12062/results.unknown.csv
+out5/out14/CVE-2020-12062/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-12066 (9 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12066, teeworlds_teeworlds, server.cpp
+Calling ./rgl2 to get all commits
+filtering 39 child commits for file src/engine/server/server.cpp
+filtering 204 parent commits for file src/engine/server/server.cpp
+0 out5/out14/CVE-2020-12066/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-12066 1587575700)
+Original Project = teeworlds_teeworlds
+Rate limit exceeded, sleeping 1928 seconds (from 17:35:45)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "salsa.debian" "salsa.debian.org/games-team_teeworlds" "src/engine/server/server.cpp"
+   Error: host must be one of github, gitlab, or bitbucket;;
+NUMMMMMM: num_commits=./get_num_commits github ddnet/ddnet
+    15339
+Success (go2)
+Stage 3 (./go3 CVE-2020-12066: teeworlds_teeworlds, src/engine/server/server.cpp out5/out14/CVE-2020-12066/results.fixed.csv)
+out5/out14/CVE-2020-12066/results.fixed.csv
+out5/out14/CVE-2020-12066/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-12066/results.notfixed.csv
+out5/out14/CVE-2020-12066/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-12066/results.unknown.csv
+out5/out14/CVE-2020-12066/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-12078 (10 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12078, Opmantek_open-audit, discoveries_helper.php
+Calling ./rgl2 to get all commits
+./rgl2 github Opmantek/open-audit code_igniter/application/helpers/discoveries_helper.php
+Error: rgl2 failed: rate limit exceeded
+Failure (go1): "./go1 out5/out14/CVE-2020-12078"
+
+------------ CVE-2020-12268 (11 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12268, ArtifexSoftware_jbig2dec, jbig2_image.c
+Calling ./rgl2 to get all commits
+filtering 6 child commits for file jbig2_image.c
+filtering 84 parent commits for file jbig2_image.c
+0 out5/out14/CVE-2020-12268/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-12268 1587953700)
+Original Project = ArtifexSoftware_jbig2dec
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/Brinews/partTime/contents/32-pdfȡ��/sumatrapdf-read-only/ext/jbig2dec/jbig2_image.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "Brinews/partTime" "32-pdfȡ��/sumatrapdf-read-only/ext/jbig2dec/jbig2_image.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/hazed7/schoolbot/contents/Хлам/ghostscript-9.09/jbig2dec/jbig2_image.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "hazed7/schoolbot" "Хлам/ghostscript-9.09/jbig2dec/jbig2_image.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/openthos/printer-analysis/contents/HP%20P1108最简移植/ghostscript/ghostscript-9.14/jbig2dec/jbig2_image.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "openthos/printer-analysis" "HP P1108最简移植/ghostscript/ghostscript-9.14/jbig2dec/jbig2_image.c"
+   Error: jq reports invalid json in response;;
+NUMMMMMM: num_commits=./get_num_commits github 153437803/cmake_pdf
+    
+NUMMMMMM: num_commits=./get_num_commits github ArtifexSoftware/ghostpdl
+    22720
+NUMMMMMM: num_commits=./get_num_commits github MappingSuite/mapping-ghostscript
+    12
+NUMMMMMM: num_commits=./get_num_commits github sumatrapdfreader/sumatrapdf
+    14234
+NUMMMMMM: num_commits=./get_num_commits github Whissi/gentoo-ghostscript-gpl
+    
+Success (go2)
+Stage 3 (./go3 CVE-2020-12268: ArtifexSoftware_jbig2dec, jbig2_image.c out5/out14/CVE-2020-12268/results.fixed.csv)
+out5/out14/CVE-2020-12268/results.fixed.csv
+out5/out14/CVE-2020-12268/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-12268/results.notfixed.csv
+out5/out14/CVE-2020-12268/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-12268/results.unknown.csv
+out5/out14/CVE-2020-12268/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-12284 (12 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12284, FFmpeg_FFmpeg, cbs_jpeg.c
+Calling ./rgl2 to get all commits
+filtering 9 child commits for file libavcodec/cbs_jpeg.c
+no 2ba04bafb427ea93e3614c0469a6e13e55ac9dc9 in 43
+no 2d722b6638a1b925d7e9e01e45611c450bfcf7ee in 45
+filtering 7 parent commits for file libavcodec/cbs_jpeg.c
+0 out5/out14/CVE-2020-12284/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-12284 1588054500)
+Original Project = FFmpeg_FFmpeg
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/frustreated/android_security-1/contents/工具与方法论沉淀/FFmpeg-master/libavcodec/cbs_jpeg.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "frustreated/android_security-1" "工具与方法论沉淀/FFmpeg-master/libavcodec/cbs_jpeg.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "salsa.debian" "salsa.debian.org/gstreamer-team_gst-libav1.0" "gst-libs/ext/libav/libavcodec/cbs_jpeg.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+NUMMMMMM: num_commits=./get_num_commits github amesy/ffmpeg-shana
+    
+NUMMMMMM: num_commits=./get_num_commits github arinssanghi/desktop
+    16
+NUMMMMMM: num_commits=./get_num_commits github bloomberg/chromium.bb
+    1636988
+NUMMMMMM: num_commits=./get_num_commits github chinue/FFmpeg4Win
+    5
+NUMMMMMM: num_commits=./get_num_commits github endlessm/chromium-browser
+    91
+NUMMMMMM: num_commits=./get_num_commits github jack0102030405/gpl-sources
+    6
+NUMMMMMM: num_commits=./get_num_commits github MythTV/mythtv
+    41225
+NUMMMMMM: num_commits=./get_num_commits github noam79/My-Discord-Bot
+    7
+NUMMMMMM: num_commits=./get_num_commits github qt/qtwebengine-chromium
+    91
+NUMMMMMM: num_commits=./get_num_commits github tanersener/mobile-ffmpeg
+    831
+NUMMMMMM: num_commits=./get_num_commits github UofU-CS3505-S20/Project-1
+    
+NUMMMMMM: num_commits=./get_num_commits github western/ffmpeg-builder
+    
+Success (go2)
+Stage 3 (./go3 CVE-2020-12284: FFmpeg_FFmpeg, libavcodec/cbs_jpeg.c out5/out14/CVE-2020-12284/results.fixed.csv)
+out5/out14/CVE-2020-12284/results.fixed.csv
+out5/out14/CVE-2020-12284/results.fixed.html
+Success (go3)
+out5/out14/CVE-2020-12284/results.notfixed.csv
+out5/out14/CVE-2020-12284/results.notfixed.html
+Success (go3)
+out5/out14/CVE-2020-12284/results.unknown.csv
+out5/out14/CVE-2020-12284/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2020-12464 (13 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2020-12464, torvalds_linux, message.c
+Calling ./rgl2 to get all commits
+filtering 14 child commits for file drivers/usb/core/message.c
+filtering 186 parent commits for file drivers/usb/core/message.c
+0 out5/out14/CVE-2020-12464/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out14/CVE-2020-12464 1588184100)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 2271 seconds (from 18:30:03)

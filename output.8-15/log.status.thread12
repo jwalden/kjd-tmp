@@ -1,0 +1,130 @@
+
+------------ CVE-2019-11565 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-11565, mnelson4_printmyblog, RestApiDetector.php
+Calling ./rgl2 to get all commits
+filtering 4 child commits for file includes/vendor/mnelson4/RestApiDetector/RestApiDetector.php
+filtering 5 parent commits for file includes/vendor/mnelson4/RestApiDetector/RestApiDetector.php
+0 out5/out12/CVE-2019-11565/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out12/CVE-2019-11565 1556375340)
+Original Project = mnelson4_printmyblog
+Success (go2)
+Stage 3 (./go3 CVE-2019-11565: mnelson4_printmyblog, includes/vendor/mnelson4/RestApiDetector/RestApiDetector.php out5/out12/CVE-2019-11565/results.fixed.csv)
+out5/out12/CVE-2019-11565/results.fixed.csv
+out5/out12/CVE-2019-11565/results.fixed.html
+Success (go3)
+out5/out12/CVE-2019-11565/results.notfixed.csv
+out5/out12/CVE-2019-11565/results.notfixed.html
+Success (go3)
+out5/out12/CVE-2019-11565/results.unknown.csv
+out5/out12/CVE-2019-11565/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2019-11596 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-11596, memcached_memcached, memcached.c
+Calling ./rgl2 to get all commits
+filtering 130 child commits for file memcached.c
+no cd440062ae8955ac2634e61934368574690f8c6e in 77
+no f7d8dbdab9baacf425fba64f6786fd9f05fd2d5d in 119
+no 69e732ab6f9da866867a355fd88ebfa453531344 in 105
+no b1171b6b91808421516e8a31732c38928709f906 in 49
+filtering 648 parent commits for file memcached.c
+0 out5/out12/CVE-2019-11596/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out12/CVE-2019-11596 1556551740)
+Original Project = memcached_memcached
+Rate limit exceeded, sleeping 1026 seconds (from 16:50:45)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 14 seconds (from 17:08:05)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 63 seconds (from 17:08:45)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "libmemcached/libmemcached" "memcached/memcached.c"
+   This repository is empty: https://api.github.com/repos/libmemcached/libmemcached/contents/memcached/memcached.c;;
+NUMMMMMM: num_commits=./get_num_commits github hckuo/Cozart
+    298
+NUMMMMMM: num_commits=./get_num_commits salsa.debian salsa.debian.org/lamby_pkg-memcached
+    unknown (salsa.debian)
+Success (go2)
+Stage 3 (./go3 CVE-2019-11596: memcached_memcached, memcached.c out5/out12/CVE-2019-11596/results.fixed.csv)
+out5/out12/CVE-2019-11596/results.fixed.csv
+out5/out12/CVE-2019-11596/results.fixed.html
+Success (go3)
+out5/out12/CVE-2019-11596/results.notfixed.csv
+out5/out12/CVE-2019-11596/results.notfixed.html
+Success (go3)
+out5/out12/CVE-2019-11596/results.unknown.csv
+out5/out12/CVE-2019-11596/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2019-11810 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-11810, torvalds_linux, megaraid_sas_base.c
+Calling ./rgl2 to get all commits
+filtering 106 child commits for file drivers/scsi/megaraid/megaraid_sas_base.c
+filtering 292 parent commits for file drivers/scsi/megaraid/megaraid_sas_base.c
+0 out5/out12/CVE-2019-11810/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out12/CVE-2019-11810 1557239340)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 2075 seconds (from 17:33:18)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 49 seconds (from 18:09:00)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ckeiom/FSL_Linux" "drivers/scsi/megaraid/megaraid_sas_base.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/drivers/scsi/megaraid/megaraid_sas_base.c;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/dclcs/linuxmooc/contents/实验源码/drivers/scsi/megaraid/megaraid_sas_base.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "dclcs/linuxmooc" "实验源码/drivers/scsi/megaraid/megaraid_sas_base.c"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 2266 seconds (from 18:30:08)

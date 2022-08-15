@@ -1,0 +1,77 @@
+
+------------ CVE-2015-5706 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2015-5706, torvalds_linux, namei.c
+Calling ./rgl2 to get all commits
+filtering 528 child commits for file fs/namei.c
+no 426b4ca2d6a5ab51f6b6175d06e4f8ddea434cdf in 66
+no 1639a49ccdce58ea248841ed9b23babcce6dbb0b in 22
+no ac6800e279a22b28f4fc21439843025a0d5bf03e in 44
+ssh_exchange_identification: Connection closed by remote host
+filtering 714 parent commits for file fs/namei.c
+0 out5/out5/CVE-2015-5706/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out5/CVE-2015-5706 1441018740)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 737 seconds (from 16:55:34)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 13 seconds (from 17:08:06)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 61 seconds (from 17:08:47)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ckeiom/FSL_Linux" "fs/namei.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/fs/namei.c;;
+Rate limit exceeded, sleeping 2075 seconds (from 17:33:18)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 60 seconds (from 18:08:49)
+Rate limit reset, continuing
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/dclcs/linuxmooc/contents/实验源码/fs/namei.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "dclcs/linuxmooc" "实验源码/fs/namei.c"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 2268 seconds (from 18:30:06)

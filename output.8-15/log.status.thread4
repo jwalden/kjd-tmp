@@ -1,0 +1,423 @@
+
+------------ CVE-2014-8323 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8323, aircrack-ng_aircrack-ng, buddy-ng.c
+Calling ./rgl2 to get all commits
+filtering 16 child commits for file src/buddy-ng.c
+filtering 5 parent commits for file src/buddy-ng.c
+0 out5/out4/CVE-2014-8323/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out4/CVE-2014-8323 1508250540)
+Original Project = aircrack-ng_aircrack-ng
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/aircrack-ng/src/buddy-ng.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/gittest-connor" "sourceforge.net/gittest-connor" "src/buddy-ng.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+NUMMMMMM: num_commits=./get_num_commits github CentUser/aircrack-ng
+    2
+NUMMMMMM: num_commits=./get_num_commits github OpenVPN/openvpn
+    3312
+NUMMMMMM: num_commits=./get_num_commits github PLeaseHireMe/aircrack-ng
+    2900
+NUMMMMMM: num_commits=./get_num_commits github pwnieexpress/Raspberry-Pwn
+    
+NUMMMMMM: num_commits=./get_num_commits github SAGAWORLD/aircrack-ng
+    
+NUMMMMMM: num_commits=./get_num_commits salsa.debian salsa.debian.org/pkg-security-team_aircrack-ng
+    unknown (salsa.debian)
+NUMMMMMM: num_commits=./get_num_commits github zOrg1331/aircrack-ng
+    4055
+Success (go2)
+Stage 3 (./go3 CVE-2014-8323: aircrack-ng_aircrack-ng, src/buddy-ng.c out5/out4/CVE-2014-8323/results.fixed.csv)
+out5/out4/CVE-2014-8323/results.fixed.csv
+out5/out4/CVE-2014-8323/results.fixed.html
+Success (go3)
+out5/out4/CVE-2014-8323/results.notfixed.csv
+out5/out4/CVE-2014-8323/results.notfixed.html
+Success (go3)
+out5/out4/CVE-2014-8323/results.unknown.csv
+out5/out4/CVE-2014-8323/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2014-8324 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8324, aircrack-ng_aircrack-ng, network.c
+Calling ./rgl2 to get all commits
+filtering 10 child commits for file src/osdep/network.c
+filtering 9 parent commits for file src/osdep/network.c
+0 out5/out4/CVE-2014-8324/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out4/CVE-2014-8324 1508250540)
+Original Project = aircrack-ng_aircrack-ng
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/cave-g-f/Linux-wireless/contents/洪水攻击/breakConnect/osdep/network.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "cave-g-f/Linux-wireless" "洪水攻击/breakConnect/osdep/network.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "salsa.debian" "salsa.debian.org/pkg-security-team_mdk3" "osdep/network.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/aircrack-ng/src/osdep/network.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+NUMMMMMM: num_commits=./get_num_commits github 0x90/wifi-arsenal
+    364
+NUMMMMMM: num_commits=./get_num_commits github aenrik/freebsd-pentest-repo
+    1
+NUMMMMMM: num_commits=./get_num_commits github aircrack-ng/mdk3
+    82
+NUMMMMMM: num_commits=./get_num_commits github CentUser/aircrack-ng
+    2
+NUMMMMMM: num_commits=./get_num_commits github edouzani/dwpa
+    517
+NUMMMMMM: num_commits=./get_num_commits github Lexus89/mdk3
+    89
+NUMMMMMM: num_commits=./get_num_commits github OpenVPN/openvpn
+    3312
+NUMMMMMM: num_commits=./get_num_commits github PLeaseHireMe/aircrack-ng
+    2900
+NUMMMMMM: num_commits=./get_num_commits github pwnieexpress/Raspberry-Pwn
+    
+NUMMMMMM: num_commits=./get_num_commits github SAGAWORLD/aircrack-ng
+    
+NUMMMMMM: num_commits=./get_num_commits salsa.debian salsa.debian.org/pkg-security-team_aircrack-ng
+    unknown (salsa.debian)
+NUMMMMMM: num_commits=./get_num_commits github Tu-tu-tu/fbsd-pentest
+    
+NUMMMMMM: num_commits=./get_num_commits github ver007/durgabsd
+    4
+NUMMMMMM: num_commits=./get_num_commits github zOrg1331/aircrack-ng
+    4055
+Success (go2)
+Stage 3 (./go3 CVE-2014-8324: aircrack-ng_aircrack-ng, src/osdep/network.c out5/out4/CVE-2014-8324/results.fixed.csv)
+out5/out4/CVE-2014-8324/results.fixed.csv
+out5/out4/CVE-2014-8324/results.fixed.html
+Success (go3)
+out5/out4/CVE-2014-8324/results.notfixed.csv
+out5/out4/CVE-2014-8324/results.notfixed.html
+Success (go3)
+out5/out4/CVE-2014-8324/results.unknown.csv
+out5/out4/CVE-2014-8324/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2014-8326 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8326, phpmyadmin_phpmyadmin, server_status_monitor.js
+Calling ./rgl2 to get all commits
+filtering 61 child commits for file js/server_status_monitor.js
+filtering 198 parent commits for file js/server_status_monitor.js
+0 out5/out4/CVE-2014-8326/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out4/CVE-2014-8326 1415188500)
+Original Project = phpmyadmin_phpmyadmin
+Rate limit exceeded, sleeping 1024 seconds (from 16:50:47)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 6 seconds (from 17:08:13)
+Rate limit reset, continuing
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/cinco/patrimonio/contents/Versões%20Anteriores/20%20de%20maio%20de%202014/phpmyadmin/js/server_status_monitor.js
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "cinco/patrimonio" "Versões Anteriores/20 de maio de 2014/phpmyadmin/js/server_status_monitor.js"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 54 seconds (from 17:08:54)
+Rate limit reset, continuing
+no tree 5ae8ff0cf9656151abb24cabc7ade55bd471f59f for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+no tree 28c1f789bee43bd856f3832ec30f2022734c33f8 for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+no tree 69ff831499750e416bdad5b12089f26441b2cc52 for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+no tree 5c957544786abbc9b14164f92a55920042184d90 for commit fa597add81fe172a6ec1188a55107fdd5fb9da41
+no tree 00abb9433e492f070a5b2cd843f9c249662f560e for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree afdfd0972023bc1f65fcd38dd03fd6cdbd60fc7d for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 73367919d6c253a265d5fc56b66fc3c8a08582d7 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree ce67f3ea2429cbb64705391a6496b2b08bfad54f for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree c56bb64dda92207106c644f1ad0d091faff2f728 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 7ecf12a796219caaf109654a0aa356ce9ddc9fc4 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree f81fc518483dae8ebd04c5879a5164a7c5ea5133 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 6acfb9b15b6b06bcfa415bd4ba93cddefa2e5d86 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 3385de212150dc0fb51bdb8145c317d3c2883bc3 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree fb7263c158844a997bb0f1dc9ecbfaaa912ab263 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 00abb9433e492f070a5b2cd843f9c249662f560e for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 6acfb9b15b6b06bcfa415bd4ba93cddefa2e5d86 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 3385de212150dc0fb51bdb8145c317d3c2883bc3 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree fb7263c158844a997bb0f1dc9ecbfaaa912ab263 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+no tree 1548b51f4b6bb6fb100720cbba27578a55de3f76 for commit f7c53319d41f55d9915bbcb63ab6db49b35bd9a8
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/MGerasimchuk/Simulator-command-interface/contents/Быстрая%20инсталяция%20системы/html/pma/js/server_status_monitor.js
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "MGerasimchuk/Simulator-command-interface" "Быстрая инсталяция системы/html/pma/js/server_status_monitor.js"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/rfscms" "sourceforge.net/rfscms" "3rdparty/phpmyadmin/js/server_status_monitor.js"
+   Error: host must be one of github, gitlab, or bitbucket;;
+NUMMMMMM: num_commits=./get_num_commits github acquia/blt
+    2756
+NUMMMMMM: num_commits=./get_num_commits github aramisf/-
+    9
+NUMMMMMM: num_commits=./get_num_commits github ArcherSys/ArcherSys
+    
+NUMMMMMM: num_commits=./get_num_commits github bhutanio/phpmyx
+    
+NUMMMMMM: num_commits=./get_num_commits github blondie101010/sentora-ng
+    2944
+NUMMMMMM: num_commits=./get_num_commits github Chassis/phpMyAdmin
+    70
+NUMMMMMM: num_commits=./get_num_commits github cranefly/cms
+    
+NUMMMMMM: num_commits=./get_num_commits github derUli/ulicms-pkg
+    1483
+NUMMMMMM: num_commits=./get_num_commits github dhurng/cs157AOnlineBanking
+    26
+NUMMMMMM: num_commits=./get_num_commits github fillup/phpmyadmin-minimal
+    13
+NUMMMMMM: num_commits=./get_num_commits github fuhongliang/zhaolingqian_php
+    
+NUMMMMMM: num_commits=./get_num_commits github githubBloc/Bloc
+    6
+NUMMMMMM: num_commits=./get_num_commits github hawaiianchimp/ESCan
+    
+NUMMMMMM: num_commits=./get_num_commits github hishcodes/portapress
+    17
+NUMMMMMM: num_commits=./get_num_commits github homebase/lib.external
+    151
+NUMMMMMM: num_commits=./get_num_commits github imfht/phpsourcecode
+    2
+NUMMMMMM: num_commits=./get_num_commits github i-MSCP/phpmyadmin
+    115
+NUMMMMMM: num_commits=./get_num_commits github laravel/laravel
+    6768
+NUMMMMMM: num_commits=./get_num_commits github MatheusSilvaSouza1/htdocs-Note
+    
+NUMMMMMM: num_commits=./get_num_commits github mpwg-git/web
+    
+NUMMMMMM: num_commits=./get_num_commits github netsider/_updayte.com
+    3
+NUMMMMMM: num_commits=./get_num_commits github openemr/openemr
+    9246
+NUMMMMMM: num_commits=./get_num_commits github petegerhat/programmeguide
+    
+NUMMMMMM: num_commits=./get_num_commits github rhertzog/lcs
+    2851
+NUMMMMMM: num_commits=./get_num_commits github salsa.debian.org/phpmyadmin-team/phpmyadmin
+    
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 156: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 161: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad.txt: No such file or directory
+./go2: line 163: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt: No such file or directory
+head: cannot open ‘out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_good_sorted.txt’ for reading: No such file or directory
+./go2: line 167: out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out4/CVE-2014-8326/stage2/salsa.debian.org_phpmyadmin-team/phpmyadmin_bad_sorted.txt’ for reading: No such file or directory
+NUMMMMMM: num_commits=./get_num_commits github sarukuku/ParaChute
+    4
+NUMMMMMM: num_commits=./get_num_commits github StatusNULL/XAMPP-for-Windows
+    61
+NUMMMMMM: num_commits=./get_num_commits github stopsopa/pma
+    45
+NUMMMMMM: num_commits=./get_num_commits github timtraver/rcvault
+    
+NUMMMMMM: num_commits=./get_num_commits github WebsiteBaker-modules/WB-Portable
+    6
+Success (go2)
+Stage 3 (./go3 CVE-2014-8326: phpmyadmin_phpmyadmin, js/server_status_monitor.js out5/out4/CVE-2014-8326/results.fixed.csv)
+out5/out4/CVE-2014-8326/results.fixed.csv
+out5/out4/CVE-2014-8326/results.fixed.html
+Success (go3)
+out5/out4/CVE-2014-8326/results.notfixed.csv
+out5/out4/CVE-2014-8326/results.notfixed.html
+Success (go3)
+out5/out4/CVE-2014-8326/results.unknown.csv
+out5/out4/CVE-2014-8326/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2014-8369 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2014-8369, torvalds_linux, iommu.c
+Calling ./rgl2 to get all commits
+filtering 2 child commits for file virt/kvm/iommu.c
+filtering 43 parent commits for file virt/kvm/iommu.c
+0 out5/out4/CVE-2014-8369/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out4/CVE-2014-8369 1415620500)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 2078 seconds (from 17:33:15)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 59 seconds (from 18:08:50)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ckeiom/FSL_Linux" "virt/kvm/iommu.c"
+   This repository is empty: https://api.github.com/repos/ckeiom/FSL_Linux/contents/virt/kvm/iommu.c;;
+Rate limit exceeded, sleeping 2266 seconds (from 18:30:08)

@@ -1,0 +1,302 @@
+
+------------ CVE-2018-1000501 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000501, InstantUpdate_CMS, auth.php
+Calling ./rgl2 to get all commits
+filtering 1 child commits for file iu-application/controllers/administration/auth.php
+filtering 1 parent commits for file iu-application/controllers/administration/auth.php
+0 out5/out10/CVE-2018-1000501/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-1000501 1530030540)
+Original Project = InstantUpdate_CMS
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000501: InstantUpdate_CMS, iu-application/controllers/administration/auth.php out5/out10/CVE-2018-1000501/results.fixed.csv)
+out5/out10/CVE-2018-1000501/results.fixed.csv
+out5/out10/CVE-2018-1000501/results.fixed.html
+Success (go3)
+out5/out10/CVE-2018-1000501/results.notfixed.csv
+out5/out10/CVE-2018-1000501/results.notfixed.html
+Success (go3)
+out5/out10/CVE-2018-1000501/results.unknown.csv
+out5/out10/CVE-2018-1000501/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2018-1000524 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000524, fatcerberus_minisphere, map_engine.c
+Calling ./rgl2 to get all commits
+filtering 9 child commits for file src/minisphere/map_engine.c
+filtering 87 parent commits for file src/minisphere/map_engine.c
+0 out5/out10/CVE-2018-1000524/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-1000524 1530030540)
+Original Project = fatcerberus_minisphere
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000524: fatcerberus_minisphere, src/minisphere/map_engine.c out5/out10/CVE-2018-1000524/results.fixed.csv)
+out5/out10/CVE-2018-1000524/results.fixed.csv
+out5/out10/CVE-2018-1000524/results.fixed.html
+Success (go3)
+out5/out10/CVE-2018-1000524/results.notfixed.csv
+out5/out10/CVE-2018-1000524/results.notfixed.html
+Success (go3)
+out5/out10/CVE-2018-1000524/results.unknown.csv
+out5/out10/CVE-2018-1000524/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2018-1000528 (3 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000528, gosa-project_gosa-core, password.php
+Calling ./rgl2 to get all commits
+filtering 6 child commits for file html/password.php
+no add40ac9ff745dfb77d617ba79882ab6876f20e4 in 45
+no 01260fc1883423b9ad3ad0d6a5822f7aee747a2c in 1
+filtering 40 parent commits for file html/password.php
+0 out5/out10/CVE-2018-1000528/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-1000528 1530030540)
+Original Project = gosa-project_gosa-core
+NUMMMMMM: num_commits=./get_num_commits github gosa-project/gosa-plugins-zarafa
+    32
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000528: gosa-project_gosa-core, html/password.php out5/out10/CVE-2018-1000528/results.fixed.csv)
+out5/out10/CVE-2018-1000528/results.fixed.csv
+out5/out10/CVE-2018-1000528/results.fixed.html
+Success (go3)
+out5/out10/CVE-2018-1000528/results.notfixed.csv
+out5/out10/CVE-2018-1000528/results.notfixed.html
+Success (go3)
+out5/out10/CVE-2018-1000528/results.unknown.csv
+out5/out10/CVE-2018-1000528/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2018-1000534 (4 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000534, laurent22_joplin, MdToHtml.js
+Calling ./rgl2 to get all commits
+filtering 58 child commits for file ReactNativeClient/lib/MdToHtml.js
+filtering 54 parent commits for file ReactNativeClient/lib/MdToHtml.js
+0 out5/out10/CVE-2018-1000534/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-1000534 1530030540)
+Original Project = laurent22_joplin
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000534: laurent22_joplin, ReactNativeClient/lib/MdToHtml.js out5/out10/CVE-2018-1000534/results.fixed.csv)
+out5/out10/CVE-2018-1000534/results.fixed.csv
+out5/out10/CVE-2018-1000534/results.fixed.html
+Success (go3)
+out5/out10/CVE-2018-1000534/results.notfixed.csv
+out5/out10/CVE-2018-1000534/results.notfixed.html
+Success (go3)
+out5/out10/CVE-2018-1000534/results.unknown.csv
+out5/out10/CVE-2018-1000534/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2018-1000658 (5 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000658, LimeSurvey_LimeSurvey, common_helper.php
+Calling ./rgl2 to get all commits
+filtering 126 child commits for file application/helpers/common_helper.php
+no 979eacedd113555af314f0e9cbd6eebcfe37eade in 23
+no ddf117019aba385806b300392662ad7a004c36e5 in 93
+no 49e2d2fcbcf0c85469243e6c2d9cf6237950e298 in 73
+no 4166d26e155082a42b4476a929086b8fd4abc6fa in 65
+filtering 746 parent commits for file application/helpers/common_helper.php
+0 out5/out10/CVE-2018-1000658/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-1000658 1536254940)
+Original Project = LimeSurvey_LimeSurvey
+Rate limit exceeded, sleeping 927 seconds (from 16:52:24)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 13 seconds (from 17:08:06)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 62 seconds (from 17:08:46)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "loklei/limesurvey" "application/helpers/common_helper.php"
+   This repository is empty: https://api.github.com/repos/loklei/limesurvey/contents/application/helpers/common_helper.php;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/njZhuMin/NnuTeachSkill/contents/量表/limesurvey/application/helpers/common_helper.php
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "njZhuMin/NnuTeachSkill" "量表/limesurvey/application/helpers/common_helper.php"
+   Error: jq reports invalid json in response;;
+NUMMMMMM: num_commits=./get_num_commits github idevol/limesurvey
+    
+NUMMMMMM: num_commits=./get_num_commits github Lodge104/survey
+    22
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000658: LimeSurvey_LimeSurvey, application/helpers/common_helper.php out5/out10/CVE-2018-1000658/results.fixed.csv)
+out5/out10/CVE-2018-1000658/results.fixed.csv
+out5/out10/CVE-2018-1000658/results.fixed.html
+Success (go3)
+out5/out10/CVE-2018-1000658/results.notfixed.csv
+out5/out10/CVE-2018-1000658/results.notfixed.html
+Success (go3)
+out5/out10/CVE-2018-1000658/results.unknown.csv
+out5/out10/CVE-2018-1000658/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2018-1000815 (6 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000815, brave_muon, content_settings_observer.cc
+Calling ./rgl2 to get all commits
+Error: commit c18663aa171c6cdf03da3e8c70df8663645b97c4 not in out5/out10/CVE-2018-1000815/stage1/commits
+Failure (go1): "./go1 out5/out10/CVE-2018-1000815"
+
+------------ CVE-2018-1000884 (7 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-1000884, serghey-rodin_vesta, index.php
+Calling ./rgl2 to get all commits
+filtering 5 child commits for file web/reset/index.php
+filtering 14 parent commits for file web/reset/index.php
+0 out5/out10/CVE-2018-1000884/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-1000884 1545341340)
+Original Project = serghey-rodin_vesta
+Success (go2)
+Stage 3 (./go3 CVE-2018-1000884: serghey-rodin_vesta, web/reset/index.php out5/out10/CVE-2018-1000884/results.fixed.csv)
+out5/out10/CVE-2018-1000884/results.fixed.csv
+out5/out10/CVE-2018-1000884/results.fixed.html
+Success (go3)
+out5/out10/CVE-2018-1000884/results.notfixed.csv
+out5/out10/CVE-2018-1000884/results.notfixed.html
+Success (go3)
+out5/out10/CVE-2018-1000884/results.unknown.csv
+out5/out10/CVE-2018-1000884/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2018-10017 (8 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-10017, OpenMPT_openmpt, Snd_fx.cpp
+Calling ./rgl2 to get all commits
+filtering 172 child commits for file soundlib/Snd_fx.cpp
+no 6ed3ba86cf699153fddaff4df20cd4190ec410a0 in 110
+no 095a3074df71ef2336a42fe9132e4383d4530418 in 9
+no 628a4060e1b6e1e162da153f420ff162f64f5858 in 98
+no dfbadf99ef7eeb67a1d52c0a285e4fb8d2957173 in 95
+no 58ed7529de92771db047b98fb68c02803fc8add9 in 88
+no 0d04dd11cc652480ac1ac5315d64ec4e46c4800c in 13
+no da85f8084b19efedac5dedb0698f6520c43f2817 in 90
+no 9cd9d7ad5954ac6a14323f30c4a8ceba1cb85512 in 28
+no 2d459f3408541193c4453f3acdd5c49c21d3867d in 45
+no d777adb654255483d60fee3bbbbe65d2d13b06e4 in 87
+no 4ccfc94908e95647b6a4a1c9c77d72ec406aa909 in 76
+no 4d2d0678222ba715fde5362d1b5089b4dca7ca2f in 77
+no b42c9ed016c3b2ba1882421cb66217f17dd536a4 in 52
+no cae4dfde73b0650f5247f80c868e027033b6e0e7 in 74
+no 41b6e1cf4d5bc67ca9d5f71a26de165e56fcac44 in 65
+no 092836f16d7436d143377cde5fc4a68695c986df in 9
+no 2af975668e6ffa2171f90e4197f65245af4e1b2f in 42
+no 3fb13fec1a91e179064be41b81f6a2f18521eb02 in 63
+no eaaaedee6994a9934831ad1cdc965639b49fc5dd in 106
+no f85d61ceb28dd01f6113b1d8aa4e0312edfc0789 in 120
+no ab80a3e6c538d7291903d5244408be1a3d6e7ec0 in 43
+no edd17bd581a26e7ef72af65c6bfe8115817e2024 in 109
+no 97a9dbe27f8ef154c40f6e9aa709bd952d7554b4 in 23
+no 37876dd2f7a6e474e05b58a2326329fe3e0262e7 in 55
+no 543b210bcb08b4e62d364b16c0df8181f6a3f58e in 84
+no ff2b0455f6070dbe843159945ef3b4e2e0f86cf3 in 127
+no b50d881229225715291bd2238948566125b6c1a4 in 53
+no 61d706930a75c92cdbdc36116e8fe8937eaa5e52 in 97
+no aea2d4ac76afcbb4224b753d900b84b3e6d37ee1 in 46
+no 1c9861cbd28ce07500eae3cf3b0af27f3e699a5a in 28
+no 8275f03e9ee68b30c259c34338425fc81298e0b3 in 2
+no f8f729f9149e0648b18dfd087dff251085b4d872 in 120
+no fc24f9834ec883d3015b004892dd35495c92009d in 124
+no ebad6b8d31785d79c30a34e6f2fd059055e9fc54 in 107
+no a2c67c0de47ee35dd034c9dc5a60ea15a5e995bf in 34
+no 8571c1cf3570e5afc95ce7fd243c78f04bf43688 in 5
+no b37c0d3702ea6a567c09ee504dff91977c6ab7f4 in 51
+no 0398d8df5c9e079bed3ea6be36f09bf07cd552c0 in 3
+no 2fd7cfcc83006ce48e4ff97ee3bf80ccd5744218 in 47
+no e8b1d316b8c2aa1e48b20244d8a53e4459b5de81 in 104
+no a0245d957ae5fe2149612bbd9e385bcec5ab43c6 in 32
+filtering 611 parent commits for file soundlib/Snd_fx.cpp
+0 out5/out10/CVE-2018-10017/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-10017 1523424540)
+Original Project = OpenMPT_openmpt
+NUMMMMMM: num_commits=./get_num_commits github emoon/HippoPlayer
+    
+NUMMMMMM: num_commits=./get_num_commits github ev3dev/libopenmpt
+    43
+NUMMMMMM: num_commits=./get_num_commits gitlab gitlab.com/kode54_foobar2000
+    unknown (gitlab)
+NUMMMMMM: num_commits=./get_num_commits github svn2github/OpenMPT
+    11223
+Success (go2)
+Stage 3 (./go3 CVE-2018-10017: OpenMPT_openmpt, soundlib/Snd_fx.cpp out5/out10/CVE-2018-10017/results.fixed.csv)
+out5/out10/CVE-2018-10017/results.fixed.csv
+out5/out10/CVE-2018-10017/results.fixed.html
+Success (go3)
+out5/out10/CVE-2018-10017/results.notfixed.csv
+out5/out10/CVE-2018-10017/results.notfixed.html
+Success (go3)
+out5/out10/CVE-2018-10017/results.unknown.csv
+out5/out10/CVE-2018-10017/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2018-10021 (9 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-10021, torvalds_linux, sas_scsi_host.c
+Calling ./rgl2 to get all commits
+filtering 37 child commits for file drivers/scsi/libsas/sas_scsi_host.c
+filtering 111 parent commits for file drivers/scsi/libsas/sas_scsi_host.c
+0 out5/out10/CVE-2018-10021/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out10/CVE-2018-10021 1523467740)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 2079 seconds (from 17:33:14)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 52 seconds (from 18:08:57)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 2264 seconds (from 18:30:10)

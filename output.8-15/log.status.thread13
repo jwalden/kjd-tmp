@@ -1,0 +1,480 @@
+
+------------ CVE-2019-17541 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-17541, ImageMagick_ImageMagick, jpeg.c
+Calling ./rgl2 to get all commits
+filtering 53 child commits for file coders/jpeg.c
+no 80bd592dd20d4a1287842459ca3801c3ae3866cd in 0
+no 78a19889d28b045254a1dbf4431e2fdf5c839daa in 120
+no 0184b6cb7b72436aa5eefcd8b1612a88b601bae5 in 1
+no a619616e7ee750543f97e77d2a64dcfcda3c6df1 in 38
+no b2eaec135972c582335f7ad034100ad88b6552b3 in 50
+no 7ba113a0d26b6d2b008ce0fcf428050a84e5a0ac in 123
+no 79a386b12e7ec1f417785e33992e7b3a5f66872e in 121
+no 90160a408d6681cb68d4b98dfdceab5922b58350 in 16
+no 4853d63c7c83a72c4722c096931d15b79f3bd8d3 in 72
+no 3ddbe16bbe136160f4bbff3804a8423816974e57 in 61
+no 4f923a83f2acf86eb56399442223513dcd2aa503 in 79
+no 698698484aed96d56a053f68106672d7eeb4dcbc in 105
+no 6bc980fece71145a001f5dc325a045f0de5736bc in 107
+no 64be8922ecae95888846dca0ec828e67aca46714 in 100
+no 62001c33f1f1568fa78fd422ca47399a4413e2f7 in 98
+no 4bd86b05421e998c95491e2bf9d1f987c2f517eb in 75
+no cb8d9ed1e5058a52e958df9e2bcea5dede3788db in 75
+no b492aba5ba52daa811347408a6d589b500805e6b in 52
+no f10a8a16f45ac7b5f061b7d8e4dfd1c9c84e0d6b in 113
+no 40aa4901db52e2d98077b5f81558b9c0d17fac84 in 64
+filtering 275 parent commits for file coders/jpeg.c
+0 out5/out13/CVE-2019-17541/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out13/CVE-2019-17541 1571019300)
+Original Project = ImageMagick_ImageMagick
+./go2: line 102: out5/out13/CVE-2019-17541/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad.txt: No such file or directory
+./go2: line 104: out5/out13/CVE-2019-17541/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17541/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17541/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17541/stage2/gitlab.com_exconfidential_t-alps-release-q0/sauce/source_root_bad_sorted.txt’ for reading: No such file or directory
+Rate limit exceeded, sleeping 1026 seconds (from 16:50:45)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 13 seconds (from 17:08:06)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 62 seconds (from 17:08:46)
+Rate limit reset, continuing
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/TMSBK/IssueTracker/contents/Pictures/Letöltések/ImageMagick-7.0.7-23/coders/jpeg.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "TMSBK/IssueTracker" "Pictures/Letöltések/ImageMagick-7.0.7-23/coders/jpeg.c"
+   Error: jq reports invalid json in response;;
+Success (go2)
+Stage 3 (./go3 CVE-2019-17541: ImageMagick_ImageMagick, coders/jpeg.c out5/out13/CVE-2019-17541/results.fixed.csv)
+out5/out13/CVE-2019-17541/results.fixed.csv
+out5/out13/CVE-2019-17541/results.fixed.html
+Success (go3)
+out5/out13/CVE-2019-17541/results.notfixed.csv
+out5/out13/CVE-2019-17541/results.notfixed.html
+Success (go3)
+out5/out13/CVE-2019-17541/results.unknown.csv
+out5/out13/CVE-2019-17541/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2019-17542 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2019-17542, FFmpeg_FFmpeg, vqavideo.c
+Calling ./rgl2 to get all commits
+filtering 15 child commits for file libavcodec/vqavideo.c
+filtering 104 parent commits for file libavcodec/vqavideo.c
+0 out5/out13/CVE-2019-17542/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out13/CVE-2019-17542 1571019300)
+Original Project = FFmpeg_FFmpeg
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/baogongtc/Enterprise-Tools/contents/notes/Android-project-develop/带水印的ffmpeg/ffmpeg_H264/android-h264-decoder-master/jni/ffmpeg/libavcodec/vqavideo.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "baogongtc/Enterprise-Tools" "notes/Android-project-develop/带水印的ffmpeg/ffmpeg_H264/android-h264-decoder-master/jni/ffmpeg/libavcodec/vqavideo.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/dezhi/android-advanced-development/contents/ndk/2.2.4-Shell脚本编写与执行编译ffmpeg库/ffmpeg-4.0.2/libavcodec/vqavideo.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "dezhi/android-advanced-development" "ndk/2.2.4-Shell脚本编写与执行编译ffmpeg库/ffmpeg-4.0.2/libavcodec/vqavideo.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/djc512/Note/contents/ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.8.15/libavcodec/vqavideo.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "djc512/Note" "ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.8.15/libavcodec/vqavideo.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/frustreated/android_security-1/contents/工具与方法论沉淀/FFmpeg-master/libavcodec/vqavideo.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "frustreated/android_security-1" "工具与方法论沉淀/FFmpeg-master/libavcodec/vqavideo.c"
+   Error: jq reports invalid json in response;;
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad.txt: No such file or directory
+./go2: line 104: out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17542/stage2/gitlab.com_quicla_platform_external/qt_bad_sorted.txt’ for reading: No such file or directory
+./go2: line 102: out5/out13/CVE-2019-17542/stage2/gitlab.com_twosix-kali_packages1/aflpt_bad.txt: No such file or directory
+./go2: line 104: out5/out13/CVE-2019-17542/stage2/gitlab.com_twosix-kali_packages1/aflpt_bad_sorted.txt: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17542/stage2/gitlab.com_twosix-kali_packages1/aflpt_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17542/stage2/gitlab.com_twosix-kali_packages1/aflpt_bad_sorted.txt’ for reading: No such file or directory
+head: cannot open ‘out5/out13/CVE-2019-17542/stage2/gitlab.com_twosix-kali_packages1/aflpt_bad_sorted.txt’ for reading: No such file or directory
+Error: get_latest_rev failed:
+   ./get_latest_rev "gitlab.gnome" "gitlab.gnome.org/xingyun86_FreeDownloadManager" "trunc/MediaConverter/ffmpeg/libavcodec/vqavideo.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/godofnanners/Datastrukturer-och-Algo/contents/Uppgift7Dijkstras%20sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/vqavideo.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavcodec/vqavideo.c"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 2078 seconds (from 17:33:15)
+Rate limit reset, continuing
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/hanwanjie853710069/FFmpeg_Demo/contents/编译脚本/ffmpeg-3.4/libavcodec/vqavideo.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "hanwanjie853710069/FFmpeg_Demo" "编译脚本/ffmpeg-3.4/libavcodec/vqavideo.c"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 45 seconds (from 18:09:04)
+Rate limit reset, continuing
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/lzl370515231/study/contents/音视频/FFmpeg/source/ffmpeg/libavcodec/vqavideo.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "lzl370515231/study" "音视频/FFmpeg/source/ffmpeg/libavcodec/vqavideo.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "patchew-project/next-importer-push" "tizen/distrib/ffmpeg/libavcodec/vqavideo.c"
+   No commit found for the ref master: https://api.github.com/repos/patchew-project/next-importer-push/contents/tizen/distrib/ffmpeg/libavcodec/vqavideo.c;;
+Deep recursion on subroutine "main::getTree" at /home/dreid6/lookup/showCmtTree.perl line 86, <STDIN> line 1.
+Deep recursion on subroutine "main::prtTree" at /home/dreid6/lookup/showCmtTree.perl line 70, <STDIN> line 1.
+Rate limit exceeded, sleeping 2262 seconds (from 18:30:12)

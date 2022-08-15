@@ -1,0 +1,467 @@
+
+------------ CVE-2017-14056 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2017-14056, FFmpeg_FFmpeg, rl2.c
+Calling ./rgl2 to get all commits
+filtering 10 child commits for file libavformat/rl2.c
+filtering 57 parent commits for file libavformat/rl2.c
+ssh_exchange_identification: Connection closed by remote host
+0 out5/out8/CVE-2017-14056/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out8/CVE-2017-14056 1504193340)
+Original Project = FFmpeg_FFmpeg
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/baogongtc/Enterprise-Tools/contents/notes/Android-project-develop/带水印的ffmpeg/ffmpeg_H264/android-h264-decoder-master/jni/ffmpeg/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "baogongtc/Enterprise-Tools" "notes/Android-project-develop/带水印的ffmpeg/ffmpeg_H264/android-h264-decoder-master/jni/ffmpeg/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 1025 seconds (from 16:50:46)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 12 seconds (from 17:08:07)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 56 seconds (from 17:08:52)
+Rate limit reset, continuing
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/djc512/Note/contents/ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.3.6/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "djc512/Note" "ThirdPart/armeabi-v7架构的SDK/armeabi-v7库，源码与脚本/ffmpeg/ffmpeg-2.3.6/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "gitlab.gnome" "gitlab.gnome.org/xingyun86_FreeDownloadManager" "trunc/MediaConverter/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/godofnanners/Datastrukturer-och-Algo/contents/Uppgift7Dijkstras%20sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "godofnanners/Datastrukturer-och-Algo" "Uppgift7Dijkstras sökalgoritm/Source/tga2dcore/ffmpeg-2.0/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+Rate limit exceeded, sleeping 2077 seconds (from 17:33:16)
+Rate limit reset, continuing
+Deep recursion on subroutine "main::getTree" at /home/dreid6/lookup/showCmtTree.perl line 86, <STDIN> line 1.
+Deep recursion on subroutine "main::prtTree" at /home/dreid6/lookup/showCmtTree.perl line 70, <STDIN> line 1.
+Rate limit exceeded, sleeping 57 seconds (from 18:08:52)
+Rate limit reset, continuing
+Error: get_latest_rev failed:
+   ./get_latest_rev "salsa.debian" "salsa.debian.org/multimedia-team_xbmc" "lib/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/cinecutie" "sourceforge.net/cinecutie" "quicktime/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/ddwrtatheros" "sourceforge.net/ddwrtatheros" "src/router/minidlna/ffmpeg-1.2/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/ffavs" "sourceforge.net/ffavs" "libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/mplayerstudy" "sourceforge.net/mplayerstudy" "ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/routertesting" "sourceforge.net/routertesting" "release/src/router/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/sinani" "sourceforge.net/sinani" "xbmc-11.0/lib/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/video-url" "sourceforge.net/video-url" "third_party/ffmpeg-2.6.1/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "git.code.sf.net/p/vrplayer-url" "sourceforge.net/vrplayer-url" "deps/ijkplayer/extra/ffmpeg/libavformat/rl2.c"
+   Error: host must be one of github, gitlab, or bitbucket;;
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "ssxxh-lls/chromium" "src/third_party/ffmpeg/libavformat/rl2.c"
+   This repository is empty: https://api.github.com/repos/ssxxh-lls/chromium/contents/src/third_party/ffmpeg/libavformat/rl2.c;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/toumubaoqiong/ffmpeg-windows/contents/trunk/ffmpeg0.7-CKW/ffmpeg中文文档/参考资料/ffmpeg0.5cb/ffmpeg0.5cb/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "toumubaoqiong/ffmpeg-windows" "trunk/ffmpeg0.7-CKW/ffmpeg中文文档/参考资料/ffmpeg0.5cb/ffmpeg0.5cb/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+parse error: Invalid numeric literal at line 2, column 7
+Error: jq reports invalid json in response
+URL = https://api.github.com/repos/yuanyiyixi/C--/contents/mplayer/mplayer编译/mplayer源码包及编译说明/MPlayer-1.1/ffmpeg/libavformat/rl2.c
+
+<html>
+  <head>
+    <meta content="origin" name="referrer">
+    <title>Bad request &middot; GitHub</title>
+    <meta name="viewport" content="width=device-width">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #f6f8fa;
+        color: rgba(0, 0, 0, 0.5);
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .c { margin: 50px auto; max-width: 600px; text-align: center; padding: 0 24px; }
+      a { text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      h1 { color: #24292e; line-height: 60px; font-size: 48px; font-weight: 300; margin: 0px; }
+      p { margin: 20px 0 40px; }
+      #s { margin-top: 35px; }
+      #s a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="c">
+      <h1>Whoa there!</h1>
+      <p>You have sent an invalid request. <br><br>
+        Please do not send this request again.
+      </p>
+      <div id="s">
+        <a href="https://support.github.com">Contact Support</a> &mdash;
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+      </div>
+    </div>
+  </body>
+</html>
+Error: get_latest_rev failed:
+   ./get_latest_rev "github" "yuanyiyixi/C--" "mplayer/mplayer编译/mplayer源码包及编译说明/MPlayer-1.1/ffmpeg/libavformat/rl2.c"
+   Error: jq reports invalid json in response;;
+NUMMMMMM: num_commits=./get_num_commits github 22106331/FFmpegUtils
+    6
+NUMMMMMM: num_commits=./get_num_commits github acidrainstudios/TrueRealityExt
+    
+NUMMMMMM: num_commits=./get_num_commits github AkiSakurai/asuswrt
+    12
+NUMMMMMM: num_commits=./get_num_commits github alexyu7788/myrepo
+    8
+NUMMMMMM: num_commits=./get_num_commits github ALiSir/ffmpeg_x264
+    3
+NUMMMMMM: num_commits=./get_num_commits github alordred/LearnCodec
+    2
+NUMMMMMM: num_commits=./get_num_commits github amesy/ffmpeg-shana
+    
+NUMMMMMM: num_commits=./get_num_commits github areaDetector/ffmpegServer
+    256
+NUMMMMMM: num_commits=./get_num_commits github arinssanghi/desktop
+    16
+NUMMMMMM: num_commits=./get_num_commits github balabit/FFmpeg
+    18
+NUMMMMMM: num_commits=./get_num_commits github Beibeixi/K2PBCM
+    6
+NUMMMMMM: num_commits=./get_num_commits github bgrins/videoconverter.js
+    109
+NUMMMMMM: num_commits=./get_num_commits github bitbucket.org/Kaisquare05_ffmpeg
+    
+NUMMMMMM: num_commits=./get_num_commits github blackfuel/asuswrt-gt-ac5300
+    12
+NUMMMMMM: num_commits=./get_num_commits github blackfuel/asuswrt-rt-ac86u
+    15
+NUMMMMMM: num_commits=./get_num_commits github blackfuel/asuswrt-rt-ax88u
+    3
+NUMMMMMM: num_commits=./get_num_commits github bloomberg/chromium.bb
+    1636988
+NUMMMMMM: num_commits=./get_num_commits github bopopescu/chromium-browser
+    797
+NUMMMMMM: num_commits=./get_num_commits github bruceshu/ffmpeg_with_thirdpart
+    11
+NUMMMMMM: num_commits=./get_num_commits github bugmany/ijkplayerk088
+    
+NUMMMMMM: num_commits=./get_num_commits github chloette/ffmpeg4android
+    52
+NUMMMMMM: num_commits=./get_num_commits github clockzhong/asuswrt_rt-ac1200g-
+    
+NUMMMMMM: num_commits=./get_num_commits github Diagonactic/plex-new-transcoder
+    11
+NUMMMMMM: num_commits=./get_num_commits github eggfly/rtax86u
+    1
+NUMMMMMM: num_commits=./get_num_commits github endlessm/chromium-browser
+    91
+NUMMMMMM: num_commits=./get_num_commits github ghsecuritylab/asuswrt-ac66u
+    10
+NUMMMMMM: num_commits=./get_num_commits github gongwen/FFmpegAndroid
+    3
+NUMMMMMM: num_commits=./get_num_commits github HasinduDilshan10/vlc-media-player
+    89881
+NUMMMMMM: num_commits=./get_num_commits github Homebrew/homebrew-php
+    
+NUMMMMMM: num_commits=./get_num_commits github IljaKosynkin/FFmpeg-Development-Kit
+    6
+NUMMMMMM: num_commits=./get_num_commits github javandoc/IjkplayerDebug
+    
+NUMMMMMM: num_commits=./get_num_commits github jonameson/ffmpeg-flipaclip
+    6
+NUMMMMMM: num_commits=./get_num_commits github kewlbear/FFmpeg-iOS-build-script
+    128
+NUMMMMMM: num_commits=./get_num_commits github ki4wangdy/ffmpeg-sdl2-android
+    73
+NUMMMMMM: num_commits=./get_num_commits github lukasz1992/asuswrt-xiaomi
+    124
+NUMMMMMM: num_commits=./get_num_commits github magiclen/FFmpeg-For-MagicLen-Applications
+    1
+NUMMMMMM: num_commits=./get_num_commits github MerlinRdev/ax88u
+    
+NUMMMMMM: num_commits=./get_num_commits github MerlinRdev/gtac5300-merlin
+    
+NUMMMMMM: num_commits=./get_num_commits github MerlinRdev/gt-ax11000
+    
+NUMMMMMM: num_commits=./get_num_commits github MerlinRdev/K3C-merlin
+    
+NUMMMMMM: num_commits=./get_num_commits github MerlinRdev/rt-ax82u
+    
+NUMMMMMM: num_commits=./get_num_commits github michaelw/ffmpeg-deb
+    8
+NUMMMMMM: num_commits=./get_num_commits github milindmathur04/AdSkipper
+    1
+NUMMMMMM: num_commits=./get_num_commits github mkiol/Jupii
+    673
+NUMMMMMM: num_commits=./get_num_commits github mpv-player/mpv
+    49667
+NUMMMMMM: num_commits=./get_num_commits github muicoder/RT-ACRH17
+    5
+NUMMMMMM: num_commits=./get_num_commits github MythTV/mythtv
+    41225
+NUMMMMMM: num_commits=./get_num_commits github nealwx/asuswrt-acrh17
+    
+NUMMMMMM: num_commits=./get_num_commits github olegantonyan/mpz
+    726
+NUMMMMMM: num_commits=./get_num_commits github paldier/gtac2900-merlin
+    
+NUMMMMMM: num_commits=./get_num_commits github paldier/rax20
+    1
+NUMMMMMM: num_commits=./get_num_commits github patchew-project/next-importer-push
+    
+NUMMMMMM: num_commits=./get_num_commits github pjm8707/FFMPEG
+    6
+NUMMMMMM: num_commits=./get_num_commits github priority5/qt
+    30
+NUMMMMMM: num_commits=./get_num_commits github qt/qtwebengine-chromium
+    91
+NUMMMMMM: num_commits=./get_num_commits github RMerl/asuswrt-merlin.ng
+    3563
+NUMMMMMM: num_commits=./get_num_commits github RSATom/Qt
+    11
+NUMMMMMM: num_commits=./get_num_commits github saiarcot895/chromium-ubuntu-build
+    847
+NUMMMMMM: num_commits=./get_num_commits salsa.debian salsa.debian.org/gstreamer-team_gst-libav1.0
+    unknown (salsa.debian)
+NUMMMMMM: num_commits=./get_num_commits github sambios/third-party
+    43
+NUMMMMMM: num_commits=./get_num_commits github srw2ho/FFmpegInterOpExt
+    
+NUMMMMMM: num_commits=./get_num_commits github SWRT-dev/bluecave-asuswrt
+    163
+NUMMMMMM: num_commits=./get_num_commits github SWRT-dev/rtax89x
+    40
+NUMMMMMM: num_commits=./get_num_commits github USBhost/MX_FFmpeg
+    41
+NUMMMMMM: num_commits=./get_num_commits github wancm2965/wcm
+    
+NUMMMMMM: num_commits=./get_num_commits github wudping/LAVLight
+    3
+NUMMMMMM: num_commits=./get_num_commits github xiaolangshou/iOS_inventory
+    
+NUMMMMMM: num_commits=./get_num_commits github xiechongbin/AndroidFFmpeg
+    9
+NUMMMMMM: num_commits=./get_num_commits github xuanloct4/Backup
+    10
+NUMMMMMM: num_commits=./get_num_commits github xuanloct4/ijkplayer
+    1
+NUMMMMMM: num_commits=./get_num_commits github yllg/wasm-ffmpeg
+    2
+NUMMMMMM: num_commits=./get_num_commits github zengfushan/gstreamer
+    
+NUMMMMMM: num_commits=./get_num_commits github zhouqifan8/FFmpegVersion
+    1
+Success (go2)
+Stage 3 (./go3 CVE-2017-14056: FFmpeg_FFmpeg, libavformat/rl2.c out5/out8/CVE-2017-14056/results.fixed.csv)
+out5/out8/CVE-2017-14056/results.fixed.csv
+out5/out8/CVE-2017-14056/results.fixed.html
+Success (go3)
+out5/out8/CVE-2017-14056/results.notfixed.csv
+out5/out8/CVE-2017-14056/results.notfixed.html
+Success (go3)
+out5/out8/CVE-2017-14056/results.unknown.csv
+out5/out8/CVE-2017-14056/results.unknown.html
+Success (go3)
+
+
+------------ CVE-2017-14057 (2 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2017-14057, FFmpeg_FFmpeg, asfdec_f.c
+Calling ./rgl2 to get all commits
+filtering 26 child commits for file libavformat/asfdec_f.c
+filtering 21 parent commits for file libavformat/asfdec_f.c
+0 out5/out8/CVE-2017-14057/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out8/CVE-2017-14057 1504193340)
+Original Project = FFmpeg_FFmpeg
+Rate limit exceeded, sleeping 2269 seconds (from 18:30:05)

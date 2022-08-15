@@ -1,0 +1,22 @@
+
+------------ CVE-2018-18955 (1 of 173)
+Stage 1 (echo $cve;$commit;$project_name;$filepath" | ./go1 $working_dir)
+working on CVE-2018-18955, torvalds_linux, user_namespace.c
+Calling ./rgl2 to get all commits
+filtering 20 child commits for file kernel/user_namespace.c
+filtering 94 parent commits for file kernel/user_namespace.c
+0 out5/out11/CVE-2018-18955/stage1/comm_blobs.txt
+Success (go1)
+Stage 2 (./go2 out5/out11/CVE-2018-18955 1542400140)
+Original Project = torvalds_linux
+Rate limit exceeded, sleeping 1023 seconds (from 16:50:48)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 7 seconds (from 17:08:12)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 60 seconds (from 17:08:48)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 2078 seconds (from 17:33:15)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 55 seconds (from 18:08:54)
+Rate limit reset, continuing
+Rate limit exceeded, sleeping 2265 seconds (from 18:30:09)
